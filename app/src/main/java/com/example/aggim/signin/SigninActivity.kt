@@ -4,6 +4,10 @@ import android.os.Bundle
 import net.codephobia.ankomvvm.components.BaseActivity
 import org.jetbrains.anko.setContentView
 
+/*
+    Created by Seohyun Kim at 2021/01/22
+ */
+
 class SigninActivity : BaseActivity<SigninViewModel>() {
     override val viewModelType = SigninViewModel::class
 

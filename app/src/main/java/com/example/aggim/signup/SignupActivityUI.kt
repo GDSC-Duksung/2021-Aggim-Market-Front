@@ -12,6 +12,10 @@ import net.codephobia.ankomvvm.databinding.bindString
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 
+/*
+    Created by Seohyun Kim at 2021/01/21
+ */
+
 class SignupActivityUI(
 private val viewModel: SignupViewModel
 ) : AnkoComponent<SignupActivity> {

@@ -3,7 +3,12 @@ package com.example.aggim.common
 import android.preference.PreferenceManager
 import com.example.aggim.App
 
+/*
+    Created by Seohyun Kim at 2021/01/22
+ */
+
 object Prefs {
+    // 로컬 저장소 저장할 데이터
     private const val TOKEN = "token"
     private const val REFRESH_TOKEN = "refresh_token"
     private const val USER_NAME = "user_name"

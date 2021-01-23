@@ -18,6 +18,7 @@ import kotlinx.coroutines.runBlocking
 import org.jetbrains.anko.startActivity
 import java.lang.Exception
 
+// 메인 화면 입니다.
 class IntroActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

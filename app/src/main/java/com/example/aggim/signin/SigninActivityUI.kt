@@ -14,6 +14,10 @@ import org.jetbrains.anko.design.textInputEditText
 import org.jetbrains.anko.design.textInputLayout
 import org.jetbrains.anko.sdk25.coroutines.onClick
 
+/*
+    Created by Seohyun Kim at 2021/01/22
+ */
+
 class SigninActivityUI(
         private val viewModel: SigninViewModel
 ) : AnkoComponent<SigninActivity> {

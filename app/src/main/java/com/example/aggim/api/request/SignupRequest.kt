@@ -2,6 +2,10 @@ package com.example.aggim.api.request
 
 import android.util.Patterns
 
+/*
+    Created by Seohyun Kim at 2021/01/22
+ */
+
 class SignupRequest(
     val email: String?,
     val password: String?,

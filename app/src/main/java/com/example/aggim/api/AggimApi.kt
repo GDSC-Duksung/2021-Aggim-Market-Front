@@ -5,6 +5,10 @@ import com.example.aggim.api.request.SignupRequest
 import com.example.aggim.api.response.*
 import retrofit2.http.*
 
+/*
+    Created by Seohyun Kim at 2021/01/21
+ */
+
 interface AggimApi {
     @GET("/api/v1/hello")
     suspend fun hello(): ApiResponse<String>

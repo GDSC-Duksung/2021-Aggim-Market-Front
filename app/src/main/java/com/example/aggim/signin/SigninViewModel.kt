@@ -12,6 +12,10 @@ import kotlinx.coroutines.withContext
 import net.codephobia.ankomvvm.lifecycle.BaseViewModel
 import org.jetbrains.anko.error
 
+/*
+    Created by Seohyun Kim at 2021/01/22
+ */
+
 class SigninViewModel(app: Application) : BaseViewModel(app) {
     val email = MutableLiveData("")
     val password = MutableLiveData("")
