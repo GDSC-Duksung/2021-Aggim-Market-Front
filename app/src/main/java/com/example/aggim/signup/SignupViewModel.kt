@@ -11,6 +11,10 @@ import kotlinx.coroutines.withContext
 import net.codephobia.ankomvvm.lifecycle.BaseViewModel
 import org.jetbrains.anko.error
 
+/*
+    Created by Seohyun Kim at 2021/01/21
+ */
+
 class SignupViewModel(app: Application): BaseViewModel(app) {
     val email = MutableLiveData("")
     val name = MutableLiveData("")
@@ -35,7 +39,7 @@ class SignupViewModel(app: Application): BaseViewModel(app) {
             toast("회원 가입이 되었습니다. 로그인 후 이용해주세요.")
             finishActivity()
         } else {
-            toast(response.message ?: "알 수 없는 오류가 발생했습니다//??")
+            toast(response.message ?: "알 수 없는 오류가 발생했습니다")
         }
     }
 

@@ -9,6 +9,7 @@ import org.jetbrains.anko.setContentView
 import android.os.Bundle
 import android.util.Log
 import com.example.aggim.api.AggimApi
+import com.example.aggim.signin.SigninActivity
 import com.example.aggim.signup.SignupActivity
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
@@ -17,6 +18,7 @@ import kotlinx.coroutines.runBlocking
 import org.jetbrains.anko.startActivity
 import java.lang.Exception
 
+// 메인 화면 입니다.
 class IntroActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +27,7 @@ class IntroActivity : Activity() {
 
         GlobalScope.launch {
             delay(1000)
-            startActivity<SignupActivity>()
+            startActivity<SigninActivity>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
             finish()
         }
 
