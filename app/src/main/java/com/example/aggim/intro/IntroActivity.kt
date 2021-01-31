@@ -9,6 +9,7 @@ import org.jetbrains.anko.setContentView
 import android.os.Bundle
 import android.util.Log
 import com.example.aggim.api.AggimApi
+import com.example.aggim.main.MainPageActivity
 import com.example.aggim.signin.SigninActivity
 import com.example.aggim.signup.SignupActivity
 import kotlinx.coroutines.GlobalScope
@@ -27,7 +28,7 @@ class IntroActivity : Activity() {
 
         GlobalScope.launch {
             delay(1000)
-            startActivity<SigninActivity>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
+            startActivity<MainPageActivity>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
             finish()
         }
 
