@@ -37,7 +37,7 @@ class SigninViewModel(app: Application) : BaseViewModel(app) {
     private fun isNotValidSignin(request: SigninRequest)=
         when {
             request.isNotValidEmail() -> {
-                toast("이메일 혇식이 정확하지 않습니다.")
+                toast("이메일 형식이 정확하지 않습니다.")
                 true
             }
             request.isNotValidPassword() -> {

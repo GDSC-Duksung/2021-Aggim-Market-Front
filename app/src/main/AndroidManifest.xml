@@ -16,6 +16,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+
         <activity android:name=".mypage.orderList.OrderListActivity"></activity>
         <activity android:name=".mypage.cart.CartActivity" />
         <activity android:name=".mypage.stamp.StampActivity" />
@@ -23,6 +24,7 @@
         <activity android:name=".mypage.main.MyPageMain" />
         <activity android:name=".main.MainPageActivity" />
         <activity android:name=".main.MainActivity" />
+
         <activity android:name=".intro.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,6 +34,19 @@
         </activity>
         <activity android:name=".signup.SignupActivity" />
         <activity android:name=".signin.SigninActivity" />
+        <activity
+            android:name=".product.detail.ProductDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+        />
+        <activity android:name=".product.ProductMainActivity" />
+        <activity
+            android:name=".product.search.ProductSearchActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+        />
+        <activity
+            android:name=".product.registration.ProductRegistrationActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+        />
     </application>
 
 </manifest>
