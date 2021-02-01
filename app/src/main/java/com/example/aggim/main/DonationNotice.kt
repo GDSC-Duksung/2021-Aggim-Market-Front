@@ -17,6 +17,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [DonationNotice.newInstance] factory method to
  * create an instance of this fragment.
  */
+
 class DonationNotice : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
