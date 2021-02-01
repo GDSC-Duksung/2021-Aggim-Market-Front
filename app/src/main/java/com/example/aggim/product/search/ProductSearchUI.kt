@@ -1,31 +1,27 @@
-package com.example.aggim.product.list
+package com.example.aggim.product.search
+
 /*
     Created by Jin Lee on 2021/01/31
  */
 
-//실질적인 ProductListUI --> RecyclerView 하나만 존재
-
 import android.view.Gravity
-import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.aggim.product.list.ProductListPagedAdapter
 import net.codephobia.ankomvvm.databinding.bindPagedList
-import net.codephobia.ankomvvm.databinding.bindVisibility
 import net.codephobia.ankomvvm.databinding.bindVisibility
 import org.jetbrains.anko.*
 import org.jetbrains.anko.recyclerview.v7.recyclerView
 
-class ProductListUI (
-    private val viewModel: ProductListViewModel
-): AnkoComponent<ProductListFragment>{
+class ProductSearchUI(
+    private val viewModel: ProductSearchViewModel
+) : AnkoComponent<ProductSearchActivity> {
 
-    override fun createView(ui: AnkoContext<ProductListFragment>)=
-        ui.verticalLayout{
-
-            recyclerView{
+    override fun createView(ui: AnkoContext<ProductSearchActivity>) =
+        ui.verticalLayout {
+            recyclerView {
                 layoutManager = LinearLayoutManager(ui.ctx)
-                adapter = ProductListPagedAdapter(viewModel)
                 lparams(matchParent, matchParent)
-                bindVisibility(ui.owner, viewModel.products){
+                bindVisibility(ui.owner, viewModel.products) {
                     it.isNotEmpty()
                 }
                 bindPagedList(
@@ -33,15 +29,15 @@ class ProductListUI (
                     ProductListPagedAdapter(viewModel),
                     viewModel.products
                 )
-
             }
-            textView("상품이 없습니다"){
+            textView("검색된 상품이 없습니다.") {
                 gravity = Gravity.CENTER
-                bindVisibility(ui.owner, viewModel.products){
+                bindVisibility(ui.owner, viewModel.products) {
                     it.isEmpty()
                 }
-            }.lparams(wrapContent, matchParent){
+            }.lparams(wrapContent, matchParent) {
                 gravity = Gravity.CENTER
             }
         }
+
 }

@@ -11,6 +11,9 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.aggim.R
 import com.example.aggim.api.AggimApi
+import com.example.aggim.product.ProductMainActivity
+import com.example.aggim.product.detail.ProductDetailActivity
+import com.example.aggim.product.registration.ProductRegistrationActivity
 import com.example.aggim.main.MainPageActivity
 import com.example.aggim.mypage.main.MyPageMain
 import com.example.aggim.signin.SigninActivity
