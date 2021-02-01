@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/account"
-        android:icon="@drawable/ic_manage_accounts_24px"
-        android:title="계정" />
+        android:id="@+id/stamp"
+        android:icon="@drawable/ic_approval_24px"
+        android:title="스탬프" />
     <item
         android:id="@+id/shopping_list"
-        android:icon="@drawable/ic_menu_24px"
+        android:icon="@drawable/ic_shopping_basket_24px"
         android:title="장바구니" />
     <item
         android:id="@+id/item_mypage"

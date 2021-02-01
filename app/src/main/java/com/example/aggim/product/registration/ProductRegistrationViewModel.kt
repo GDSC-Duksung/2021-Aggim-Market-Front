@@ -78,7 +78,6 @@ class ProductRegistrationViewModel(app:Application):
         currentImageNum = imageNum
     }
 
-
     override fun onActivityResult(
         requestCode: Int,
         resultCode: Int,

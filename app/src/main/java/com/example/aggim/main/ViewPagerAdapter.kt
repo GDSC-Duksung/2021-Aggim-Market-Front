@@ -12,7 +12,7 @@ class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
         return when(position) {
             0 -> ProductList()
             else -> {
-                return DonationNotice()
+                return DonateListActivity()
             }
         }
     }
