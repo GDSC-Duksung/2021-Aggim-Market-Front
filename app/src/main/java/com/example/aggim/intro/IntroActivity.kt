@@ -8,6 +8,8 @@ import android.app.Activity
 import org.jetbrains.anko.setContentView
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
+import com.example.aggim.R
 import com.example.aggim.api.AggimApi
 import com.example.aggim.main.MainPageActivity
 import com.example.aggim.mypage.main.MyPageMain
@@ -21,17 +23,31 @@ import org.jetbrains.anko.startActivity
 import java.lang.Exception
 
 // 메인 화면 입니다.
-class IntroActivity : Activity() {
+
+class IntroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val ui = IntroActivityUI()
-        ui.setContentView(this)
+        setContentView(R.layout.intro_page)
 
         GlobalScope.launch {
-            delay(1000)
-            startActivity<MyPageMain>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
+            delay(1500)
+            startActivity<MainPageActivity>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
             finish()
         }
+    }
+}
+
+//class IntroActivity : Activity() {
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        val ui = IntroActivityUI()
+//        ui.setContentView(this)
+//
+//        GlobalScope.launch {
+//            delay(1000)
+//            startActivity<MainPageActivity>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
+//            finish()
+//        }
 
 //        runBlocking {
 //            try {
@@ -41,5 +57,5 @@ class IntroActivity : Activity() {
 //                Log.e("IntroActivity", "Hello API 호출 오류", e)
 //            }
 //        }
-    }
-}
+//    }
+//}
