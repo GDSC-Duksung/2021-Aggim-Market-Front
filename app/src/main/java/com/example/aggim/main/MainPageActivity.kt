@@ -59,10 +59,7 @@ class MainPageActivity() : AppCompatActivity(), NavigationView.OnNavigationItemS
 
             nav_header.addView(signinBtn)
             nav_header.addView(signupBtn)
-        }
-
-        // 로그인 했을 때
-        else {
+        } else { // 로그인 했을 때
             val profile_img = ImageView(this)
             profile_img.setImageDrawable(resources.getDrawable(R.drawable.ic_face_24px))
 

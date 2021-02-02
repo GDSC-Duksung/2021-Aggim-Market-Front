@@ -14,6 +14,8 @@ import androidx.appcompat.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.viewpager.widget.ViewPager
 import com.example.aggim.R
+import com.example.aggim.common.Prefs
+import com.example.aggim.signin.SigninActivity
 import com.example.aggim.view.borderBottom
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.tabs.TabLayout
@@ -35,6 +37,111 @@ class ProductMainUI(
 ) : AnkoComponent<ProductMainActivity>,
     NavigationView.OnNavigationItemSelectedListener {
 
+    lateinit var drawerLayout: DrawerLayout
+    lateinit var navigationView: NavigationView
+    lateinit var tablayout: TabLayout
+    lateinit var viewpager: ViewPager
+    lateinit var toolBar: Toolbar
+
+    override fun createView(ui: AnkoContext<ProductMainActivity>) =
+        ui.drawerLayout {
+            drawerLayout = this
+
+            frameLayout {
+                verticalLayout {
+                    toolBar = toolbar {
+                        title = "Aggim"
+                        bottomPadding = dip(1)
+                        background = borderBottom(width = dip(1))
+                        menu.add("Search")
+                            .setIcon(R.drawable.icon_search)
+                            .setActionView(searchView {
+                                onQueryTextListener {
+                                    onQueryTextSubmit { key ->
+                                        viewModel.openSearchActivity(key)
+                                        true
+                                    }
+                                }
+                            })
+                            .setShowAsAction(SHOW_AS_ACTION_ALWAYS)
+                    }.lparams(matchParent, wrapContent)
+
+                    tablayout = themedTabLayout(
+                        R.style.Widget_MaterialComponents_TabLayout
+                    ) {
+                        bottomPadding = dip(1)
+                        tabMode = MODE_SCROLLABLE
+                        tabGravity = GRAVITY_FILL
+                        background = borderBottom(width = dip(1))
+                        lparams(matchParent, wrapContent)
+                    }
+
+                    viewpager = viewPager {
+                        id = generateViewId()
+                    }.lparams(matchParent, matchParent)
+                }
+
+                floatingActionButton {
+                    imageResource = R.drawable.ic_shopping_basket_24px
+                    onClick { viewModel.openRegistrationActivity() }
+                }.lparams {
+                    bottomMargin = dip(20)
+                    marginEnd = dip(20)
+                    gravity = Gravity.END or Gravity.BOTTOM
+                }
+            }
+
+
+            navigationView = navigationView {
+                ProductMainNavHeader()
+                    .createView(AnkoContext.create(context, this))
+                    .run(::addHeaderView)
+
+                menu.apply {
+//                    add(NONE, MENU_ID_INQUIRY, NONE, "내 문의").apply {
+//                        setIcon(R.drawable.ic_)
+//                    }
+                    add(NONE, MENU_ID_LOGOUT, NONE, "로그아웃").apply {
+                        setIcon(R.drawable.ic_menu_24px)
+                    }
+                }
+                setNavigationItemSelectedListener(this@ProductMainUI)
+            }.lparams(wrapContent, matchParent) {
+                gravity = Gravity.START
+            }
+        }
+
+
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+//            MENU_ID_INQUIRY -> {
+//                viewModel.startActivity<MyInquiryActivity>()
+//            }
+            MENU_ID_LOGOUT -> {
+                Prefs.token = null
+                Prefs.refreshToken = null
+                viewModel.startActivityAndFinish<SigninActivity>()
+            }
+        }
+
+        drawerLayout.closeDrawer(navigationView)
+
+        return true
+    }
+
+    companion object {
+        //private const val MENU_ID_INQUIRY = 1
+        private const val MENU_ID_LOGOUT = 2
+    }
+
+}
+
+/*
+class ProductMainUI(
+    private val viewModel: ProductMainViewModel
+) : AnkoComponent<ProductMainActivity>,
+    NavigationView.OnNavigationItemSelectedListener {
+
     lateinit var navigationView: NavigationView
     lateinit var toolBar: Toolbar
     lateinit var drawerLayout: DrawerLayout
@@ -45,7 +152,7 @@ class ProductMainUI(
         ui.drawerLayout {
             drawerLayout = this
 
-            //frameLayout {
+            frameLayout {
                 verticalLayout {
                     toolBar = toolbar {
                         title = "aggim"
@@ -83,14 +190,14 @@ class ProductMainUI(
                 }.lparams(matchParent, matchParent)
 
                 //registration 확인용
-                /*floatingActionButton{
-                    imageResource = R.drawable.icon_search
-                    onClick { viewModel.openRegistrationActivity()}
-                }.lparams{
-                    bottomMargin=dip(20)
-                    marginEnd=dip(20)
-                    gravity=Gravity.END or Gravity.BOTTOM
-                }*/
+//                floatingActionButton{
+//                    imageResource = R.drawable.icon_search
+//                    onClick { viewModel.openRegistrationActivity()}
+//                }.lparams{
+//                    bottomMargin=dip(20)
+//                    marginEnd=dip(20)
+//                    gravity=Gravity.END or Gravity.BOTTOM
+//                }
 
                 navigationView = navigationView {
                     ProductMainNavHeader()
@@ -113,7 +220,7 @@ class ProductMainUI(
                     setNavigationItemSelectedListener(this@ProductMainUI)
                 }.lparams(matchParent, matchParent) {
                     gravity = Gravity.START
-                //}
+                }
             }
         }
 
@@ -145,7 +252,6 @@ class ProductMainUI(
         private const val MENU_ID_MYPAGE = 4
     }
 }
-
-
+*/
 
     

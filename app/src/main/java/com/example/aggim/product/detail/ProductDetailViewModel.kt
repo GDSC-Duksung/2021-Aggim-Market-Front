@@ -67,5 +67,4 @@ class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
     fun openInquiryActivity() {
         toast("상품문의-productId = $productId")
     }
-
 }

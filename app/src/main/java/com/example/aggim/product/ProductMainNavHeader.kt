@@ -27,5 +27,4 @@ class ProductMainNavHeader : AnkoComponent<View> {
                 typeface = Typeface.DEFAULT_BOLD
             }
         }
-
 }

@@ -1,5 +1,6 @@
 package com.example.aggim.api
 
+import com.example.aggim.api.request.DonateRegistrationRequest
 import com.example.aggim.api.request.ProductRegistrationRequest
 import com.example.aggim.api.request.SigninRequest
 import com.example.aggim.api.request.SignupRequest
@@ -15,6 +16,7 @@ import retrofit2.Response
  */
 
 interface AggimApi {
+    // 계정 관련
     @GET("/api/v1/hello")
     suspend fun hello(): ApiResponse<String>
 
@@ -26,9 +28,10 @@ interface AggimApi {
     suspend fun signin(@Body signinRequest: SigninRequest)
         : ApiResponse<SigninResponse>
 
-    @Multipart
+    // 상품 관련
+   @Multipart
     @POST("/api/v1/product_images")
-    suspend fun uploadProductImages(
+    suspend fun uploadProductImage(
             @Part images: MultipartBody.Part
     ): ApiResponse<ProductImageUploadResponse>
 
@@ -49,6 +52,20 @@ interface AggimApi {
     suspend fun getProduct(@Path("id") id: Long)
             : ApiResponse<ProductResponse>
 
+    // 기부 관련
+    @POST("/api/v1/donates")
+    suspend fun registerDonates(
+            @Body request: DonateRegistrationRequest
+    ): ApiResponse<Response<Void>>
+
+    @GET("/api/v1/donates")
+    suspend fun getDonates(
+        @Query("donateId") donateId:Long
+    ): ApiResponse<List<DonateListItemResponse>>
+
+    @GET("/api/v1/donates/{id}")
+    suspend fun getDonate(@Path("id") id: Long)
+        : ApiResponse<DonateResponse>
 
     companion object {
         val instance = ApiGenerator()

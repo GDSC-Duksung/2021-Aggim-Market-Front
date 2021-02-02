@@ -1,6 +1,7 @@
 /*
     Created by Jin Lee on 2021/01/31
  */
+
 package com.example.aggim.api.response
 
 data class ProductListItemResponse(

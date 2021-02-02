@@ -145,10 +145,6 @@ class ProductRegistrationUI(
         }
     }
 
-
-
-
-
     private fun _LinearLayout.pickImageView(
         ui: AnkoContext<ProductRegistrationActivity>,
         imageNum: Int
