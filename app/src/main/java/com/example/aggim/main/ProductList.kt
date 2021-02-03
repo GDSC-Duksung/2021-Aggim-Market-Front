@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import com.example.aggim.R
-import com.example.aggim.mypage.main.MyPageMain
+//import com.example.aggim.mypage.main.MyPageMain
 import com.example.aggim.product.ProductMainActivity
 
 // TODO: Rename parameter arguments, choose names that match

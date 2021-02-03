@@ -1,18 +1,30 @@
 package com.example.aggim.mypage.updateInfo
 
+/*
+    Created by
+    Updated by Jin Lee on 2021/02/04
+*/
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import com.example.aggim.R
 import com.example.aggim.common.Prefs
-import kotlinx.android.synthetic.main.activity_my_page_main.*
 import kotlinx.android.synthetic.main.activity_update_info.*
+import kotlinx.android.synthetic.main.activity_update_info.toolbar
 
 class UpdateInfoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_update_info)
+
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = ""
+
         email.text = Prefs.userId.toString()
         name.text = Prefs.userName
 
@@ -38,5 +50,14 @@ class UpdateInfoActivity : AppCompatActivity() {
         completeButton.setOnClickListener {
             finish()
         }
+    }
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        item?.let {
+            when(item.itemId) {
+                android.R.id.home -> onBackPressed()
+                else -> {}
+            }
+        }
+        return true
     }
 }

@@ -16,7 +16,6 @@ import com.example.aggim.product.ProductMainActivity
 import com.example.aggim.product.detail.ProductDetailActivity
 import com.example.aggim.product.registration.ProductRegistrationActivity
 import com.example.aggim.main.MainPageActivity
-import com.example.aggim.mypage.main.MyPageMain
 import com.example.aggim.signin.SigninActivity
 import com.example.aggim.signup.SignupActivity
 import kotlinx.coroutines.GlobalScope
