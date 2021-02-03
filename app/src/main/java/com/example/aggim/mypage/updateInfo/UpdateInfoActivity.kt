@@ -1,7 +1,6 @@
 package com.example.aggim.mypage.updateInfo
 
 /*
-    Created by
     Updated by Jin Lee on 2021/02/04
 */
 
