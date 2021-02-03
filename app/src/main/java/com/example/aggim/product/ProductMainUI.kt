@@ -19,6 +19,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.viewpager.widget.ViewPager
 import com.example.aggim.R
 import com.example.aggim.common.Prefs
+import com.example.aggim.donation.DonatesListActivity
 import com.example.aggim.mypage.main.MyPageMain
 import com.example.aggim.mypage.stamp.StampActivity
 import com.example.aggim.product.registration.ProductRegistrationActivity
@@ -113,6 +114,9 @@ class ProductMainUI(
                     add(NONE, MENU_MYPAGE, NONE, "마이페이지").apply {
                         setIcon(R.drawable.ic_perm_contact_calendar_24px)
                     }
+                    add(NONE, MENU_DONATE, NONE, "기부현황").apply {
+                        setIcon(R.drawable.ic_volunteer_activism_24px)
+                    }
                     add(NONE, MENU_STAMP, NONE, "스탬프").apply {
                         setIcon(R.drawable.ic_approval_24px)
                     }
@@ -135,6 +139,9 @@ class ProductMainUI(
         when (item.itemId) {
             MENU_MYPAGE -> {
                 viewModel.startActivity<MyPageMain>()
+            }
+            MENU_DONATE -> {
+                viewModel.startActivity<DonatesListActivity>()
             }
             MENU_STAMP -> {
                 viewModel.startActivity<StampActivity>()
@@ -159,11 +166,12 @@ class ProductMainUI(
     }
 
     companion object {
-        private const val MENU_STAMP = 1
-        private const val MENU_MYPAGE = 2
-        private const val MENU_ADMIN = 3
+        private const val MENU_MYPAGE = 1
+        private const val MENU_DONATE = 2
+        private const val MENU_STAMP = 3
+        private const val MENU_ADMIN = 4
         //private const val MENU_ID_INQUIRY = 1
-        private const val MENU_ID_LOGOUT = 4
+        private const val MENU_ID_LOGOUT = 5
     }
 
 }

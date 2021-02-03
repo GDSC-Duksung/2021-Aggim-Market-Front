@@ -22,6 +22,7 @@ class DonatesListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.donate_list_activity_main)
 
+
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
         val donatesAdapter = DonatesAdapter {donateListItemResponse -> adapterOnClick(donateListItemResponse)}
         recyclerView.adapter = donatesAdapter
