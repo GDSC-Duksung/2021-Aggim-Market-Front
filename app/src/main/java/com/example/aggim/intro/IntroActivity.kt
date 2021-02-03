@@ -11,6 +11,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.aggim.R
 import com.example.aggim.api.AggimApi
+import com.example.aggim.donation.DonatesListActivity
 import com.example.aggim.product.ProductMainActivity
 import com.example.aggim.product.detail.ProductDetailActivity
 import com.example.aggim.product.registration.ProductRegistrationActivity

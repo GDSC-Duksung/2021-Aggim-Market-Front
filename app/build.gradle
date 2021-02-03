@@ -77,6 +77,8 @@ dependencies {
 
     implementation "androidx.paging:paging-runtime-ktx:2.1.0"
     implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'androidx.activity:activity-ktx:1.1.0@aar'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha06@aar'
     //kapt "android.arch.lifecycle:compiler:1.0.0"
     //kapt 'com.github.bumptech.glide:compiler:4.9.0'
 

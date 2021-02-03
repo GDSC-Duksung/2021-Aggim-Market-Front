@@ -24,6 +24,6 @@ class DonateListActivity : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_donation_notice, container, false)
+        return inflater.inflate(R.layout.donate_list_activity_main, container, false)
     }
 }

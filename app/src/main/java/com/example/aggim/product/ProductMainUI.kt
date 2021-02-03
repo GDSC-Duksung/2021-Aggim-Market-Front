@@ -5,16 +5,23 @@ package com.example.aggim.product
  */
 
 import android.view.Gravity
+import android.view.LayoutInflater
 import android.view.Menu.NONE
 import android.view.MenuItem
 import android.view.MenuItem.SHOW_AS_ACTION_ALWAYS
+import android.view.View
 import android.view.View.generateViewId
+import android.view.View.inflate
+import android.widget.LinearLayout
 import android.widget.TableLayout
 import androidx.appcompat.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.viewpager.widget.ViewPager
 import com.example.aggim.R
 import com.example.aggim.common.Prefs
+import com.example.aggim.mypage.main.MyPageMain
+import com.example.aggim.mypage.stamp.StampActivity
+import com.example.aggim.product.registration.ProductRegistrationActivity
 import com.example.aggim.signin.SigninActivity
 import com.example.aggim.view.borderBottom
 import com.google.android.material.navigation.NavigationView
@@ -81,6 +88,8 @@ class ProductMainUI(
                     }.lparams(matchParent, matchParent)
                 }
 
+                // 장바구니 버튼 (현재는 상품 등록 버튼)
+                // 상품 등록은 관리자로 로그인 되었을 시에만 보이게 할 예정
                 floatingActionButton {
                     imageResource = R.drawable.ic_shopping_basket_24px
                     onClick { viewModel.openRegistrationActivity() }
@@ -101,8 +110,18 @@ class ProductMainUI(
 //                    add(NONE, MENU_ID_INQUIRY, NONE, "내 문의").apply {
 //                        setIcon(R.drawable.ic_)
 //                    }
+                    add(NONE, MENU_MYPAGE, NONE, "마이페이지").apply {
+                        setIcon(R.drawable.ic_perm_contact_calendar_24px)
+                    }
+                    add(NONE, MENU_STAMP, NONE, "스탬프").apply {
+                        setIcon(R.drawable.ic_approval_24px)
+                    }
+                    add(NONE, MENU_ADMIN, NONE, "상품등록").apply { // 추후 관리자 페이지로 연결 예
+                        setIcon(R.drawable.ic_shopping_basket_24px)
+                    }
                     add(NONE, MENU_ID_LOGOUT, NONE, "로그아웃").apply {
-                        setIcon(R.drawable.ic_menu_24px)
+                        setIcon(R.drawable.ic_face_24px)
+
                     }
                 }
                 setNavigationItemSelectedListener(this@ProductMainUI)
@@ -114,14 +133,24 @@ class ProductMainUI(
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-//            MENU_ID_INQUIRY -> {
-//                viewModel.startActivity<MyInquiryActivity>()
-//            }
+            MENU_MYPAGE -> {
+                viewModel.startActivity<MyPageMain>()
+            }
+            MENU_STAMP -> {
+                viewModel.startActivity<StampActivity>()
+            }
+            MENU_ADMIN -> {
+                viewModel.startActivity<ProductRegistrationActivity>()
+            }
             MENU_ID_LOGOUT -> {
                 Prefs.token = null
                 Prefs.refreshToken = null
                 viewModel.startActivityAndFinish<SigninActivity>()
             }
+            // 문의 페이지는 추후 추가 예
+            //MENU_ID_INQUIRY -> {
+//          viewModel.startActivity<MyInquiryActivity>()
+//          }
         }
 
         drawerLayout.closeDrawer(navigationView)
@@ -130,8 +159,11 @@ class ProductMainUI(
     }
 
     companion object {
+        private const val MENU_STAMP = 1
+        private const val MENU_MYPAGE = 2
+        private const val MENU_ADMIN = 3
         //private const val MENU_ID_INQUIRY = 1
-        private const val MENU_ID_LOGOUT = 2
+        private const val MENU_ID_LOGOUT = 4
     }
 
 }

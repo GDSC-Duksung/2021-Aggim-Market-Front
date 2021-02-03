@@ -22,7 +22,10 @@ class ProductMainActivity :
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         ui.setContentView(this)
+
+
         setupDrawerListener()
+
         ui.viewpager.adapter =
             ProductListPagerAdapter(supportFragmentManager)
         ui.tablayout.setupWithViewPager(ui.viewpager)
@@ -40,6 +43,5 @@ class ProductMainActivity :
         ui.drawerLayout.addDrawerListener(toggle)
 
         toggle.syncState()
-
     }
 }

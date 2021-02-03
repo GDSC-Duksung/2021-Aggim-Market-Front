@@ -59,9 +59,7 @@ interface AggimApi {
     ): ApiResponse<Response<Void>>
 
     @GET("/api/v1/donates")
-    suspend fun getDonates(
-        @Query("donateId") donateId:Long
-    ): ApiResponse<List<DonateListItemResponse>>
+    suspend fun getDonates(): ApiResponse<List<DonateListItemResponse>>
 
     @GET("/api/v1/donates/{id}")
     suspend fun getDonate(@Path("id") id: Long)
