@@ -1360,6 +1360,16 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable donat1
+drawable donat10
+drawable donat2
+drawable donat3
+drawable donat4
+drawable donat5
+drawable donat6
+drawable donat7
+drawable donat8
+drawable donat9
 drawable ic_approval_24px
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1379,6 +1389,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_perm_contact_calendar_24px
 drawable ic_shopping_basket_24px
+drawable ic_volunteer_activism_24px
 drawable icon_image
 drawable icon_logo
 drawable icon_search
@@ -1568,6 +1579,8 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
+id img_donate
+id img_donate2
 id info
 id invisible
 id italic
@@ -1721,6 +1734,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toolbar
+id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -1826,6 +1840,7 @@ layout design_text_input_start_icon
 layout donate_item
 layout donate_list_activity_main
 layout fragment_product_list
+layout header_item
 layout intro_page
 layout main
 layout main_drawer_header

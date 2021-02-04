@@ -29,8 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".signup.SignupActivity" />
-        <activity android:name=".signin.SigninActivity" />
+        <activity
+            android:name=".signup.SignupActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".signin.SigninActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
         <activity
             android:name=".product.detail.ProductDetailActivity"
             android:theme="@style/Theme.AppCompat.Light" />

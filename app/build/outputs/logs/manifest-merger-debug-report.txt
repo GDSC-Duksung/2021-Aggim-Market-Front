@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\d5b3f53e0ce99a618c2294031c99ff72\jetified-core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\0faba04142a8f3c75d1d2339fff685fe\jetified-anko-sdk25-0.10.8\AndroidManifest.xml:2:1-13:12
 MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\429bb2e34e6cc0a1f9064026d15bca3d\jetified-anko-appcompat-v7-0.10.8\AndroidManifest.xml:2:1-13:12
@@ -74,22 +74,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\JIN\.gradle\cach
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\4b393030b2c2e1fa1433125869d155cc\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\593a6423820f52e07f5cf586ae902042\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\ac0dc5eb672c980c1ba29d749cdd98d8\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:4:5-32
 		INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:2:11-69
@@ -98,7 +98,7 @@ ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\s
 	android:name
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:8:5-50:19
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:8:5-48:19
 MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\0faba04142a8f3c75d1d2339fff685fe\jetified-anko-sdk25-0.10.8\AndroidManifest.xml:11:5-20
 MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\0faba04142a8f3c75d1d2339fff685fe\jetified-anko-sdk25-0.10.8\AndroidManifest.xml:11:5-20
 MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\429bb2e34e6cc0a1f9064026d15bca3d\jetified-anko-appcompat-v7-0.10.8\AndroidManifest.xml:11:5-20
@@ -164,81 +164,81 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\JI
 	android:name
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:9:9-28
 activity#com.example.aggim.mypage.orderList.OrderListActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:20:9-81
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:19:9-72
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:20:19-69
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:19:19-69
 activity#com.example.aggim.mypage.cart.CartActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:21:9-62
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:20:9-62
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:21:19-59
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:20:19-59
 activity#com.example.aggim.mypage.stamp.StampActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:22:9-64
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:21:9-64
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:22:19-61
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:21:19-61
 activity#com.example.aggim.mypage.updateInfo.UpdateInfoActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:23:9-74
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:22:9-74
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:23:19-71
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:22:19-71
 activity#com.example.aggim.mypage.main.MyPageMain
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:24:9-60
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:23:9-60
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:24:19-57
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:23:19-57
 activity#com.example.aggim.main.MainPageActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:25:9-59
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:24:9-59
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:25:19-56
-activity#com.example.aggim.main.MainActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:26:9-55
-	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:26:19-52
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:24:19-56
 activity#com.example.aggim.intro.IntroActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:28:9-33:20
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:28:19-54
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:25:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:29:13-32:29
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.aggim.signup.SignupActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:34:9-59
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:32:9-34:60
+	android:theme
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:34:13-57
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:34:19-56
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:33:13-50
 activity#com.example.aggim.signin.SigninActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:35:9-59
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:35:9-36:59
+	android:theme
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:36:13-57
 	android:name
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:35:19-56
 activity#com.example.aggim.product.detail.ProductDetailActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:36:9-39:11
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:37:9-39:60
 	android:theme
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:38:13-57
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:39:13-57
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:37:13-65
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:38:13-65
 activity#com.example.aggim.product.ProductMainActivity
 ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:40:9-65
 	android:name
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:40:19-62
 activity#com.example.aggim.product.search.ProductSearchActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:41:9-44:11
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:41:9-43:60
 	android:theme
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:43:13-57
 	android:name
 		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:42:13-65
 activity#com.example.aggim.product.registration.ProductRegistrationActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:45:9-48:11
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:44:9-46:60
 	android:theme
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:47:13-57
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:46:13-57
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:46:13-77
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:45:13-77
 activity#com.example.aggim.donation.DonatesListActivity
-ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:49:9-65
+ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:47:9-66
 	android:name
-		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:49:19-63
+		ADDED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:47:19-63
 uses-sdk
 INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml

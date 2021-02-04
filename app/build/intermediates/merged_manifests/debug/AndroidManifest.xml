@@ -29,7 +29,6 @@
         <activity android:name="com.example.aggim.mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name="com.example.aggim.mypage.main.MyPageMain" />
         <activity android:name="com.example.aggim.main.MainPageActivity" />
-        <activity android:name="com.example.aggim.main.MainActivity" />
         <activity android:name="com.example.aggim.intro.IntroActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,8 +36,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.aggim.signup.SignupActivity" />
-        <activity android:name="com.example.aggim.signin.SigninActivity" />
+        <activity
+            android:name="com.example.aggim.signup.SignupActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name="com.example.aggim.signin.SigninActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name="com.example.aggim.product.detail.ProductDetailActivity"
             android:theme="@style/Theme.AppCompat.Light" />
