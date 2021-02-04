@@ -2,6 +2,8 @@ package com.example.aggim.common
 
 import android.preference.PreferenceManager
 import com.example.aggim.App
+import com.example.aggim.api.response.ProductResponse
+import com.example.aggim.data.CartItem
 
 /*
     Created by Seohyun Kim at 2021/01/22
@@ -13,6 +15,11 @@ object Prefs {
     private const val REFRESH_TOKEN = "refresh_token"
     private const val USER_NAME = "user_name"
     private const val USER_ID = "user_id"
+
+    var cList: MutableList<ProductResponse> = arrayListOf()
+    //var cList: MutableList<ProductResponse> = mutableListOf(ProductResponse( 테스트
+     //   11111111111,"strawberry","ss",1000,"saleable", 22222,listOf("a","b")
+    //))
 
     val prefs by lazy {
         PreferenceManager

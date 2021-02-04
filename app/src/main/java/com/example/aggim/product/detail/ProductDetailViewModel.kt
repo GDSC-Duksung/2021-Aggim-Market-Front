@@ -10,6 +10,8 @@ import androidx.lifecycle.viewModelScope
 import com.example.aggim.api.AggimApi
 import com.example.aggim.api.response.ApiResponse
 import com.example.aggim.api.response.ProductResponse
+import com.example.aggim.common.Prefs
+import com.example.aggim.data.CartItem
 import com.example.aggim.product.ProductStatus
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -64,7 +66,13 @@ class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
         imageUrls.addAll(product.imagePaths)
     }
 
-    fun openInquiryActivity() {
-        toast("상품문의-productId = $productId")
+    suspend fun openInquiryActivity() {
+        val resp = productId?.let { getProduct(it) }
+        productId?.let {
+            if (resp != null) {
+                resp.data?.let { it1 -> Prefs.cList.add(it1) }
+            }
+        }
+        toast("장바구니에 담겼습니다.")
     }
 }

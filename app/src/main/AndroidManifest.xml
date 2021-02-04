@@ -16,18 +16,18 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-
-        <activity android:name=".mypage.orderList.OrderListActivity"></activity>
+        <activity android:name=".mypage.buy.BuyProduct"></activity>
+        <activity android:name=".mypage.orderList.OrderListActivity" />
         <activity android:name=".mypage.cart.CartActivity" />
         <activity android:name=".mypage.stamp.StampActivity" />
         <activity android:name=".mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name=".mypage.main.MyPageMain" />
         <activity android:name=".main.MainPageActivity" />
         <activity android:name=".main.MainActivity" />
-
         <activity android:name=".intro.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -35,18 +35,15 @@
         <activity android:name=".signin.SigninActivity" />
         <activity
             android:name=".product.detail.ProductDetailActivity"
-            android:theme="@style/Theme.AppCompat.Light"
-        />
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity android:name=".product.ProductMainActivity" />
         <activity
             android:name=".product.search.ProductSearchActivity"
-            android:theme="@style/Theme.AppCompat.Light"
-        />
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name=".product.registration.ProductRegistrationActivity"
-            android:theme="@style/Theme.AppCompat.Light"
-        />
-        <activity android:name=".donation.DonatesListActivity"/>
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".donation.DonatesListActivity" />
     </application>
 
 </manifest>
