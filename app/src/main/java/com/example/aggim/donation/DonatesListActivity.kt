@@ -3,10 +3,12 @@ package com.example.aggim.donation
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.activity.viewModels
 import androidx.lifecycle.observe
+import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aggim.R
 import com.example.aggim.api.response.ApiResponse
@@ -25,11 +27,18 @@ class DonatesListActivity : AppCompatActivity() {
 
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
         val donatesAdapter = DonatesAdapter {donateListItemResponse -> adapterOnClick(donateListItemResponse)}
-        recyclerView.adapter = donatesAdapter
+        val headerAdapter = HeaderAdapter()
+        val concatAdapter = ConcatAdapter(headerAdapter, donatesAdapter)
+        var amt = 0
+        recyclerView.adapter = concatAdapter
 
         donatesListViewModel.donatesLiveData.observe(this, {
             it?.let {
                 donatesAdapter.submitList(it as MutableList<DonateListItemResponse>)
+                for (i in it) {
+                    amt += i.donatedVal
+                }
+                headerAdapter.updateAmountDonated(amt)
             }
         })
     }
