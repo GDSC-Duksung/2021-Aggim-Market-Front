@@ -1,8 +1,10 @@
 package com.example.aggim.mypage.cart
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.aggim.R
 import com.example.aggim.common.Prefs
@@ -17,8 +19,9 @@ class CartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cart)
-
-        val adapter = RecyclerAdapterItems(Prefs.cList)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title=""
+        val adapter = RecyclerAdapterItems(Prefs.cList, this)
         rv_view.adapter = adapter
         rv_view.layoutManager = LinearLayoutManager(this)
         rv_view.setHasFixedSize(true)
@@ -37,5 +40,14 @@ class CartActivity : AppCompatActivity() {
             val nextIntent = Intent(this, BuyProduct::class.java)
             startActivity(nextIntent)
         }
+    }
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        item?.let{
+            when(item.itemId){
+                android.R.id.home -> onBackPressed()
+                else ->{}
+            }
+        }
+        return true
     }
 }

@@ -9,15 +9,6 @@
     android:weightSum="2560"
     tools:context = ".mypage.cart.CartActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
-        app:layout_scrollFlags="scroll|enterAlways"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:titleTextColor="#006400" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="55dp"

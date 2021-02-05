@@ -23,8 +23,12 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+gi
+        <activity android:name="com.example.aggim.mypage.buy.BuyProduct" />
         <activity android:name="com.example.aggim.mypage.orderList.OrderListActivity" />
-        <activity android:name="com.example.aggim.mypage.cart.CartActivity" />
+        <activity
+            android:name="com.example.aggim.mypage.cart.CartActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity android:name="com.example.aggim.mypage.stamp.StampActivity" />
         <activity android:name="com.example.aggim.mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name="com.example.aggim.mypage.main.MyPageMain" />

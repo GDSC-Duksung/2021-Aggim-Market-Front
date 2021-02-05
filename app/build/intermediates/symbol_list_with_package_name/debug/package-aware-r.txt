@@ -1485,8 +1485,6 @@ id activity_chooser_view_content
 id add
 id alertTitle
 id all
-id all_Check
-id all_Delete
 id always
 id appbar
 id async
@@ -1496,6 +1494,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id buyItem
 id cancel_action
 id cancel_button
 id center
@@ -1533,7 +1532,6 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
-id dynamicView
 id edit
 id editButton
 id edit_query
@@ -1591,6 +1589,7 @@ id largeLabel
 id left
 id line1
 id line3
+id linear
 id listMode
 id listPages
 id list_item
@@ -1658,6 +1657,7 @@ id right
 id right_icon
 id right_side
 id rounded
+id rv_view
 id save_non_transition_alpha
 id save_overlay_view
 id scale
@@ -1705,6 +1705,7 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
+id sumMoney
 id tabLayout
 id tabMode
 id tag_accessibility_actions
@@ -1755,6 +1756,10 @@ id visible
 id withText
 id wrap
 id wrap_content
+id xml_cit_button
+id xml_cit_img_profile
+id xml_cit_txt_name
+id xml_cit_txt_price
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -1815,12 +1820,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_buy_product
 layout activity_cart
 layout activity_main_page
 layout activity_my_page_main
 layout activity_order_list
 layout activity_stamp
 layout activity_update_info
+layout cart_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -16,9 +16,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">gi
-
+        <activity android:name=".mypage.buy.BuyProduct"/>
         <activity android:name=".mypage.orderList.OrderListActivity" />
-        <activity android:name=".mypage.cart.CartActivity" />
+        <activity android:name=".mypage.cart.CartActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
         <activity android:name=".mypage.stamp.StampActivity" />
         <activity android:name=".mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name=".mypage.main.MyPageMain" />

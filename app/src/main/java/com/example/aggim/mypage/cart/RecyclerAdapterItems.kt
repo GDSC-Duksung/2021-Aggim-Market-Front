@@ -1,10 +1,13 @@
 package com.example.aggim.mypage.cart
 
+import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.system.Os.bind
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aggim.R
@@ -12,9 +15,11 @@ import com.example.aggim.api.AggimApi
 import com.example.aggim.api.response.ProductResponse
 import com.example.aggim.common.Prefs
 import com.example.aggim.data.CartItem
+import kotlinx.android.synthetic.main.activity_cart.*
+import kotlinx.android.synthetic.main.activity_cart.view.*
 import kotlinx.android.synthetic.main.cart_item.view.*
 
-class RecyclerAdapterItems(private val items: MutableList<ProductResponse>) :
+class RecyclerAdapterItems(private val items: MutableList<ProductResponse>, private val ct: Activity) :
         RecyclerView.Adapter<RecyclerAdapterItems.ViewHolder>() {
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -40,6 +45,16 @@ class RecyclerAdapterItems(private val items: MutableList<ProductResponse>) :
         }
         holder.btn.xml_cit_button.setOnClickListener{
             Prefs.cList.removeAt(position)
+            var sum = 0
+            if(Prefs.cList.size > 0) {
+                for(i in 0..Prefs.cList.size-1) {
+                    sum += Prefs.cList.get(i).price
+                }
+            }
+            if(sum > 0)
+                ct.sumMoney.text = sum.toString()+"원"
+            else
+                ct.sumMoney.text = "0원"
             notifyDataSetChanged()
         }
     }
@@ -51,10 +66,7 @@ class RecyclerAdapterItems(private val items: MutableList<ProductResponse>) :
             //view.xml_cit_img_profile.setImageResource(item.imagePaths.)
             view.xml_cit_txt_name.text = item.name
             view.xml_cit_txt_price.text = item.price.toString()
-            //view.xml_cit_button.setOnClickListener{
-             //   Prefs.cList.removeAt(pos)
-             //   notifyDataSetChanged()
-            //}
         }
+
     }
 }

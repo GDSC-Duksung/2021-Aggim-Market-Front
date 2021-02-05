@@ -68,8 +68,4 @@ class MyPageMain : AppCompatActivity() {
         }
         return true
     }
-
-    override fun onBackPressed() {
-
-    }
 }
