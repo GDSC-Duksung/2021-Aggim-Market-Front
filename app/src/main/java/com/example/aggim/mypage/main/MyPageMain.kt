@@ -13,6 +13,8 @@ import com.example.aggim.mypage.cart.CartActivity
 import com.example.aggim.mypage.orderList.OrderListActivity
 import com.example.aggim.mypage.stamp.StampActivity
 import com.example.aggim.mypage.updateInfo.UpdateInfoActivity
+import com.example.aggim.product.ProductMainActivity
+import com.example.aggim.product.ProductMainUI
 import kotlinx.android.synthetic.main.activity_my_page_main.*
 import kotlinx.android.synthetic.main.activity_my_page_main.toolbar
 import kotlinx.android.synthetic.main.activity_stamp.*
@@ -65,5 +67,9 @@ class MyPageMain : AppCompatActivity() {
             }
         }
         return true
+    }
+
+    override fun onBackPressed() {
+
     }
 }
