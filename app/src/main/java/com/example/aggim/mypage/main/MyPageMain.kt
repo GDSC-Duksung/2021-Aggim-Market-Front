@@ -1,8 +1,11 @@
 package com.example.aggim.mypage.main
-
+/*
+Updated by Jin Lee on 2021/02/04
+ */
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import com.example.aggim.R
@@ -11,6 +14,8 @@ import com.example.aggim.mypage.cart.CartItemsListActivity
 import com.example.aggim.mypage.order.OrderListActivity
 import com.example.aggim.mypage.stamp.StampActivity
 import com.example.aggim.mypage.updateInfo.UpdateInfoActivity
+import com.example.aggim.product.ProductMainActivity
+import com.example.aggim.product.ProductMainUI
 import kotlinx.android.synthetic.main.activity_my_page_main.*
 import kotlinx.android.synthetic.main.activity_my_page_main.toolbar
 
@@ -21,6 +26,9 @@ class MyPageMain : AppCompatActivity() {
 
         toolbar.setTitle("My Page")
         setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = "마이페이지"
 
         val pages = ArrayList<String>()
 
@@ -50,5 +58,14 @@ class MyPageMain : AppCompatActivity() {
                 startActivity(nextIntent)
             }
         }
+    }
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        item?.let {
+            when(item.itemId) {
+                android.R.id.home -> onBackPressed()
+                else -> {}
+            }
+        }
+        return true
     }
 }

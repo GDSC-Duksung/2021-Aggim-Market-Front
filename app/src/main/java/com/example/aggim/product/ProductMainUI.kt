@@ -2,6 +2,7 @@ package com.example.aggim.product
 
 /*
     Created by Jin Lee on 2021/01/31
+    Updated by Jin Lee on 2021/02/04
  */
 
 import android.view.Gravity

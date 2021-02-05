@@ -11,6 +11,7 @@ import org.jetbrains.anko.setContentView
 
 /*
     Created by Seohyun Kim at 2021/01/22
+    Updated by Jin Lee at 2021/02/04
  */
 
 class SigninActivity : BaseActivity<SigninViewModel>() {
@@ -23,7 +24,7 @@ class SigninActivity : BaseActivity<SigninViewModel>() {
             .setContentView(this)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title="로그"
+        supportActionBar?.title="로그인 "
     }
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         item?.let{
@@ -40,3 +41,4 @@ class SigninActivity : BaseActivity<SigninViewModel>() {
         finish()
     }
 }
+

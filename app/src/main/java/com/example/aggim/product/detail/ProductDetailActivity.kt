@@ -1,6 +1,7 @@
 package com.example.aggim.product.detail
 /*
     Created by Jin Lee on 2021/01/31
+    Updated by Jin Lee on 2021/02/04
  */
 import android.os.Bundle
 import android.view.MenuItem
