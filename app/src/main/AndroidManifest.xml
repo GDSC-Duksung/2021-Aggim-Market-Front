@@ -15,15 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".mypage.buy.BuyProduct"></activity>
+        tools:ignore="GoogleAppIndexingWarning">gi
+
         <activity android:name=".mypage.orderList.OrderListActivity" />
         <activity android:name=".mypage.cart.CartActivity" />
         <activity android:name=".mypage.stamp.StampActivity" />
         <activity android:name=".mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name=".mypage.main.MyPageMain" />
         <activity android:name=".main.MainPageActivity" />
-        <activity android:name=".main.MainActivity" />
+
         <activity android:name=".intro.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,8 +31,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".signup.SignupActivity" />
-        <activity android:name=".signin.SigninActivity" />
+        <activity
+            android:name=".signup.SignupActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".signin.SigninActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
         <activity
             android:name=".product.detail.ProductDetailActivity"
             android:theme="@style/Theme.AppCompat.Light" />

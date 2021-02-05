@@ -23,7 +23,7 @@ class CartActivity : AppCompatActivity() {
         rv_view.layoutManager = LinearLayoutManager(this)
         rv_view.setHasFixedSize(true)
         //xml_cit_button.setOnClickListener{
-         //   Prefs.cList.removeAt(pos)
+        //   Prefs.cList.removeAt(pos)
         //}
         var sum = 0
         if(Prefs.cList.size > 0) {
