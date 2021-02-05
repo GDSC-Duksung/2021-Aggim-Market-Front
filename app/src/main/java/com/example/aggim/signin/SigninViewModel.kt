@@ -1,12 +1,15 @@
 package com.example.aggim.signin
 
 import android.app.Application
+import android.content.Intent
 import androidx.lifecycle.MutableLiveData
 import com.example.aggim.api.AggimApi
 import com.example.aggim.api.request.SigninRequest
 import com.example.aggim.api.response.ApiResponse
 import com.example.aggim.api.response.SigninResponse
 import com.example.aggim.common.Prefs
+import com.example.aggim.mypage.updateInfo.UpdateInfoActivity
+import com.example.aggim.product.ProductMainActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import net.codephobia.ankomvvm.lifecycle.BaseViewModel
@@ -37,7 +40,7 @@ class SigninViewModel(app: Application) : BaseViewModel(app) {
     private fun isNotValidSignin(request: SigninRequest)=
         when {
             request.isNotValidEmail() -> {
-                toast("이메일 혇식이 정확하지 않습니다.")
+                toast("이메일 형식이 정확하지 않습니다.")
                 true
             }
             request.isNotValidPassword() -> {
@@ -58,7 +61,9 @@ class SigninViewModel(app: Application) : BaseViewModel(app) {
             Prefs.refreshToken = response.data.refreshToken
             Prefs.userName = response.data.userName
             Prefs.userId = response.data.userId
+
             toast("로그인되었습니다.")
+            startActivityAndFinish<ProductMainActivity>()
         } else {
             toast(response.message ?: "알 수 없는 오류가 발생했습니다.")
         }
