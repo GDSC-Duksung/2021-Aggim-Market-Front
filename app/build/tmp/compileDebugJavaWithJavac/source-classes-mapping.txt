@@ -1,0 +1,4 @@
+com/example/aggim/MyGlideApp.java
+ com.example.aggim.MyGlideApp
+com/example/aggim/BuildConfig.java
+ com.example.aggim.BuildConfig
