@@ -1,4 +1,4 @@
-package com.example.aggim.data
+package com.example.aggim.mypage.cart.data
 
 import android.content.res.Resources
 

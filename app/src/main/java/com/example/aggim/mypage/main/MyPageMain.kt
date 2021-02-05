@@ -7,12 +7,12 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import com.example.aggim.R
 import com.example.aggim.mypage.cart.CartActivity
-import com.example.aggim.mypage.orderList.OrderListActivity
+import com.example.aggim.mypage.cart.CartItemsListActivity
+import com.example.aggim.mypage.order.OrderListActivity
 import com.example.aggim.mypage.stamp.StampActivity
 import com.example.aggim.mypage.updateInfo.UpdateInfoActivity
 import kotlinx.android.synthetic.main.activity_my_page_main.*
 import kotlinx.android.synthetic.main.activity_my_page_main.toolbar
-import kotlinx.android.synthetic.main.activity_stamp.*
 
 class MyPageMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +43,7 @@ class MyPageMain : AppCompatActivity() {
                 val nextIntent = Intent(this, StampActivity::class.java)
                 startActivity(nextIntent)
             } else if(position == 2) {
-                val nextIntent = Intent(this, CartActivity::class.java)
+                val nextIntent = Intent(this, CartItemsListActivity::class.java)
                 startActivity(nextIntent)
             } else {
                 val nextIntent = Intent(this, OrderListActivity::class.java)

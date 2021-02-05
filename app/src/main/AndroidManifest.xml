@@ -17,7 +17,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".mypage.buy.BuyProduct"></activity>
-        <activity android:name=".mypage.orderList.OrderListActivity" />
+        <activity android:name=".mypage.order.OrderListActivity" />
         <activity android:name=".mypage.cart.CartActivity" />
         <activity android:name=".mypage.stamp.StampActivity" />
         <activity android:name=".mypage.updateInfo.UpdateInfoActivity" />
@@ -31,8 +31,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".signup.SignupActivity" />
-        <activity android:name=".signin.SigninActivity" />
+        <activity android:name=".signup.SignupActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name=".signin.SigninActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
         <activity
             android:name=".product.detail.ProductDetailActivity"
             android:theme="@style/Theme.AppCompat.Light" />
@@ -44,6 +46,10 @@
             android:name=".product.registration.ProductRegistrationActivity"
             android:theme="@style/Theme.AppCompat.Light" />
         <activity android:name=".donation.DonatesListActivity" />
+        <activity
+            android:name=".mypage.cart.CartItemsListActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
     </application>
 
 </manifest>

@@ -6,12 +6,8 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.aggim.R
 import com.example.aggim.common.Prefs
-import com.example.aggim.data.CartItem
 import com.example.aggim.mypage.buy.BuyProduct
-import com.example.aggim.mypage.updateInfo.UpdateInfoActivity
 import kotlinx.android.synthetic.main.activity_cart.*
-import kotlinx.android.synthetic.main.activity_my_page_main.*
-import kotlinx.android.synthetic.main.cart_item.*
 
 class CartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
