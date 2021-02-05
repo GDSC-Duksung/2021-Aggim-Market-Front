@@ -15,13 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning">gi
+
         <activity android:name=".mypage.orderList.OrderListActivity" />
         <activity android:name=".mypage.cart.CartActivity" />
         <activity android:name=".mypage.stamp.StampActivity" />
         <activity android:name=".mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name=".mypage.main.MyPageMain" />
         <activity android:name=".main.MainPageActivity" />
+
         <activity android:name=".intro.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
