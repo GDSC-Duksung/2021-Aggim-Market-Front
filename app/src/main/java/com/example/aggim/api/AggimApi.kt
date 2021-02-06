@@ -66,7 +66,7 @@ interface AggimApi {
     @POST("/api/v1/orders")
     suspend fun registerOrders(
         @Body request: OrderRegistrationRequest
-    ): ApiResponse<OrderResponse>
+    ): ApiResponse<Response<Void>>
 
     @GET("/api/v1/orders")
     suspend fun getOrders(): ApiResponse<List<OrderListItemResponse>>

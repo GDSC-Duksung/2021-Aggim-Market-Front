@@ -9,13 +9,10 @@ import android.view.MenuItem
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import com.example.aggim.R
-import com.example.aggim.mypage.cart.CartActivity
 import com.example.aggim.mypage.cart.CartItemsListActivity
 import com.example.aggim.mypage.order.OrderListActivity
 import com.example.aggim.mypage.stamp.StampActivity
 import com.example.aggim.mypage.updateInfo.UpdateInfoActivity
-import com.example.aggim.product.ProductMainActivity
-import com.example.aggim.product.ProductMainUI
 import kotlinx.android.synthetic.main.activity_my_page_main.*
 import kotlinx.android.synthetic.main.activity_my_page_main.toolbar
 

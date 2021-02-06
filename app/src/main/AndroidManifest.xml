@@ -15,15 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-<<<<<<< HEAD
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".mypage.buy.BuyProduct"></activity>
-        <activity android:name=".mypage.order.OrderListActivity" />
-=======
-        tools:ignore="GoogleAppIndexingWarning">gi
+        <activity android:name=".mypage.buy.BuyProductActivity"></activity>
 
-        <activity android:name=".mypage.orderList.OrderListActivity" />
->>>>>>> 9444e0437c94373dd15123447441b976ebff390c
+        <activity android:name=".mypage.order.OrderListActivity" />
         <activity android:name=".mypage.cart.CartActivity" />
         <activity android:name=".mypage.stamp.StampActivity" />
         <activity android:name=".mypage.updateInfo.UpdateInfoActivity" />
@@ -37,14 +32,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity android:name=".signup.SignupActivity"
             android:theme="@style/Theme.AppCompat.Light"/>
-=======
-        <activity
-            android:name=".signup.SignupActivity"
-            android:theme="@style/Theme.AppCompat.Light" />
->>>>>>> 9444e0437c94373dd15123447441b976ebff390c
         <activity android:name=".signin.SigninActivity"
             android:theme="@style/Theme.AppCompat.Light"/>
         <activity

@@ -1,282 +1,310 @@
 [
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_aggim_logo.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_aggim_logo.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat5.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat5.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable-v24_icon_search.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable-v24/icon_search.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_aggim_logo_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_aggim_logo_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_image.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_image.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_aggim_logo_foreground.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_aggim_logo_foreground.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_none.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/none.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product_list.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\fragment_product_list.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_aggim_logo_foreground.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\menu\\menu.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_volunteer_activism_24px.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_volunteer_activism_24px.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_buy_product.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_buy_product.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_perm_contact_calendar_24px.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_perm_contact_calendar_24px.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_perm_contact_calendar_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_perm_contact_calendar_24px.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item_new.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_item_new.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_aggim_logo_foreground.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_stamp.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_stamp.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_aggim_logo.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_page.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_main_page.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_item.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat1.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat1.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_search.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable-v24\\icon_search.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/custom_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_aggim_logo_foreground.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_aggim_logo_foreground.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo_foreground.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_aggim_logo_foreground.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_aggim_logo_foreground.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_my_page_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_my_page_main.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat2.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat2.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_donate_list_activity_main.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\donate_list_activity_main.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_24px.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_menu_24px.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_list_activity_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_list_activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_list.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_order_list.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_aggim_logo_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_aggim_logo_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_aggim_logo_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_shopping_basket_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_shopping_basket_24px.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_image.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\icon_image.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_aggim_logo.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_menu_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_menu_24px.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_main_page.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_main_page.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_logo.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\icon_logo.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat8.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat8.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_face_24px.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_face_24px.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_cart.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_aggim_logo.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_main_drawer_header.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/main_drawer_header.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_intro_page.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\intro_page.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/xml/network_security_config.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aggim_intro_image.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\aggim_intro_image.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_approval_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_approval_24px.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_drawer_navigation.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\menu\\main_drawer_navigation.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat7.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat7.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_aggim_logo_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_aggim_logo_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_aggim_logo.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_donate_list_activity_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/donate_list_activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_aggim_intro_image.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/aggim_intro_image.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_header_item.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\header_item.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_aggim_logo_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_aggim_logo_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_approval_24px.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_approval_24px.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_face_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_face_24px.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat1.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat1.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_order_list.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_order_list.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat8.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat8.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_header_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_header_item.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat10.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat10.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_aggim_logo.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-anydpi-v26/ic_launcher_aggim_logo.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_drawer_header.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\main_drawer_header.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat7.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat7.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_none.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\none.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_intro_page.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/intro_page.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shopping_basket_24px.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_shopping_basket_24px.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_aggim_logo_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_aggim_logo_round.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stamp.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_stamp.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/menu_main_drawer_navigation.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/menu/main_drawer_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_aggim_logo_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_aggim_logo_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_item.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat9.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat9.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_aggim_logo_foreground.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_aggim_logo_foreground.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_aggim_logo_foreground.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat6.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat6.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_donate_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/donate_item.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_aggim_logo.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat6.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat6.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_fragment_product_list.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/fragment_product_list.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_info.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_update_info.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_aggim_logo_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_aggim_logo_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_aggim_logo.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_aggim_logo.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_volunteer_activism_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_volunteer_activism_24px.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_aggim_logo_round.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_aggim_logo_round.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat9.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat9.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat3.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat3.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_aggim_logo_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_aggim_logo_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat5.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat5.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_header_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/header_item.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_aggim_logo.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/menu_menu.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/menu/menu.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_manage_accounts_24px.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_manage_accounts_24px.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_update_info.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_update_info.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\xml\\network_security_config.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_cart.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat2.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat2.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donat4.jpeg.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat4.jpeg"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_aggim_logo_foreground.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_aggim_logo_foreground.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_aggim_logo_foreground.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_aggim_logo_foreground.png"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_donate_item.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\donate_item.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/main.xml"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_page_main.xml.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_my_page_main.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat10.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat10.jpeg"
     },
     {
-        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_aggim_logo.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat4.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat4.jpeg"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_logo.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_activity_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_activity_main.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat3.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat3.jpeg"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_manage_accounts_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_manage_accounts_24px.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo_round.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_aggim_logo_round.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-anydpi-v26/ic_launcher_aggim_logo_round.xml"
     }
 ]

@@ -19,6 +19,7 @@ class CartItemsListViewModel(
     fun removeCartItem(cartItem: ProductResponse) {
         dataSource.removeCartItem(cartItem)
     }
+
 }
 
 class CartItemsListViewModelFactory(private val context: Context) : ViewModelProvider.Factory {

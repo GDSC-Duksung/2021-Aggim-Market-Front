@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.aggim.R
 import com.example.aggim.common.Prefs
-import com.example.aggim.mypage.buy.BuyProduct
+import com.example.aggim.mypage.buy.BuyProductActivity
 import kotlinx.android.synthetic.main.activity_cart.*
 
 class CartActivity : AppCompatActivity() {
@@ -30,7 +30,7 @@ class CartActivity : AppCompatActivity() {
         if(sum > 0)
             sumMoney.text = sum.toString()+"원"
         buyItem.setOnClickListener{
-            val nextIntent = Intent(this, BuyProduct::class.java)
+            val nextIntent = Intent(this, BuyProductActivity::class.java)
             startActivity(nextIntent)
         }
     }

@@ -23,7 +23,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.aggim.mypage.orderList.OrderListActivity" />
+        <activity android:name="com.example.aggim.mypage.buy.BuyProductActivity" />
+        <activity android:name="com.example.aggim.mypage.order.OrderListActivity" />
         <activity android:name="com.example.aggim.mypage.cart.CartActivity" />
         <activity android:name="com.example.aggim.mypage.stamp.StampActivity" />
         <activity android:name="com.example.aggim.mypage.updateInfo.UpdateInfoActivity" />
@@ -53,6 +54,9 @@
             android:name="com.example.aggim.product.registration.ProductRegistrationActivity"
             android:theme="@style/Theme.AppCompat.Light" />
         <activity android:name="com.example.aggim.donation.DonatesListActivity" />
+        <activity
+            android:name="com.example.aggim.mypage.cart.CartItemsListActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

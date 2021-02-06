@@ -1,8 +1,10 @@
 package com.example.aggim.mypage.cart
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -12,10 +14,18 @@ import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aggim.R
 import com.example.aggim.api.response.ProductResponse
+import com.example.aggim.mypage.buy.BuyProductActivity
 
 class CartItemsListActivity : AppCompatActivity() {
     private val newCartItemActivityRequestCode = 1
-    val headerAdapter = CartHeaderAdapter()
+    val headerAdapter = CartHeaderAdapter{context -> btnOnClick(context)}
+
+    private fun btnOnClick(context: Context) {
+        var nextIntent = Intent(this, BuyProductActivity::class.java)
+        nextIntent.putExtra("sum", sum)
+        startActivity(nextIntent)
+    }
+
     var sum = 0
     private val cartItemsListViewModel by viewModels<CartItemsListViewModel> {
         CartItemsListViewModelFactory(this)
@@ -34,6 +44,7 @@ class CartItemsListActivity : AppCompatActivity() {
         cartItemsListViewModel.cartItemsLiveData.observe(this, {
             it?.let {
                 cartItemsAdapter.submitList(it as MutableList<ProductResponse>)
+                sum = 0
                 for (i in it) {
                     sum += i.price
                 }
@@ -43,9 +54,9 @@ class CartItemsListActivity : AppCompatActivity() {
     }
 
     private fun adapterOnClick(product: ProductResponse) {
-        cartItemsListViewModel.removeCartItem(product)
-        sum = sum-product.price
+        sum = sum - product.price
         headerAdapter.updateSum(sum)
+        cartItemsListViewModel.removeCartItem(product)
 //        Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show()
     }
 
