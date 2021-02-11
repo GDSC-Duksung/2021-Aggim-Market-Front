@@ -1,8 +1,4 @@
-package com.example.aggim.product.detail
-
-/*
-    Created by Jin Lee on 2021/01/31
- */
+package com.example.aggim.mypage.orderList
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
@@ -19,7 +15,7 @@ import net.codephobia.ankomvvm.lifecycle.BaseViewModel
 import org.jetbrains.anko.error
 import java.text.NumberFormat
 
-class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
+class OrderListViewModel(app: Application) : BaseViewModel(app) {
 
     var productId: Long? = null
 
@@ -28,7 +24,7 @@ class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
     val price = MutableLiveData("-")
     val imageUrls: MutableLiveData<MutableList<String>> =
         MutableLiveData(mutableListOf())
-
+    suspend fun getOrder(id: Long) = AggimApi.instance.getOrders(id)
     fun loadDetail(id: Long) = viewModelScope.launch(Dispatchers.Main) {
         try {
             productId = id

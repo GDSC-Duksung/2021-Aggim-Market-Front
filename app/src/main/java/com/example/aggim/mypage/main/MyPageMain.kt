@@ -24,11 +24,10 @@ class MyPageMain : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_my_page_main)
 
-        toolbar.setTitle("My Page")
         setSupportActionBar(toolbar)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = "마이페이지"
+        supportActionBar?.title = "My Page"
 
         val pages = ArrayList<String>()
 
@@ -67,9 +66,5 @@ class MyPageMain : AppCompatActivity() {
             }
         }
         return true
-    }
-
-    override fun onBackPressed() {
-
     }
 }

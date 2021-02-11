@@ -22,8 +22,8 @@ class ProductRegistrar : AnkoLogger{
             ApiResponse.error("가격을 조건에 맞게 입력해주세요.")
         request.isNotValidCategoryId ->
             ApiResponse.error("카테고리 아이디를 선택해주세요.")
-        request.isNotValidImageIds ->
-            ApiResponse.error("이미지를 한개 이상 등록해주세요.")
+        //request.isNotValidImageIds ->
+            //ApiResponse.error("이미지를 한개 이상 등록해주세요.")
         else -> withContext(Dispatchers.IO) {
             try {
                 AggimApi.instance.registerProduct(request)

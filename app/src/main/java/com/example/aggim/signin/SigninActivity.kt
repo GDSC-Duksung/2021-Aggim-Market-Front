@@ -24,7 +24,7 @@ class SigninActivity : BaseActivity<SigninViewModel>() {
                 .setContentView(this)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title="홈으로"
+        supportActionBar?.title="로그인"
     }
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         item?.let{
