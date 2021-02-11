@@ -16,11 +16,11 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".mypage.orderList.OrderListItem"></activity>
-        <activity android:name=".mypage.orderList.OrderListActivity" />
+        <activity android:name=".mypage.order.OrderListActivity"></activity>
         <activity
             android:name=".mypage.cart.CartActivity"
             android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".mypage.buy.BuyProductActivity"></activity>
         <activity android:name=".mypage.stamp.StampActivity" />
         <activity android:name=".mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name=".mypage.main.MyPageMain" />
@@ -49,6 +49,10 @@
             android:name=".product.registration.ProductRegistrationActivity"
             android:theme="@style/Theme.AppCompat.Light" />
         <activity android:name=".donation.DonatesListActivity" />
+        <activity
+            android:name=".mypage.cart.CartItemsListActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
     </application>
 
 </manifest>

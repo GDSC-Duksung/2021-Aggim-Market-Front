@@ -21,10 +21,14 @@ class SigninActivity : BaseActivity<SigninViewModel>() {
         super.onCreate(savedInstanceState)
 
         SigninActivityUI(getViewModel())
-                .setContentView(this)
+            .setContentView(this)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+<<<<<<< HEAD
         supportActionBar?.title="로그인"
+=======
+        supportActionBar?.title="로그인 "
+>>>>>>> c51896372a7e9c1d05f1abdd4c8d8974cc62b711
     }
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         item?.let{

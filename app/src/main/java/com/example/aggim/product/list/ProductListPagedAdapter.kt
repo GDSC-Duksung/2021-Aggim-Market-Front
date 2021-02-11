@@ -59,9 +59,10 @@ class ProductListPagedAdapter(
             ui.productName.text = item.name
             ui.price.text = "₩$commaSeparatedPrice $soldOutString"
 
+            print("wow image paths = ${ApiGenerator.HOST}${item.imagePaths}")
             Glide.with(ui.imageView)
-                .load("${ApiGenerator.HOST}/images/20210202/cakedd.jpg")
-                //.load("${ApiGenerator.HOST}${item.imagePaths.firstOrNull()}")
+                //.load("${ApiGenerator.HOST}/images/20210202/strawjam.jpg")
+                .load("${ApiGenerator.HOST}${item.imagePaths}")
                 .centerCrop()
                 .into(ui.imageView)
         }

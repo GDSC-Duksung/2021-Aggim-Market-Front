@@ -1,17 +1,12 @@
 package com.example.aggim.mypage.cart
 
-import android.content.Intent
-import android.system.Os.bind
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aggim.R
-import com.example.aggim.api.AggimApi
 import com.example.aggim.api.response.ProductResponse
 import com.example.aggim.common.Prefs
-import com.example.aggim.data.CartItem
 import kotlinx.android.synthetic.main.cart_item.view.*
 
 class RecyclerAdapterItems(private val items: MutableList<ProductResponse>) :
@@ -39,7 +34,7 @@ class RecyclerAdapterItems(private val items: MutableList<ProductResponse>) :
             itemView.tag = item
         }
         holder.btn.xml_cit_button.setOnClickListener{
-            Prefs.cList.removeAt(position)
+//            Prefs.cList.removeAt(position)
             notifyDataSetChanged()
         }
     }

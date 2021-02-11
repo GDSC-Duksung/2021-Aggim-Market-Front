@@ -69,7 +69,7 @@ class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
         val resp = productId?.let { getProduct(it) }
         productId?.let {
             if (resp != null) {
-                resp.data?.let { it1 -> Prefs.cList.add(it1) }
+                resp.data?.let { it -> Prefs.cList.add(it) }
             }
         }
         toast("장바구니에 담겼습니다.")
