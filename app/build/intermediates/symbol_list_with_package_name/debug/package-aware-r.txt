@@ -1497,6 +1497,7 @@ id bpview
 id btn_buy
 id btn_cancel
 id btn_real_buy
+id button
 id buttonPanel
 id buyItem
 id cancel_action
@@ -1656,6 +1657,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id product_recyclerView
 id progress_circular
 id progress_horizontal
 id radio
@@ -1734,6 +1736,13 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1780,6 +1789,7 @@ id xml_cit_button
 id xml_cit_img_profile
 id xml_cit_txt_name
 id xml_cit_txt_price
+id xml_recycler_view
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -1919,6 +1929,8 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout order_item
 layout order_list_activity_main
+layout order_list_item
+layout order_list_item_product
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

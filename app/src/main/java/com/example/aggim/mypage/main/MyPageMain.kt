@@ -63,9 +63,5 @@ class MyPageMain : AppCompatActivity() {
             }
         }
         return true
-    }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> c51896372a7e9c1d05f1abdd4c8d8974cc62b711
+    } }
+
