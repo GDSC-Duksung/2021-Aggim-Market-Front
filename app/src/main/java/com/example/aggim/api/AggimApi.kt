@@ -66,14 +66,15 @@ interface AggimApi {
     @POST("/api/v1/orders")
     suspend fun registerOrders(
         @Body request: OrderRegistrationRequest
-    ): ApiResponse<Response<Void>>
+    ): ApiResponse<OrderResponse>
 
     @GET("/api/v1/orders")
-    suspend fun getOrders(): ApiResponse<List<OrderListItemResponse>>
 
+    suspend fun getOrders(): ApiResponse<List<OrderListItemResponse>>
     @GET("/api/v1/orders/{id}")
     suspend fun getOrders(@Path("id") id: Long)
-        : ApiResponse<OrderResponse>
+            : ApiResponse<OrderResponse>
+
 
     companion object {
         val instance = ApiGenerator()
