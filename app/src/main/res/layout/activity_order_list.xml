@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="2560">
+    android:weightSum="2560"
+    >
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -19,33 +20,34 @@
 
 
     <LinearLayout
-        android:gravity="center"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="664dp"
         android:layout_weight="200"
-        android:weightSum="1440">
-
+        android:gravity="center"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/mainText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주문 내역"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="주문목록"
-            android:textAlignment="center"
-            android:textSize="10pt"
-            android:textColor="#000000"
-            android:textStyle="bold" />
-    </LinearLayout>
+            android:layout_weight="1"
+            android:fillViewport="true">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layoutManager="LinearLayoutManager"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_donate" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/xml_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layoutManager="LinearLayoutManager"
+                tools:listitem="@layout/order_list_item" />
+        </ScrollView>
+    </LinearLayout>
 </LinearLayout>

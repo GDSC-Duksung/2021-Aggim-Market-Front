@@ -23,9 +23,11 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.aggim.mypage.buy.BuyProductActivity" />
         <activity android:name="com.example.aggim.mypage.order.OrderListActivity" />
-        <activity android:name="com.example.aggim.mypage.cart.CartActivity" />
+        <activity
+            android:name="com.example.aggim.mypage.cart.CartActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name="com.example.aggim.mypage.buy.BuyProductActivity" />
         <activity android:name="com.example.aggim.mypage.stamp.StampActivity" />
         <activity android:name="com.example.aggim.mypage.updateInfo.UpdateInfoActivity" />
         <activity android:name="com.example.aggim.mypage.main.MyPageMain" />
