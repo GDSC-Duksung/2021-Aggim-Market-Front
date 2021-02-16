@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintSet.PARENT_ID
+import androidx.recyclerview.widget.GridLayoutManager
 import com.example.aggim.R
 import com.example.aggim.view.borderBottom
 import org.jetbrains.anko.*
@@ -22,6 +23,7 @@ class ProductListItemUI: AnkoComponent<ViewGroup>{
     lateinit var imageView: ImageView
     lateinit var productName: TextView
     lateinit var price:TextView
+
 
     override fun createView(ui: AnkoContext<ViewGroup>)=
         ui.constraintLayout{
