@@ -5,6 +5,7 @@ package com.example.aggim.product
     Updated by Jin Lee on 2021/02/04
  */
 
+import android.graphics.Color
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.Menu.NONE
@@ -59,6 +60,7 @@ class ProductMainUI(
             frameLayout {
                 verticalLayout {
                     toolBar = toolbar {
+                        backgroundColor = R.color.colorPrimary
                         title = "Aggim"
                         bottomPadding = dip(1)
                         background = borderBottom(width = dip(1))
@@ -82,6 +84,7 @@ class ProductMainUI(
                         tabMode = MODE_SCROLLABLE
                         tabGravity = GRAVITY_FILL
                         background = borderBottom(width = dip(1))
+                        backgroundColor = R.color.colorPrimary
                         lparams(matchParent, wrapContent)
                     }
 

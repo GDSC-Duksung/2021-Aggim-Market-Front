@@ -16,7 +16,7 @@ class CartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_cart)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title=""
+        supportActionBar?.title="장바구니"
 
         val adapter = RecyclerAdapterItems(Prefs.cList)
         rv_view.adapter = adapter

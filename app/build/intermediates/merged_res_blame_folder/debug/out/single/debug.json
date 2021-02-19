@@ -88,12 +88,20 @@
         "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_menu_24px.xml"
     },
     {
+        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\font_ubuntubold.ttf.flat",
+        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\font\\ubuntubold.ttf"
+    },
+    {
         "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_list.xml.flat",
         "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_order_list.xml"
     },
     {
         "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_aggim_logo_round.png.flat",
         "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_aggim_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\font_ubuntumedium.ttf.flat",
+        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\font\\ubuntumedium.ttf"
     },
     {
         "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -192,6 +200,10 @@
         "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\ic_shopping_basket_24px.xml"
     },
     {
+        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\font_ubuntulight.ttf.flat",
+        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\font\\ubuntulight.ttf"
+    },
+    {
         "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stamp.xml.flat",
         "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\layout\\activity_stamp.xml"
     },
@@ -204,8 +216,16 @@
         "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\drawable\\donat9.jpeg"
     },
     {
+        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\font_custom.xml.flat",
+        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\font\\custom.xml"
+    },
+    {
         "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\font_ubunturegular.ttf.flat",
+        "source": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\src\\main\\res\\font\\ubunturegular.ttf"
     },
     {
         "merged": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
