@@ -30,6 +30,7 @@ class ProductRegistrationUI(
     override fun createView(
         ui: AnkoContext<ProductRegistrationActivity>
     ) = ui.scrollView {
+        backgroundColor = R.color.colorPrimary
         verticalLayout {
             padding = dip(20)
             clipToPadding = false
@@ -52,7 +53,7 @@ class ProductRegistrationUI(
             textView("상품명 및 설명"){
                 topPadding = dip(40)
                 textSize=16f
-                textColorResource=R.color.colorPrimary
+                textColorResource=Color.BLACK
             }
 
             textInputLayout {
@@ -71,7 +72,7 @@ class ProductRegistrationUI(
                 textView("0/40") {
                     leftPadding = dip(4)
                     textSize = 12f
-                    textColorResource = R.color.colorPrimary
+                    textColorResource = Color.BLACK
                     bindString(ui.owner, viewModel.productNameLength)
                 }
             }
@@ -91,7 +92,7 @@ class ProductRegistrationUI(
                 textView("0/500") {
                     leftPadding = dip(4)
                     textSize = 12f
-                    textColorResource = R.color.colorPrimary
+                    textColorResource = Color.BLACK
                     bindString(ui.owner, viewModel.descriptionLength)
                 }
             }
@@ -99,7 +100,7 @@ class ProductRegistrationUI(
             textView("카테고리") {
                 topPadding = dip(40)
                 textSize = 16f
-                textColorResource = R.color.colorPrimary
+                textColorResource = Color.BLACK
             }
 
             verticalLayout {
@@ -122,7 +123,7 @@ class ProductRegistrationUI(
             textView("판매 가격") {
                 topPadding = dip(40)
                 textSize = 16f
-                textColorResource = R.color.colorPrimary
+                textColorResource = Color.BLACK
             }
 
             textInputLayout {
@@ -136,7 +137,7 @@ class ProductRegistrationUI(
             }
 
             button("상품 등록") {
-                backgroundColorResource = R.color.colorPrimary
+                backgroundColorResource = R.color.colorButton
                 textColor = Color.WHITE
                 onClick { viewModel.register() }
             }.lparams(matchParent, wrapContent) {

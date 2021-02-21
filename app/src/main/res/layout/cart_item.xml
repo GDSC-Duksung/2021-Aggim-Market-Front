@@ -2,7 +2,8 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="60dp">
+    android:layout_height="60dp"
+    android:background="@color/colorPrimary">
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -34,6 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="90dp"
-        android:text="취소하기" />
+        android:text="취소하기"
+        android:textColor="@color/colorButtonText"
+        android:background="@color/colorButton"/>
 
 </LinearLayout>

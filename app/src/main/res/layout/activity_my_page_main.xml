@@ -14,7 +14,7 @@
         android:background="@color/colorPrimary"
         app:layout_scrollFlags="scroll|enterAlways"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:titleTextColor="#006400" />
+        app:titleTextColor="#000000" />
 
     <ListView
         android:id="@+id/listPages"
