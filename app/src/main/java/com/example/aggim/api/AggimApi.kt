@@ -69,11 +69,11 @@ interface AggimApi {
     ): ApiResponse<OrderResponse>
 
     @GET("/api/v1/orders")
-
     suspend fun getOrders(): ApiResponse<List<OrderListItemResponse>>
-    @GET("/api/v1/orders/{id}")
-    suspend fun getOrders(@Path("id") id: Long)
-            : ApiResponse<OrderResponse>
+
+//    @GET("/api/v1/orders/{id}")
+//    suspend fun getOrders(@Path("id") id: Long)
+//            : ApiResponse<OrderResponse>
 
 
     companion object {

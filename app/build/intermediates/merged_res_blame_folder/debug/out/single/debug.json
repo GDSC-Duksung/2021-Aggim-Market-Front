@@ -8,16 +8,16 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable-v24/icon_search.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_image.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_image.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_none.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/none.png"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_image.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_image.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
@@ -38,6 +38,10 @@
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item_new.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_item_new.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_old_aggim_intro_image.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/old_aggim_intro_image.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_stamp.xml.flat",
@@ -172,16 +176,16 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat7.jpeg"
     },
     {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_item_header.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_item_header.xml"
+    },
+    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_intro_page.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/intro_page.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_aggim_logo_round.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_aggim_logo_round.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_list_item_product.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_list_item_product.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/menu_main_drawer_navigation.xml.flat",

@@ -23,7 +23,6 @@ class ProductListPagedAdapter(
         ProductListPagedAdapter.ProductItemViewHolder>(
     DIFF_CALLBACK
 ) {
-
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
@@ -66,7 +65,6 @@ class ProductListPagedAdapter(
                 .centerCrop()
                 .into(ui.imageView)
         }
-
     }
 
     companion object {

@@ -38,10 +38,10 @@ com/example/aggim/databinding/ActivityOrderListBinding.java
  com.example.aggim.databinding.ActivityOrderListBinding
 com/example/aggim/databinding/ActivityMyPageMainBinding.java
  com.example.aggim.databinding.ActivityMyPageMainBinding
-com/example/aggim/databinding/OrderListItemProductBinding.java
- com.example.aggim.databinding.OrderListItemProductBinding
 com/example/aggim/databinding/MainBinding.java
  com.example.aggim.databinding.MainBinding
+com/example/aggim/databinding/OrderItemHeaderBinding.java
+ com.example.aggim.databinding.OrderItemHeaderBinding
 com/example/aggim/databinding/FragmentProductListBinding.java
  com.example.aggim.databinding.FragmentProductListBinding
 com/example/aggim/databinding/OrderItemBinding.java

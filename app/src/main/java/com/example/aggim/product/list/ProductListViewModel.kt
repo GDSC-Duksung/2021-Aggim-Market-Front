@@ -36,5 +36,4 @@ class ProductListViewModel(
             putExtra(ProductDetailActivity.PRODUCT_ID, productId)
         }
     }
-
 }

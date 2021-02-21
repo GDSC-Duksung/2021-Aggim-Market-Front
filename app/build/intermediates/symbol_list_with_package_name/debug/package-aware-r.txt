@@ -1416,6 +1416,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable old_aggim_intro_image
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1736,9 +1737,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id textView2
 id textView3
-id textView4
 id textView5
 id textView6
 id textView7
@@ -1769,6 +1768,7 @@ id tv_cart_sum
 id tv_donate
 id tv_explain
 id tv_min_ship
+id tv_order_number
 id tv_order_time
 id tv_product_name
 id tv_product_price
@@ -1928,9 +1928,9 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout order_item
+layout order_item_header
 layout order_list_activity_main
 layout order_list_item
-layout order_list_item_product
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

@@ -2,6 +2,7 @@ package com.example.aggim.api.response
 
 data class OrderListItemResponse(
     val id: Long,
+    val name: String,
     val userId: Long,
-    val products: MutableList<ProductResponse>
+    val orderProducts: MutableList<OrderProductResponse>
 )
