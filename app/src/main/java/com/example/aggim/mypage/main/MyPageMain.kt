@@ -63,5 +63,5 @@ class MyPageMain : AppCompatActivity() {
             }
         }
         return true
-    } }
-
+    }
+}

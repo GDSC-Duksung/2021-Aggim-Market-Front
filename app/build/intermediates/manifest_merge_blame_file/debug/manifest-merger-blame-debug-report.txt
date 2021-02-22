@@ -15,7 +15,7 @@
 11-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:8:5-56:19
+13-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:8:5-52:19
 14        android:name="com.example.aggim.App"
 14-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:9:9-28
 15        android:allowBackup="true"
@@ -38,97 +38,94 @@
 24-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:16:9-40
 25        android:usesCleartextTraffic="true" >
 25-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:17:9-44
-26        <activity android:name="com.example.aggim.mypage.order.OrderListActivity" />
-26-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:19:9-77
-26-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:19:19-65
-27        <activity
-27-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:20:9-22:60
-28            android:name="com.example.aggim.mypage.cart.CartActivity"
-28-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:21:13-53
-29            android:theme="@style/Theme.AppCompat.Light" />
-29-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:22:13-57
-30        <activity android:name="com.example.aggim.mypage.buy.BuyProductActivity" />
-30-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:23:9-76
-30-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:23:19-64
-31        <activity android:name="com.example.aggim.mypage.stamp.StampActivity" />
-31-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:24:9-64
-31-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:24:19-61
-32        <activity android:name="com.example.aggim.mypage.updateInfo.UpdateInfoActivity" />
-32-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:25:9-74
-32-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:25:19-71
-33        <activity android:name="com.example.aggim.mypage.main.MyPageMain" />
-33-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:26:9-60
-33-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:26:19-57
-34        <activity android:name="com.example.aggim.main.MainPageActivity" />
-34-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:27:9-59
-34-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:27:19-56
-35        <activity android:name="com.example.aggim.intro.IntroActivity" >
-35-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:28:9-34:20
-35-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:28:19-54
-36            <intent-filter>
-36-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:29:13-33:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:30:17-69
-37-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:30:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:32:17-77
-39-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:32:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:35:9-37:60
-43            android:name="com.example.aggim.signup.SignupActivity"
-43-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:36:13-50
-44            android:theme="@style/Theme.AppCompat.Light" />
-44-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:37:13-57
-45        <activity
-45-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:38:9-40:60
-46            android:name="com.example.aggim.signin.SigninActivity"
-46-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:39:13-50
-47            android:theme="@style/Theme.AppCompat.Light" />
-47-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:40:13-57
-48        <activity
-48-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:41:9-43:60
-49            android:name="com.example.aggim.product.detail.ProductDetailActivity"
-49-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:42:13-65
-50            android:theme="@style/Theme.AppCompat.Light" />
-50-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:43:13-57
-51        <activity android:name="com.example.aggim.product.ProductMainActivity" />
-51-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:44:9-65
-51-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:44:19-62
-52        <activity
-52-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:45:9-47:60
-53            android:name="com.example.aggim.product.search.ProductSearchActivity"
-53-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:46:13-65
-54            android:theme="@style/Theme.AppCompat.Light" />
-54-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:47:13-57
-55        <activity
-55-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:48:9-50:60
-56            android:name="com.example.aggim.product.registration.ProductRegistrationActivity"
-56-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:49:13-77
-57            android:theme="@style/Theme.AppCompat.Light" />
-57-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:50:13-57
-58        <activity android:name="com.example.aggim.donation.DonatesListActivity" />
-58-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:51:9-66
-58-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:51:19-63
-59        <activity
-59-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:52:9-55:15
-60            android:name="com.example.aggim.mypage.cart.CartItemsListActivity"
-60-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:53:13-62
-61            android:theme="@style/Theme.AppCompat.Light" />
-61-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:54:13-57
-62
-63        <provider
-63-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:23:9-27:43
-64            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-64-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:24:13-79
-65            android:authorities="com.example.aggim.lifecycle-process"
-65-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:25:13-69
-66            android:exported="false"
-66-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:26:13-37
-67            android:multiprocess="true" />
-67-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:27:13-40
-68    </application>
-69
-70</manifest>
+26        <activity android:name="com.example.aggim.management.donationManage.DonationManagementActivity" />
+26-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:19:9-99
+26-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:19:19-87
+27        <activity android:name="com.example.aggim.mypage.order.OrderListActivity" />
+27-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:20:9-68
+27-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:20:19-65
+28        <activity android:name="com.example.aggim.mypage.buy.BuyProductActivity" />
+28-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:21:9-67
+28-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:21:19-64
+29        <activity android:name="com.example.aggim.mypage.stamp.StampActivity" />
+29-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:22:9-64
+29-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:22:19-61
+30        <activity android:name="com.example.aggim.mypage.updateInfo.UpdateInfoActivity" />
+30-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:23:9-74
+30-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:23:19-71
+31        <activity android:name="com.example.aggim.mypage.main.MyPageMain" />
+31-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:24:9-60
+31-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:24:19-57
+32        <activity android:name="com.example.aggim.main.MainPageActivity" />
+32-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:25:9-59
+32-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:25:19-56
+33        <activity android:name="com.example.aggim.intro.IntroActivity" >
+33-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:26:9-31:20
+33-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:26:19-54
+34            <intent-filter>
+34-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:27:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:28:17-69
+35-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:29:17-77
+37-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:32:9-34:60
+41            android:name="com.example.aggim.signup.SignupActivity"
+41-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:33:13-50
+42            android:theme="@style/Theme.AppCompat.Light" />
+42-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:34:13-57
+43        <activity
+43-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:35:9-37:60
+44            android:name="com.example.aggim.signin.SigninActivity"
+44-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:36:13-50
+45            android:theme="@style/Theme.AppCompat.Light" />
+45-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:37:13-57
+46        <activity
+46-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:38:9-40:60
+47            android:name="com.example.aggim.product.detail.ProductDetailActivity"
+47-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:39:13-65
+48            android:theme="@style/Theme.AppCompat.Light" />
+48-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:40:13-57
+49        <activity android:name="com.example.aggim.product.ProductMainActivity" />
+49-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:41:9-65
+49-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:41:19-62
+50        <activity
+50-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:42:9-44:60
+51            android:name="com.example.aggim.product.search.ProductSearchActivity"
+51-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:43:13-65
+52            android:theme="@style/Theme.AppCompat.Light" />
+52-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:44:13-57
+53        <activity
+53-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:45:9-47:60
+54            android:name="com.example.aggim.product.registration.ProductRegistrationActivity"
+54-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:46:13-77
+55            android:theme="@style/Theme.AppCompat.Light" />
+55-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:47:13-57
+56        <activity android:name="com.example.aggim.donation.DonatesListActivity" />
+56-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:48:9-66
+56-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:48:19-63
+57        <activity
+57-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:49:9-51:60
+58            android:name="com.example.aggim.mypage.cart.CartItemsListActivity"
+58-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:50:13-62
+59            android:theme="@style/Theme.AppCompat.Light" />
+59-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:51:13-57
+60
+61        <provider
+61-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:23:9-27:43
+62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:24:13-79
+63            android:authorities="com.example.aggim.lifecycle-process"
+63-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:25:13-69
+64            android:exported="false"
+64-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:26:13-37
+65            android:multiprocess="true" />
+65-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/818c93f228f349b6e99290ec2b660cb7/jetified-lifecycle-process-2.2.0-alpha01/AndroidManifest.xml:27:13-40
+66    </application>
+67
+68</manifest>

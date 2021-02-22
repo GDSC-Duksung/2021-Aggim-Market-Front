@@ -1507,7 +1507,6 @@ id btn_cancel
 id btn_real_buy
 id button
 id buttonPanel
-id buyItem
 id cancel_action
 id cancel_button
 id cb_will_donate
@@ -1546,6 +1545,13 @@ id dimensions
 id direct
 id disableHome
 id divider
+id dmTitle
+id dmView
+id dm_percent
+id dm_place
+id donate_btn
+id donation_price
+id donation_spinner
 id dropdown_menu
 id edit
 id editButton
@@ -1604,7 +1610,6 @@ id largeLabel
 id left
 id line1
 id line3
-id linear
 id listMode
 id listPages
 id list_item
@@ -1676,7 +1681,6 @@ id right
 id right_icon
 id right_side
 id rounded
-id rv_view
 id save_non_transition_alpha
 id save_overlay_view
 id scale
@@ -1724,7 +1728,6 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
-id sumMoney
 id tabLayout
 id tabMode
 id tag_accessibility_actions
@@ -1858,7 +1861,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_buy_product
-layout activity_cart
+layout activity_donation_management
 layout activity_main_page
 layout activity_my_page_main
 layout activity_order_list
@@ -1886,6 +1889,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout donate_item
 layout donate_list_activity_main
+layout donation_management_item
 layout fragment_product_list
 layout header_item
 layout intro_page

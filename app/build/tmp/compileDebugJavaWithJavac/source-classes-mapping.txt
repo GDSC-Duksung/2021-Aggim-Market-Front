@@ -8,8 +8,12 @@ com/example/aggim/databinding/HeaderItemBinding.java
  com.example.aggim.databinding.HeaderItemBinding
 com/example/aggim/databinding/DonateListActivityMainBinding.java
  com.example.aggim.databinding.DonateListActivityMainBinding
+com/example/aggim/databinding/ActivityDonationManagementBinding.java
+ com.example.aggim.databinding.ActivityDonationManagementBinding
 com/example/aggim/BuildConfig.java
  com.example.aggim.BuildConfig
+com/example/aggim/databinding/DonationManagementItemBinding.java
+ com.example.aggim.databinding.DonationManagementItemBinding
 com/example/aggim/databinding/ActivityUpdateInfoBinding.java
  com.example.aggim.databinding.ActivityUpdateInfoBinding
 com/example/aggim/databinding/IntroPageBinding.java
@@ -28,8 +32,6 @@ com/example/aggim/databinding/ActivityMainPageBinding.java
  com.example.aggim.databinding.ActivityMainPageBinding
 com/example/aggim/databinding/CustomDialogBinding.java
  com.example.aggim.databinding.CustomDialogBinding
-com/example/aggim/databinding/ActivityCartBinding.java
- com.example.aggim.databinding.ActivityCartBinding
 com/example/aggim/MyGlideApp.java
  com.example.aggim.MyGlideApp
 com/example/aggim/databinding/CartItemNewBinding.java
