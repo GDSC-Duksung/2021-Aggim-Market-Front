@@ -3,7 +3,10 @@ package com.example.aggim.mypage.cart
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
@@ -34,6 +37,11 @@ class CartItemsListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.cart_activity_main)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = "장바구니"
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
+        supportActionBar?.setElevation(0f)
 
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view_cart)
         val cartItemsAdapter = CartItemsAdapter {productResponse -> adapterOnClick(productResponse)}
@@ -68,5 +76,14 @@ class CartItemsListActivity : AppCompatActivity() {
 
             }
         }
+    }
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        item?.let {
+            when(item.itemId) {
+                android.R.id.home -> onBackPressed()
+                else -> {}
+            }
+        }
+        return true
     }
 }

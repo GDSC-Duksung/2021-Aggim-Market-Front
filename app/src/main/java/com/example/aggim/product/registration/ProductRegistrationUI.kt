@@ -30,10 +30,10 @@ class ProductRegistrationUI(
     override fun createView(
         ui: AnkoContext<ProductRegistrationActivity>
     ) = ui.scrollView {
-        backgroundColor = R.color.colorPrimary
         verticalLayout {
             padding = dip(20)
             clipToPadding = false
+            backgroundColorResource = R.color.colorPrimary
 
             linearLayout{
                 orientation = LinearLayout.HORIZONTAL
@@ -53,7 +53,7 @@ class ProductRegistrationUI(
             textView("상품명 및 설명"){
                 topPadding = dip(40)
                 textSize=16f
-                textColorResource=Color.BLACK
+                textColor=Color.BLACK
             }
 
             textInputLayout {
@@ -72,7 +72,7 @@ class ProductRegistrationUI(
                 textView("0/40") {
                     leftPadding = dip(4)
                     textSize = 12f
-                    textColorResource = Color.BLACK
+                    textColor = Color.BLACK
                     bindString(ui.owner, viewModel.productNameLength)
                 }
             }
@@ -92,7 +92,7 @@ class ProductRegistrationUI(
                 textView("0/500") {
                     leftPadding = dip(4)
                     textSize = 12f
-                    textColorResource = Color.BLACK
+                    textColor = Color.BLACK
                     bindString(ui.owner, viewModel.descriptionLength)
                 }
             }
@@ -100,13 +100,13 @@ class ProductRegistrationUI(
             textView("카테고리") {
                 topPadding = dip(40)
                 textSize = 16f
-                textColorResource = Color.BLACK
+                textColor = Color.BLACK
             }
 
             verticalLayout {
                 topPadding = dip(12)
                 bottomPadding = dip(12)
-                backgroundColor = 0xEEEEEEEE.toInt()
+                backgroundColor = 0xFFF1F2F9.toInt()
                 spinner {
                     bindStringEntries(ui.owner, viewModel.categories)
 
@@ -123,7 +123,7 @@ class ProductRegistrationUI(
             textView("판매 가격") {
                 topPadding = dip(40)
                 textSize = 16f
-                textColorResource = Color.BLACK
+                textColor = Color.BLACK
             }
 
             textInputLayout {
@@ -151,7 +151,7 @@ class ProductRegistrationUI(
         imageNum: Int
     ) = imageView(R.drawable.icon_image){
         scaleType = ImageView.ScaleType.CENTER
-        backgroundColor = 0xFFEEEEEE.toInt()
+        backgroundColor =  0xFFBFBFBF.toInt()
 
         onClick { viewModel.pickImage(imageNum) }
         bindUrl(ui.owner, viewModel.imageUrls[imageNum]){

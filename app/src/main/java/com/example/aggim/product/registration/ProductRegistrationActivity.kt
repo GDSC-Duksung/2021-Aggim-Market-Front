@@ -1,5 +1,7 @@
 package com.example.aggim.product.registration
 
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.view.MenuItem
@@ -22,6 +24,8 @@ class ProductRegistrationActivity:
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title="마켓 상품 등록"
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
+        supportActionBar?.setElevation(0f)
     }
     //뒤로가기 버튼
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {

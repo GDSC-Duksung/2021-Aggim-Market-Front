@@ -25,13 +25,14 @@ private val viewModel: SignupViewModel
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER_VERTICAL
             padding = dip(20)
+            backgroundColorResource=R.color.colorPrimary
 
 
             textView("회원가입") {
                 textAlignment = TextView.TEXT_ALIGNMENT_CENTER
                 textSize = 20f
                 typeface = Typeface.DEFAULT_BOLD
-                textColorResource = R.color.colorPrimary
+                textColorResource = R.color.colorPrimaryDark
             }.lparams(width = matchParent) {
                 bottomMargin = dip(50)
             }
@@ -71,6 +72,8 @@ private val viewModel: SignupViewModel
 
 
             button("회원가입") {
+                backgroundColorResource = R.color.colorButton
+                textColorResource = R.color.colorButtonText
                 onClick { viewModel.signup() }
             }.lparams(width = matchParent)
         }
