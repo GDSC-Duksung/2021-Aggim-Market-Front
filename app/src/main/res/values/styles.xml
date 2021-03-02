@@ -36,4 +36,11 @@
     <style name="customCheckboxFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
         <item name="android:fontFamily">@font/custom</item>
     </style>
+
+    <!--탭바 스타일-->
+    <style name="Tabtheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:background">#FFFFFF</item>
+        <item name="tabSelectedTextColor">@color/colorPrimaryDark</item>       <!-- 탭바 선택된 텍스트 -->
+        <item name="tabTextColor">@android:color/black</item>     <!-- 탭바 텍스트 -->
+    </style>
 </resources>

@@ -26,6 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
-        android:text="기부하기" />
+        android:text="기부하기"
+        android:textColor="@color/colorButtonText"
+        android:background="@color/colorButton" />
 
 </LinearLayout>

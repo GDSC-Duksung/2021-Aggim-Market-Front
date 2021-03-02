@@ -27,13 +27,14 @@ class SigninActivityUI(
                 orientation = LinearLayout.VERTICAL
                 gravity = Gravity.CENTER_VERTICAL
                 padding = dip(20)
+                backgroundColorResource = R.color.colorPrimary
 
 
                 textView("Aggim") {
                     textAlignment = TextView.TEXT_ALIGNMENT_CENTER
                     textSize = 24f
                     typeface = Typeface.DEFAULT_BOLD
-                    textColorResource = R.color.colorPrimary
+                    textColorResource = R.color.colorPrimaryDark
                 }.lparams(width = matchParent) {
                     bottomMargin = dip(50)
                 }
@@ -62,13 +63,17 @@ class SigninActivityUI(
 
 
                 button("로그인") {
+                    backgroundColorResource = R.color.colorButton
+                    textColorResource = R.color.colorButtonText
                     onClick { viewModel.signin() }
-                }.lparams(width = matchParent)
+                }.lparams(width = matchParent){
+                    bottomMargin = dip(10)
+                }
 
 
                 button("회원가입") {
-                    backgroundColor = Color.TRANSPARENT
-                    textColorResource = R.color.colorPrimary
+                    backgroundColorResource = R.color.colorButton
+                    textColorResource = R.color.colorButtonText
                     onClick { ui.startActivity<SignupActivity>() }
                 }
             }

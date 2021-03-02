@@ -15,7 +15,7 @@
         app:title="주문 내역"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="@color/colorPrimary"
+        app:titleTextColor="@color/colorPrimaryDark"
         android:theme="?attr/actionBarTheme" />
 
     <androidx.recyclerview.widget.RecyclerView

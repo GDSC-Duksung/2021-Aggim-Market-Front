@@ -72,7 +72,7 @@ class ProductMainUI(
                         }.lparams(matchParent, wrapContent)
 
                         tablayout = themedTabLayout(
-                                R.style.Widget_MaterialComponents_TabLayout
+                                R.style.Tabtheme
                         ) {
                             bottomPadding = dip(1)
                             tabMode = MODE_SCROLLABLE

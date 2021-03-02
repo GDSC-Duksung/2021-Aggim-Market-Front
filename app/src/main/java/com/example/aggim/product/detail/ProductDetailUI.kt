@@ -34,7 +34,7 @@ class ProductDetailUI (
                     constraintLayout {
                         lparams(matchParent, matchParent)
                         viewPager {
-                            backgroundColor = Color.GREEN
+                            //backgroundColor = Color.GREEN
                             adapter = ImageSliderAdapter().apply{
                             bindItem(ui.owner, viewModel.imageUrls) {
                                 updateItems(it)

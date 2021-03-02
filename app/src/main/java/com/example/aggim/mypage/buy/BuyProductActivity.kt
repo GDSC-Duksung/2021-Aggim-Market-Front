@@ -1,9 +1,12 @@
 package com.example.aggim.mypage.buy
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.view.View
 import android.widget.*
 import androidx.activity.viewModels
@@ -30,6 +33,11 @@ class BuyProductActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_buy_product)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title="장바구니"
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
+        supportActionBar?.setElevation(0f)
 
         val pview : LinearLayout = findViewById(R.id.bpview)
         val intent: Intent = intent
@@ -100,5 +108,14 @@ class BuyProductActivity : AppCompatActivity() {
             val nextIntent = Intent(this, ProductMainActivity::class.java)
             startActivity(nextIntent)
         }
+    }
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        item?.let {
+            when(item.itemId) {
+                android.R.id.home -> onBackPressed()
+                else -> {}
+            }
+        }
+        return true
     }
 }

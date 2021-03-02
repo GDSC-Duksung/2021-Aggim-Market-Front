@@ -1,6 +1,8 @@
 package com.example.aggim.signin
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.activity.viewModels
@@ -25,6 +27,8 @@ class SigninActivity : BaseActivity<SigninViewModel>() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title="로그인"
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
+        supportActionBar?.setElevation(0f)
 
     }
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {

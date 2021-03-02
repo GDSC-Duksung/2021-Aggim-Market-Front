@@ -1,5 +1,7 @@
 package com.example.aggim.signup
 
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.MenuItem
 import net.codephobia.ankomvvm.components.BaseActivity
@@ -20,7 +22,9 @@ class SignupActivity : BaseActivity<SignupViewModel>() {
             .setContentView(this)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title="아왜..."
+        supportActionBar?.title=""
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
+        supportActionBar?.setElevation(0f)
     }
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         item?.let{
