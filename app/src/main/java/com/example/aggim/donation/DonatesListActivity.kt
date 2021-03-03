@@ -32,6 +32,7 @@ class DonatesListActivity : AppCompatActivity() {
         var amt = 0
         recyclerView.adapter = concatAdapter
 
+
         donatesListViewModel.donatesLiveData.observe(this, {
             it?.let {
                 donatesAdapter.submitList(it as MutableList<DonateListItemResponse>)

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JIN\\.gradle\\caches\\transforms-2\\files-2.1\\44e9fe7afd2406c53e717d0be5cbb0c4\\appcompat-1.1.0\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/44e9fe7afd2406c53e717d0be5cbb0c4/appcompat-1.1.0/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

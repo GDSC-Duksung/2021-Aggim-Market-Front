@@ -24,7 +24,7 @@ class UpdateInfoActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = ""
 
-        email.text = Prefs.userId.toString()
+        email.text = Prefs.email
         name.text = Prefs.userName
 
         editButton.setOnClickListener {

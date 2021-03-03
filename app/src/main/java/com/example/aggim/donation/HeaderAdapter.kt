@@ -18,6 +18,10 @@ class HeaderAdapter : RecyclerView.Adapter<HeaderAdapter.HeaderViewHolder>() {
     class HeaderViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private val amountImageView: ImageView = itemView.findViewById(R.id.img_donate)
 
+        init {
+            amountImageView.setScaleType(ImageView.ScaleType.FIT_START)
+        }
+
         fun bind(amountDonated: Int) {
             Log.i("warning_message", "amountDonated: "+amountDonated)
             when (amountDonated) {
@@ -39,14 +43,8 @@ class HeaderAdapter : RecyclerView.Adapter<HeaderAdapter.HeaderViewHolder>() {
                 in 30000..50000 -> {
                     amountImageView.setImageResource(R.drawable.donat6)
                 }
-                in 100000..150000 -> {
+                in 50000..100000 -> {
                     amountImageView.setImageResource(R.drawable.donat7)
-                }
-                in 150000..200000 -> {
-                    amountImageView.setImageResource(R.drawable.donat8)
-                }
-                in 150000..200000 -> {
-                    amountImageView.setImageResource(R.drawable.donat10)
                 }
             }
         }

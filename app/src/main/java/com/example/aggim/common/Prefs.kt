@@ -14,6 +14,7 @@ object Prefs {
     private const val REFRESH_TOKEN = "refresh_token"
     private const val USER_NAME = "user_name"
     private const val USER_ID = "user_id"
+    private const val EMAIL = "email"
 
     //var cList: MutableList<Long> = mutableListOf()
     var cList: MutableList<ProductResponse> = mutableListOf()
@@ -49,5 +50,11 @@ object Prefs {
         get() = prefs.getLong(USER_ID, 0)
         set(value) = prefs.edit()
                 .putLong(USER_ID, value)
+                .apply()
+
+    var email
+        get() = prefs.getString(EMAIL, null)
+        set(value) = prefs.edit()
+                .putString(EMAIL, value)
                 .apply()
 }

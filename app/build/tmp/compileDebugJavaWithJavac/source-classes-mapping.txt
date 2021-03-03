@@ -6,10 +6,10 @@ com/example/aggim/databinding/OrderListItemBinding.java
  com.example.aggim.databinding.OrderListItemBinding
 com/example/aggim/databinding/HeaderItemBinding.java
  com.example.aggim.databinding.HeaderItemBinding
-com/example/aggim/databinding/ActivityDonationManagementBinding.java
- com.example.aggim.databinding.ActivityDonationManagementBinding
 com/example/aggim/databinding/DonateListActivityMainBinding.java
  com.example.aggim.databinding.DonateListActivityMainBinding
+com/example/aggim/databinding/ActivityDonationManagementBinding.java
+ com.example.aggim.databinding.ActivityDonationManagementBinding
 com/example/aggim/BuildConfig.java
  com.example.aggim.BuildConfig
 com/example/aggim/databinding/DonationManagementItemBinding.java
@@ -22,10 +22,10 @@ com/example/aggim/databinding/DonateItemBinding.java
  com.example.aggim.databinding.DonateItemBinding
 com/example/aggim/databinding/MainDrawerHeaderBinding.java
  com.example.aggim.databinding.MainDrawerHeaderBinding
-com/example/aggim/databinding/ActivityBuyProductBinding.java
- com.example.aggim.databinding.ActivityBuyProductBinding
 com/example/aggim/databinding/CartActivityMainBinding.java
  com.example.aggim.databinding.CartActivityMainBinding
+com/example/aggim/databinding/ActivityBuyProductBinding.java
+ com.example.aggim.databinding.ActivityBuyProductBinding
 com/example/aggim/databinding/CartItemBinding.java
  com.example.aggim.databinding.CartItemBinding
 com/example/aggim/databinding/ActivityMainPageBinding.java
@@ -36,16 +36,16 @@ com/example/aggim/MyGlideApp.java
  com.example.aggim.MyGlideApp
 com/example/aggim/databinding/CartItemNewBinding.java
  com.example.aggim.databinding.CartItemNewBinding
-com/example/aggim/databinding/ActivityMyPageMainBinding.java
- com.example.aggim.databinding.ActivityMyPageMainBinding
 com/example/aggim/databinding/ActivityOrderListBinding.java
  com.example.aggim.databinding.ActivityOrderListBinding
+com/example/aggim/databinding/ActivityMyPageMainBinding.java
+ com.example.aggim.databinding.ActivityMyPageMainBinding
 com/example/aggim/databinding/MainBinding.java
  com.example.aggim.databinding.MainBinding
-com/example/aggim/databinding/FragmentProductListBinding.java
- com.example.aggim.databinding.FragmentProductListBinding
 com/example/aggim/databinding/OrderItemHeaderBinding.java
  com.example.aggim.databinding.OrderItemHeaderBinding
+com/example/aggim/databinding/FragmentProductListBinding.java
+ com.example.aggim.databinding.FragmentProductListBinding
 com/example/aggim/databinding/OrderItemBinding.java
  com.example.aggim.databinding.OrderItemBinding
 com/example/aggim/databinding/CartHeaderItemBinding.java
