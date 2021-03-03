@@ -6,6 +6,6 @@
     <ImageView
         android:id="@+id/img_donate"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="210dp"/>
 
 </LinearLayout>
