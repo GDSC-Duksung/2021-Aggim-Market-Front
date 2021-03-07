@@ -9,10 +9,12 @@ import com.example.aggim.App
 import com.example.aggim.common.Prefs
 import com.example.aggim.signin.SigninActivity
 import okhttp3.Interceptor
+import okhttp3.OkHttpClient
 import okhttp3.Response
 import org.jetbrains.anko.AnkoLogger
 import org.jetbrains.anko.debug
 import org.jetbrains.anko.intentFor
+import java.util.concurrent.TimeUnit
 
 class ApiTokenInterceptor: Interceptor, AnkoLogger{
     override fun intercept(chain: Interceptor.Chain): Response {

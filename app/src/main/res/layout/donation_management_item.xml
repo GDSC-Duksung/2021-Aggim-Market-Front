@@ -28,6 +28,6 @@
         android:layout_marginLeft="30dp"
         android:text="기부하기"
         android:textColor="@color/colorButtonText"
-        android:background="@color/colorButton" />
+        android:backgroundTint="@color/colorButton" />
 
 </LinearLayout>
