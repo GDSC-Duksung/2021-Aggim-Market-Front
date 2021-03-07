@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "C:\\Project\\Strawberry\\aggim-market-front\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/44e9fe7afd2406c53e717d0be5cbb0c4/appcompat-1.1.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "C:\\Users\\sua\\.gradle\\caches\\transforms-2\\files-2.1\\44e9fe7afd2406c53e717d0be5cbb0c4\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
