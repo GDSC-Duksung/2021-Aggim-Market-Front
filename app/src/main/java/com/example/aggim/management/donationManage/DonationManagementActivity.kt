@@ -34,7 +34,7 @@ class DonationManagementActivity : AppCompatActivity() {
     }
 
     private fun adapterOnClick(donaition: DonateResponse) {
-        //cartItemsListViewModel.removeCartItem(product)
+        //cartItemsListViewModel.removeCartItem(product)/
 //        Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show()
         //donationManagementViewModel.donateTo(donation)
         if(donaition.donatedVal >= donaition.goalVal) {
