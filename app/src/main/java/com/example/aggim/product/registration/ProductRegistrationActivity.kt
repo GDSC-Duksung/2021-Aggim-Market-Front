@@ -23,7 +23,7 @@ class ProductRegistrationActivity:
             .setContentView(this)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title="마켓 상품 등록"
+        supportActionBar?.title="Product Registration"
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
         supportActionBar?.setElevation(0f)
     }

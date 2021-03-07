@@ -35,7 +35,7 @@ class ProductListUI (
                 )
 
             }
-            textView("상품이 없습니다"){
+            textView("No product"){
                 gravity = Gravity.CENTER
                 bindVisibility(ui.owner, viewModel.products){
                     it.isEmpty()

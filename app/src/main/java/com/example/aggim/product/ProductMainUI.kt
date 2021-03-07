@@ -6,6 +6,7 @@ package com.example.aggim.product
     Updated by Jin Lee on 2021/02/04
  */
 
+import android.graphics.Color
 import android.view.Gravity
 import android.view.Menu.NONE
 import android.view.MenuItem
@@ -89,7 +90,8 @@ class ProductMainUI(
                     // 장바구니 버튼 (현재는 상품 등록 버튼)
                     // 상품 등록은 관리자로 로그인 되었을 시에만 보이게 할 예정
                     floatingActionButton {
-                        imageResource = R.drawable.ic_shopping_basket_24px
+                        backgroundColorResource = R.color.colorPrimaryDark
+                        //imageResource = R.drawable.icon_cart_cutie
                         if(Prefs.userName == "admin") {
                             onClick { viewModel.openCartActivity()}
                         } else {
@@ -113,25 +115,28 @@ class ProductMainUI(
 //                        setIcon(R.drawable.ic_)
 //                    }
                         if(Prefs.userName == "admin") {
-                            add(NONE, MENU_ADMIN, NONE, "상품등록").apply { // 추후 관리자 페이지로 연결 예
+                            add(NONE, MENU_ADMIN, NONE, "PRODUCT REGISTRATION").apply { // 추후 관리자 페이지로 연결 예
                                 setIcon(R.drawable.ic_shopping_basket_24px)
                             }
-                            add(NONE, MENU_DONATEMANAGEMENT, NONE, "기부금 관리").apply {
+                            add(NONE, MENU_DONATEMANAGEMENT, NONE, "DONATION MANAGEMENT").apply {
                                 setIcon(R.drawable.ic_volunteer_activism_24px)
                             }
                         }
                         else {
-                            add(NONE, MENU_MYPAGE, NONE, "마이페이지").apply {
+                            add(NONE, MENU_ADMIN, NONE, "상품등록").apply { // 추후 관리자 페이지로 연결 예
+                                setIcon(R.drawable.ic_shopping_basket_24px)
+                            }
+                            add(NONE, MENU_MYPAGE, NONE, "MY PAGE").apply {
                                 setIcon(R.drawable.ic_perm_contact_calendar_24px)
                             }
-                            add(NONE, MENU_DONATE, NONE, "기부현황").apply {
+                            add(NONE, MENU_DONATE, NONE, "DONATION INFO").apply {
                                 setIcon(R.drawable.ic_volunteer_activism_24px)
                             }
-                            add(NONE, MENU_STAMP, NONE, "스탬프").apply {
+                            add(NONE, MENU_STAMP, NONE, "STAMP").apply {
                                 setIcon(R.drawable.ic_approval_24px)
                             }
                         }
-                        add(NONE, MENU_ID_LOGOUT, NONE, "로그아웃").apply {
+                        add(NONE, MENU_ID_LOGOUT, NONE, "LOG OUT").apply {
                             setIcon(R.drawable.ic_face_24px)
 
                         }

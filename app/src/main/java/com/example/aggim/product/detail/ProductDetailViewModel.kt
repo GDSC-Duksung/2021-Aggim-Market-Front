@@ -36,19 +36,19 @@ class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
             if (response.success && response.data != null) {
                 updateViewData(response.data)
             } else {
-                toast(response.message ?: "알 수 없는 오류가 발생했습니다.")
+                toast(response.message ?: "An unknown error has occurred.")
             }
         } catch (e: Exception) {
-            toast(e.message ?: "알 수 없는 오류가 발생했습니다.")
+            toast(e.message ?: "An unknown error has occurred.")
         }
     }
 
     private suspend fun getProduct(id: Long) = try {
         AggimApi.instance.getProduct(id)
     } catch (e: Exception) {
-        error("상품 정보를 가져오는 중 오류 발생.", e)
+        error("An error occurred while loading product information.", e)
         ApiResponse.error<ProductResponse>(
-            "상품 정보를 가져오는 중 오류가 발생했습니다."
+            "An error occurred while loading product information."
         )
     }
 
@@ -56,7 +56,7 @@ class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
         val commaSeparatedPrice =
             NumberFormat.getInstance().format(product.price)
         val soldOutString =
-            if(ProductStatus.SOLD_OUT == product.status) "(품절)" else ""
+            if(ProductStatus.SOLD_OUT == product.status) "(SOLDOUT)" else ""
 
         productName.value = product.name
         description.value = product.description
@@ -72,6 +72,6 @@ class ProductDetailViewModel(app: Application) : BaseViewModel(app) {
                 resp.data?.let { it -> Prefs.cList.add(it) }
             }
         }
-        toast("장바구니에 담겼습니다.")
+        toast("Added to cart.")
     }
 }

@@ -46,7 +46,7 @@ class DonatesListActivity : AppCompatActivity() {
 
     private fun adapterOnClick(donate: DonateListItemResponse) {
         //기부 정보 디테일 activity
-        Toast.makeText(this, "기부디테일정보", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Detail", Toast.LENGTH_SHORT).show()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, intentData: Intent?) {
