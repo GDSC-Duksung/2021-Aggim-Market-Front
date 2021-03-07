@@ -89,7 +89,7 @@ class ProductMainUI(
                     // 장바구니 버튼 (현재는 상품 등록 버튼)
                     // 상품 등록은 관리자로 로그인 되었을 시에만 보이게 할 예정
                     floatingActionButton {
-                        imageResource = R.drawable.ic_shopping_basket_24px
+                        imageResource = R.drawable.icon_cart_cutie
                         if(Prefs.userName == "admin") {
                             onClick { viewModel.openCartActivity()}
                         } else {
