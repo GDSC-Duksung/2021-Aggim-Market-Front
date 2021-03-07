@@ -29,6 +29,15 @@ class DonationManagementDataSource(resources: Resources) {
             )
         }
     }
+    fun donateTo(donaition: DonateResponse) = runBlocking {
+        try {
+            AggimApi.instance.donateTo(donaition.donationId)
+        } catch(e: Exception) {
+            ApiResponse.error<List<DonateResponse>>(
+                "알 수 없는 오류가 발생했습니다."
+            )
+        }
+    }
 
     private fun showErrorMessage(
         response: ApiResponse<List<DonateListItemResponse>>

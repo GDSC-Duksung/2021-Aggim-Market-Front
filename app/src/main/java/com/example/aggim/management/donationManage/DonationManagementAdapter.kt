@@ -8,56 +8,63 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aggim.R
+import com.example.aggim.api.response.DonateResponse
 import com.example.aggim.api.response.ProductResponse
 import kotlinx.android.synthetic.main.cart_item_new.view.*
+import kotlinx.android.synthetic.main.donation_management_item.view.*
 
-class CartItemsAdapter(
-    private val onClick: (ProductResponse) -> Unit
+class DonationManagementAdapter(
+    private val onClick: (DonateResponse) -> Unit
 ) :
-    ListAdapter<ProductResponse, CartItemsAdapter.CartItemViewHolder>(CartItemDiffCallback) {
+    ListAdapter<DonateResponse, DonationManagementAdapter.DonationManagementViewHolder>(DonationItemDiffCallback) {
 
-    class CartItemViewHolder(
+    class DonationManagementViewHolder(
         itemView: View,
-        val onClick: (ProductResponse) -> Unit
+        val onClick: (DonateResponse) -> Unit
     ) : RecyclerView.ViewHolder(itemView) {
-        private val productNameTextView: TextView = itemView.findViewById(R.id.tv_cart_product_name)
-        private val productPriceTextView: TextView = itemView.findViewById(R.id.tv_cart_product_price)
-        private var currentCartItem: ProductResponse?=null
-        var cartItemId: Long?= null
+        private val donationNameTextView: TextView = itemView.findViewById(R.id.dm_place)
+        private val donationPercentTextView: TextView = itemView.findViewById(R.id.dm_percent)
+        private var currentDonationItem: DonateResponse?=null
+        var donationItemId: Long?= null
 
         init {
-            itemView.btn_cancel.setOnClickListener {
-                currentCartItem?.let{
+            itemView.donate_btn.setOnClickListener {
+                currentDonationItem?.let{
                     onClick(it)
                 }
             }
         }
 
-        fun bind(cartItem: ProductResponse) {
-            currentCartItem = cartItem
-            productNameTextView.text = cartItem.name
-            productPriceTextView.text = cartItem.price.toString()+"₩"
+        fun bind(donationItem: DonateResponse) {
+            currentDonationItem = donationItem
+            donationNameTextView.text = donationItem.name
+            val pc = (donationItem.donatedVal*100/donationItem.goalVal)
+            donationPercentTextView.text = (donationItem.donatedVal*100/donationItem.goalVal).toString() + "%"
+            //donationPercentTextView.text = donationItem.donatedVal.toString()
+            //if(pc >= 100) {
+            //    itemView.donate_btn.setEnabled(true)
+            //}
         }
     }
 
-    override fun onBindViewHolder(holder: CartItemViewHolder, position: Int) {
-        val cartItem = getItem(position)
-        holder.bind(cartItem)
+    override fun onBindViewHolder(holder: DonationManagementViewHolder, position: Int) {
+        val donationItem = getItem(position)
+        holder.bind(donationItem)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CartItemViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DonationManagementViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.cart_item_new, parent, false)
-        return CartItemViewHolder(view, onClick)
+            .inflate(R.layout.donation_management_item, parent, false)
+        return DonationManagementViewHolder(view, onClick)
     }
 }
 
-object CartItemDiffCallback : DiffUtil.ItemCallback<ProductResponse>() {
-    override fun areItemsTheSame(oldItem: ProductResponse, newItem: ProductResponse): Boolean {
+object DonationItemDiffCallback : DiffUtil.ItemCallback<DonateResponse>() {
+    override fun areItemsTheSame(oldItem: DonateResponse, newItem: DonateResponse): Boolean {
         return oldItem == newItem
     }
 
-    override fun areContentsTheSame(oldItem: ProductResponse, newItem: ProductResponse): Boolean {
-        return oldItem.id == newItem.id
+    override fun areContentsTheSame(oldItem: DonateResponse, newItem: DonateResponse): Boolean {
+        return oldItem.donationId == newItem.donationId
     }
 }

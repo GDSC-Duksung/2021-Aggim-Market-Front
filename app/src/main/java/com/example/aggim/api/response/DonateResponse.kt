@@ -4,5 +4,5 @@ class DonateResponse(
         val donationId: Long,
         val name: String,
         val goalVal: Int,
-        val donatedVal: Int
+        var donatedVal: Int
 )
