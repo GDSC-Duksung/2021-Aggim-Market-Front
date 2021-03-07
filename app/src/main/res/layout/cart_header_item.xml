@@ -21,6 +21,6 @@
             android:layout_height="wrap_content"
             android:text="구매하기"
             android:textColor="@color/colorButtonText"
-            android:background="@color/colorButton"/>
+            android:backgroundTint="@color/colorButton"/>
 
 </LinearLayout>
