@@ -2,7 +2,10 @@ package com.example.aggim.mypage.order
 
 import android.app.Activity
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.view.MenuItem
 import com.example.aggim.R
 
 /*
@@ -10,6 +13,7 @@ Updated by Jin Lee on 2021/02/04
  */
 
 import android.widget.Toast
+import android.widget.Toolbar
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.observe
@@ -19,6 +23,7 @@ import com.example.aggim.api.response.OrderProductResponse
 import com.example.aggim.mypage.orderList.OrderAdapter
 import com.example.aggim.mypage.orderList.OrderListViewModel
 import com.example.aggim.mypage.orderList.OrderListViewModelFactory
+import kotlinx.android.synthetic.main.activity_stamp.*
 
 class OrderListActivity : AppCompatActivity() {
     private val newOrderActivityRequestCode = 1
@@ -54,6 +59,15 @@ class OrderListActivity : AppCompatActivity() {
             intentData?.let { data ->
             }
         }
+    }
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        item?.let {
+            when(item.itemId) {
+                android.R.id.home -> onBackPressed()
+                else -> {}
+            }
+        }
+        return true
     }
 }
 

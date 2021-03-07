@@ -90,9 +90,13 @@ class ProductDetailUI (
 
         button("장바구니") {
             onClick { viewModel.openInquiryActivity() }
+            backgroundColorResource = R.color.colorButton
+            textColorResource = R.color.colorButtonText
         }
         button("바로 구매"){
             onClick { viewModel.openInquiryActivity() }
+            backgroundColorResource = R.color.colorButton
+            textColorResource = R.color.colorButtonText
         }
     }
 
