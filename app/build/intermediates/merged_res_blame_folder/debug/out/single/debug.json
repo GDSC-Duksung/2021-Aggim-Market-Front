@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable-v24_icon_search.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable-v24/icon_search.xml"
     },
@@ -20,32 +16,12 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_aggim_logo_foreground.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_buttonstyle.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/buttonstyle.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_buy_product.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_buy_product.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/font_custom.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/font/custom.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_perm_contact_calendar_24px.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_perm_contact_calendar_24px.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_old_aggim_intro_image.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/old_aggim_intro_image.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item_new.xml.flat",
@@ -56,20 +32,8 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle9.png"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_stamp.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_stamp.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_aggim_logo.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_aggim_logo.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/font_ubuntumedium.ttf.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/font/ubuntumedium.ttf"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_item.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat1.jpeg.flat",
@@ -80,32 +44,20 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/custom_dialog.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle2.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle2.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo_foreground.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_donation_management.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_donation_management.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo_foreground.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_my_page_main.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_my_page_main.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle2.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle2.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_list_activity_main.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_list_activity_main.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo_round.png.flat",
@@ -118,10 +70,6 @@
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_aggim_logo.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle3.png.flat",
@@ -144,24 +92,8 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/main_drawer_header.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/xml/network_security_config.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_approval_24px.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_approval_24px.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_aggim_logo_round.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_aggim_logo_round.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_donate_list_activity_main.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/donate_list_activity_main.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_aggim_intro_image.png.flat",
@@ -172,20 +104,12 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_aggim_logo_round.png"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_face_24px.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_face_24px.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_order_list.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_order_list.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_header_item.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_header_item.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_order_list.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_order_list.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_aggim_logo.xml.flat",
@@ -196,24 +120,8 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/font/ubuntubold.ttf"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle6.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle6.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat7.jpeg.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat7.jpeg"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle4.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle4.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_item_header.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_item_header.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_intro_page.xml.flat",
@@ -222,10 +130,6 @@
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_aggim_logo_round.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher_aggim_logo_round.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/menu_main_drawer_navigation.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/menu/main_drawer_navigation.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_item.xml.flat",
@@ -256,6 +160,174 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/donate_item.xml"
     },
     {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_volunteer_activism_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_volunteer_activism_24px.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat5.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat5.jpeg"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_header_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/header_item.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle5.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle5.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat2.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat2.jpeg"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_aggim_logo.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat4.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat4.jpeg"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_activity_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_activity_main.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_logo.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle8.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle8.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat3.jpeg.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat3.jpeg"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_manage_accounts_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_manage_accounts_24px.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo_round.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_aggim_logo_foreground.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_buttonstyle.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/buttonstyle.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/font_custom.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/font/custom.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_buy_product.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_buy_product.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_old_aggim_intro_image.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/old_aggim_intro_image.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_stamp.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_stamp.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/font_ubuntumedium.ttf.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/font/ubuntumedium.ttf"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_item.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_my_page_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_my_page_main.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_list_activity_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_list_activity_main.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_aggim_logo.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_aggim_logo.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_aggim_logo_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-mdpi/ic_launcher_aggim_logo_round.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_donate_list_activity_main.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/donate_list_activity_main.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_header_item.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_header_item.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_face_24px.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_face_24px.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle6.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle6.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle4.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle4.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_order_item_header.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_item_header.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/menu_main_drawer_navigation.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/menu/main_drawer_navigation.xml"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_drawable_dash_line.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/drawable_dash_line.xml"
+    },
+    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
@@ -280,44 +352,12 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle7.png"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_volunteer_activism_24px.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_volunteer_activism_24px.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat5.jpeg.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat5.jpeg"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_header_item.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/header_item.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/menu_menu.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/menu/menu.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle5.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle5.png"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_update_info.xml.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/activity_update_info.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat2.jpeg.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat2.jpeg"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_aggim_logo_foreground.png.flat",
@@ -332,44 +372,8 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/order_list_item.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/main.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_aggim_logo.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-hdpi/ic_launcher_aggim_logo.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat4.jpeg.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat4.jpeg"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_logo.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_logo.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_activity_main.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_activity_main.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/font_ubunturegular.ttf.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/font/ubunturegular.ttf"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle8.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/puzzle8.png"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_donat3.jpeg.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/donat3.jpeg"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_ic_manage_accounts_24px.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_manage_accounts_24px.xml"
-    },
-    {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_aggim_logo_round.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_aggim_logo_round.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_puzzle1.png.flat",

@@ -1372,6 +1372,7 @@ drawable donat4
 drawable donat5
 drawable donat6
 drawable donat7
+drawable drawable_dash_line
 drawable ic_approval_24px
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1602,8 +1603,10 @@ id img_donate
 id info
 id invisible
 id italic
+id item_cardview
 id item_mypage
 id item_touch_helper_previous_elevation
+id item_tv_donate
 id labeled
 id largeLabel
 id left
