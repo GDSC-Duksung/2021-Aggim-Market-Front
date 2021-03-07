@@ -15,12 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
-<<<<<<< HEAD
-        android:text="상품 금액"
-=======
-        android:paddingTop="150dp"
         android:text="Total Price"
->>>>>>> 9b1c112e1e3228446061f1ec3c00d46023d25b3b
         android:textSize="20sp" />
 
     <TextView
@@ -69,14 +64,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:backgroundTint="@color/colorPrimaryDark"
-<<<<<<< HEAD
-        android:text="결제하기"
-        android:textColor="@color/colorButtonText" />
-
-=======
         android:textColor="@color/colorButtonText"
         android:text="PLACE ORDER" />
->>>>>>> 9b1c112e1e3228446061f1ec3c00d46023d25b3b
+
     <Spinner
         android:id="@+id/donation_spinner"
         android:layout_width="255dp"
@@ -87,12 +77,7 @@
         android:id="@+id/donation_price"
         android:layout_width="255dp"
         android:layout_height="40dp"
-<<<<<<< HEAD
-        android:hint="기부하실 금액을 입력하세요" />
-=======
         android:hint="Enter the amount you want to contribute"
-        android:id="@+id/donation_price"
         />
->>>>>>> 9b1c112e1e3228446061f1ec3c00d46023d25b3b
 
 </LinearLayout>

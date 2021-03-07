@@ -123,7 +123,7 @@ class ProductMainUI(
                             }
                         }
                         else {
-                            add(NONE, MENU_ADMIN, NONE, "상품등록").apply { // 추후 관리자 페이지로 연결 예
+                            add(NONE, MENU_ADMIN, NONE, "REGISTER PRODUCT").apply { // 추후 관리자 페이지로 연결 예
                                 setIcon(R.drawable.ic_shopping_basket_24px)
                             }
                             add(NONE, MENU_MYPAGE, NONE, "MY PAGE").apply {

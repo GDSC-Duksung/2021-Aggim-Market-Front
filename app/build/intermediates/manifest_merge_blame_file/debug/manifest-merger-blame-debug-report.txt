@@ -6,78 +6,73 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
+8-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml
+9-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:6:22-64
+11-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <application
-<<<<<<< HEAD
 13-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:8:5-54:19
-=======
-13-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:8:5-53:19
->>>>>>> 9b1c112e1e3228446061f1ec3c00d46023d25b3b
 14        android:name="com.example.aggim.App"
-14-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:9:9-28
+14-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:9:9-28
 15        android:allowBackup="true"
-15-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:10:9-35
+15-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.3.0] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\10bb4a0be925af7266fedd6b04620832\core-1.3.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.3.0] /Users/seohyunkim/.gradle/caches/transforms-2/files-2.1/10bb4a0be925af7266fedd6b04620832/core-1.3.0/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:icon="@mipmap/ic_launcher_aggim_logo"
-18-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:11:9-54
+18-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:11:9-54
 19        android:label="@string/app_name"
-19-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:12:9-41
+19-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:12:9-41
 20        android:networkSecurityConfig="@xml/network_security_config"
-20-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:13:9-69
+20-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:13:9-69
 21        android:roundIcon="@mipmap/ic_launcher_aggim_logo_round"
-21-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:14:9-65
+21-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:14:9-65
 22        android:supportsRtl="true"
-22-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:15:9-35
+22-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:15:9-35
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme"
-24-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:16:9-40
+24-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:16:9-40
 25        android:usesCleartextTraffic="true" >
-25-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:17:9-44
+25-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:17:9-44
 26        <activity android:name="com.example.aggim.management.donationManage.DonationManagementActivity" />
-26-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:19:9-99
-26-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:19:19-87
+26-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:19:9-99
+26-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:19:19-87
 27        <activity android:name="com.example.aggim.mypage.order.OrderListActivity" />
-27-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:20:9-68
-27-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:20:19-65
+27-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:20:9-68
+27-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:20:19-65
 28        <activity android:name="com.example.aggim.mypage.buy.BuyProductActivity" />
-28-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:21:9-67
-28-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:21:19-64
+28-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:21:9-67
+28-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:21:19-64
 29        <activity android:name="com.example.aggim.mypage.stamp.StampActivity" />
-29-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:22:9-64
-29-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:22:19-61
+29-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:22:9-64
+29-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:22:19-61
 30        <activity android:name="com.example.aggim.mypage.updateInfo.UpdateInfoActivity" />
-30-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:23:9-74
-30-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:23:19-71
+30-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:23:9-74
+30-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:23:19-71
 31        <activity android:name="com.example.aggim.mypage.main.MyPageMain" />
-31-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:24:9-60
-31-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:24:19-57
+31-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:24:9-60
+31-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:24:19-57
 32        <activity android:name="com.example.aggim.main.MainPageActivity" />
-32-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:25:9-59
-32-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:25:19-56
+32-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:25:9-59
+32-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:25:19-56
 33        <activity android:name="com.example.aggim.intro.IntroActivity" >
-33-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:26:9-31:20
-33-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:26:19-54
+33-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:26:9-31:20
+33-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:26:19-54
 34            <intent-filter>
-34-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:27:13-30:29
+34-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:27:13-30:29
 35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:28:17-69
-35-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:28:25-66
+35-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:28:17-69
+35-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:28:25-66
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:29:17-77
-37-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:29:27-74
+37-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:29:17-77
+37-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:29:27-74
 38            </intent-filter>
 39        </activity>
-<<<<<<< HEAD
 40        <activity android:name="com.example.aggim.mypage.buy.MainActivity" />
 40-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:32:9-61
 40-->/Users/seohyunkim/aggim-market-front/app/src/main/AndroidManifest.xml:32:19-58
@@ -145,61 +140,3 @@
 71    </application>
 72
 73</manifest>
-=======
-40        <activity
-40-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:32:9-34:60
-41            android:name="com.example.aggim.signup.SignupActivity"
-41-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:33:13-50
-42            android:theme="@style/Theme.AppCompat.Light" />
-42-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:34:13-57
-43        <activity
-43-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:35:9-37:60
-44            android:name="com.example.aggim.signin.SigninActivity"
-44-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:36:13-50
-45            android:theme="@style/Theme.AppCompat.Light" />
-45-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:37:13-57
-46        <activity
-46-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:38:9-41:15
-47            android:name="com.example.aggim.product.detail.ProductDetailActivity"
-47-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:39:13-65
-48            android:theme="@style/Theme.AppCompat.Light" />
-48-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:40:13-57
-49        <activity android:name="com.example.aggim.product.ProductMainActivity" />
-49-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:42:9-65
-49-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:42:19-62
-50        <activity
-50-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:43:9-45:60
-51            android:name="com.example.aggim.product.search.ProductSearchActivity"
-51-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:44:13-65
-52            android:theme="@style/Theme.AppCompat.Light" />
-52-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:45:13-57
-53        <activity
-53-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:46:9-48:60
-54            android:name="com.example.aggim.product.registration.ProductRegistrationActivity"
-54-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:47:13-77
-55            android:theme="@style/Theme.AppCompat.Light" />
-55-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:48:13-57
-56        <activity android:name="com.example.aggim.donation.DonatesListActivity" />
-56-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:49:9-66
-56-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:49:19-63
-57        <activity
-57-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:50:9-52:60
-58            android:name="com.example.aggim.mypage.cart.CartItemsListActivity"
-58-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:51:13-62
-59            android:theme="@style/Theme.AppCompat.Light" />
-59-->C:\Users\JIN\Desktop\dsc sollution challenge\aggim-market-front\app\src\main\AndroidManifest.xml:52:13-57
-60
-61        <provider
-61-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\818c93f228f349b6e99290ec2b660cb7\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:23:9-27:43
-62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\818c93f228f349b6e99290ec2b660cb7\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:24:13-79
-63            android:authorities="com.example.aggim.lifecycle-process"
-63-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\818c93f228f349b6e99290ec2b660cb7\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:25:13-69
-64            android:exported="false"
-64-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\818c93f228f349b6e99290ec2b660cb7\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:26:13-37
-65            android:multiprocess="true" />
-65-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\JIN\.gradle\caches\transforms-2\files-2.1\818c93f228f349b6e99290ec2b660cb7\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:27:13-40
-66    </application>
-67
-68</manifest>
->>>>>>> 9b1c112e1e3228446061f1ec3c00d46023d25b3b
