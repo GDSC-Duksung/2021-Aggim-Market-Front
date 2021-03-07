@@ -19,15 +19,15 @@ class TokenAuthenticator : Authenticator, AnkoLogger {
             response: Response
     ): Request? {
         if (response.code == 401) {
-            debug("토큰 갱신 필요")
+            debug("Token renewal required")
             return runBlocking {
                 val tokenResponse = refreshToken()
 
                 if (tokenResponse.success) {
-                    debug("토큰 갱신 성공")
+                    debug("Token renewal successful")
                     Prefs.token = tokenResponse.data
                 } else {
-                    error("토큰 갱신 실패.")
+                    error("Token renewal failed")
                     Prefs.token = null
                     Prefs.refreshToken = null
                 }
@@ -49,7 +49,7 @@ class TokenAuthenticator : Authenticator, AnkoLogger {
                 try {
                     AggimRefreshApi.instance.refreshToken()
                 } catch (e: Exception) {
-                    ApiResponse.error<String>("인증 실패")
+                    ApiResponse.error<String>("Authentication failed")
                 }
             }
 

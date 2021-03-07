@@ -33,14 +33,14 @@ class UpdateInfoActivity : AppCompatActivity() {
 
             val dialogText = dialogView.findViewById<EditText>(R.id.edit)
             builder.setView(dialogView)
-                .setPositiveButton("완료") {
+                .setPositiveButton("SAVE") {
                     dialogInterface, i ->
                     if(dialogText.text.toString() != "") {
                         Prefs.userName = dialogText.text.toString()
                         name.text = Prefs.userName
                     }
                 }
-                .setNegativeButton("취소") {
+                .setNegativeButton("CANCEL") {
                     dialogInterface, i ->
                 }
                 .show()

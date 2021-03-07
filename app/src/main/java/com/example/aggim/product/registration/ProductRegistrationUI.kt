@@ -50,7 +50,7 @@ class ProductRegistrationUI(
                 pickImageView(ui,4)
             }
 
-            textView("상품명 및 설명"){
+            textView("Product Info"){
                 topPadding = dip(40)
                 textSize=16f
                 textColor=Color.BLACK
@@ -59,7 +59,7 @@ class ProductRegistrationUI(
             textInputLayout {
                 topPadding = dip(20)
                 textInputEditText {
-                    hint = "상품명"
+                    hint = "Product Name"
                     setSingleLine()
                     bindString(ui.owner, viewModel.productName)
                     textChangedListener {
@@ -79,7 +79,7 @@ class ProductRegistrationUI(
 
             textInputLayout {
                 textInputEditText {
-                    hint = "상품 설명"
+                    hint = "Product Description"
                     maxLines = 6
                     bindString(ui.owner, viewModel.description)
                     textChangedListener {
@@ -97,7 +97,7 @@ class ProductRegistrationUI(
                 }
             }
 
-            textView("카테고리") {
+            textView("Category") {
                 topPadding = dip(40)
                 textSize = 16f
                 textColor = Color.BLACK
@@ -120,7 +120,7 @@ class ProductRegistrationUI(
                 topMargin = dip(20)
             }
 
-            textView("판매 가격") {
+            textView("Price") {
                 topPadding = dip(40)
                 textSize = 16f
                 textColor = Color.BLACK
@@ -136,7 +136,7 @@ class ProductRegistrationUI(
                 }
             }
 
-            button("상품 등록") {
+            button("SAVE") {
                 backgroundColorResource = R.color.colorButton
                 textColor = Color.WHITE
                 onClick { viewModel.register() }

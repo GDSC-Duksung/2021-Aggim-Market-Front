@@ -76,7 +76,7 @@ class ProductListItemDataSource(
             AggimApi.instance.getProducts(id, categoryId, direction, keyword)
         } catch (e: Exception) {
             ApiResponse.error<List<ProductListItemResponse>>(
-                "로그인이 필요합니다."
+                "Login is required."
             )
         }
     }
@@ -85,7 +85,7 @@ class ProductListItemDataSource(
         response: ApiResponse<List<ProductListItemResponse>>
     ) {
         App.instance.toast(
-            response.message ?: "로그인이 필요합니다."
+            response.message ?: "Login is required."
         )
     }
 
