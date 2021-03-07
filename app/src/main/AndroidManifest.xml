@@ -29,6 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".mypage.buy.MainActivity" />
         <activity
             android:name=".signup.SignupActivity"
             android:theme="@style/Theme.AppCompat.Light" />

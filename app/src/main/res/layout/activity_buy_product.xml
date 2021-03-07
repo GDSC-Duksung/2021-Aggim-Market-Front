@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bpview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".mypage.buy.BuyProductActivity"
-    android:id="@+id/bpview">
+    tools:context=".mypage.buy.BuyProductActivity">
 
     <TextView
         android:id="@+id/tv_will_buy"
@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
-        android:paddingTop="150dp"
         android:text="상품 금액"
         android:textSize="20sp" />
 
@@ -27,6 +26,14 @@
         android:gravity="center"
         android:text="최소주문금액"
         android:textSize="20sp" />
+
+    <ImageView
+        android:src="@drawable/drawable_dash_line"
+        android:layerType="software"
+        android:layout_width="match_parent"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_height="1.5dp" />
 
     <TextView
         android:id="@+id/tv_real_buy"
@@ -57,19 +64,19 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:textColor="@color/colorButtonText"
-        android:text="결제하기" />
+        android:text="결제하기"
+        android:textColor="@color/colorButtonText" />
+
     <Spinner
-        android:layout_width="255dp"
-        android:layout_height="40dp"
-        android:layout_margin="10dp"
         android:id="@+id/donation_spinner"
-        />
-    <EditText
         android:layout_width="255dp"
         android:layout_height="40dp"
-        android:hint="기부하실 금액을 입력하세요"
+        android:layout_margin="10dp" />
+
+    <EditText
         android:id="@+id/donation_price"
-        />
+        android:layout_width="255dp"
+        android:layout_height="40dp"
+        android:hint="기부하실 금액을 입력하세요" />
 
 </LinearLayout>

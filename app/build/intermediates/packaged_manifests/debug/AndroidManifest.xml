@@ -37,6 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.aggim.mypage.buy.MainActivity" />
         <activity
             android:name="com.example.aggim.signup.SignupActivity"
             android:theme="@style/Theme.AppCompat.Light" />
@@ -58,6 +59,10 @@
             android:name="com.example.aggim.mypage.cart.CartItemsListActivity"
             android:theme="@style/Theme.AppCompat.Light" />
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.aggim.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.example.aggim.lifecycle-process"

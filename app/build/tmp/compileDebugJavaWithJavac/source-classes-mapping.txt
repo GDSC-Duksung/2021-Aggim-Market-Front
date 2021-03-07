@@ -12,22 +12,36 @@ com/example/aggim/databinding/ActivityDonationManagementBinding.java
  com.example.aggim.databinding.ActivityDonationManagementBinding
 com/example/aggim/BuildConfig.java
  com.example.aggim.BuildConfig
+com/example/aggim/databinding/SwipeviewItemBinding.java
+ com.example.aggim.databinding.SwipeviewItemBinding
 com/example/aggim/databinding/DonationManagementItemBinding.java
  com.example.aggim.databinding.DonationManagementItemBinding
 com/example/aggim/databinding/ActivityUpdateInfoBinding.java
  com.example.aggim.databinding.ActivityUpdateInfoBinding
+com/example/aggim/databinding/CartHeaderItemBinding.java
+ com.example.aggim.databinding.CartHeaderItemBinding
 com/example/aggim/databinding/IntroPageBinding.java
  com.example.aggim.databinding.IntroPageBinding
+com/example/aggim/databinding/OrderItemHeaderBinding.java
+ com.example.aggim.databinding.OrderItemHeaderBinding
 com/example/aggim/databinding/DonateItemBinding.java
  com.example.aggim.databinding.DonateItemBinding
 com/example/aggim/databinding/MainDrawerHeaderBinding.java
  com.example.aggim.databinding.MainDrawerHeaderBinding
+com/example/aggim/databinding/SwipeviewActivityDetailBinding.java
+ com.example.aggim.databinding.SwipeviewActivityDetailBinding
 com/example/aggim/databinding/CartActivityMainBinding.java
  com.example.aggim.databinding.CartActivityMainBinding
 com/example/aggim/databinding/ActivityBuyProductBinding.java
  com.example.aggim.databinding.ActivityBuyProductBinding
 com/example/aggim/databinding/CartItemBinding.java
  com.example.aggim.databinding.CartItemBinding
+com/example/aggim/databinding/SwipeviewActivityMainBinding.java
+ com.example.aggim.databinding.SwipeviewActivityMainBinding
+com/example/aggim/databinding/OrderItemBinding.java
+ com.example.aggim.databinding.OrderItemBinding
+com/example/aggim/databinding/FragmentProductListBinding.java
+ com.example.aggim.databinding.FragmentProductListBinding
 com/example/aggim/databinding/ActivityMainPageBinding.java
  com.example.aggim.databinding.ActivityMainPageBinding
 com/example/aggim/databinding/CustomDialogBinding.java
@@ -44,11 +58,10 @@ com/example/aggim/databinding/ActivityMyPageMainBinding.java
  com.example.aggim.databinding.ActivityMyPageMainBinding
 com/example/aggim/databinding/MainBinding.java
  com.example.aggim.databinding.MainBinding
-com/example/aggim/databinding/OrderItemHeaderBinding.java
- com.example.aggim.databinding.OrderItemHeaderBinding
-com/example/aggim/databinding/FragmentProductListBinding.java
- com.example.aggim.databinding.FragmentProductListBinding
-com/example/aggim/databinding/OrderItemBinding.java
- com.example.aggim.databinding.OrderItemBinding
-com/example/aggim/databinding/CartHeaderItemBinding.java
- com.example.aggim.databinding.CartHeaderItemBinding
+com/example/aggim/mypage/buy/DetailActivity.java
+ com.example.aggim.mypage.buy.DetailActivity
+com/example/aggim/mypage/buy/Model.java
+ com.example.aggim.mypage.buy.Model
+com/example/aggim/mypage/buy/Adapter.java
+ com.example.aggim.mypage.buy.Adapter
+ com.example.aggim.mypage.buy.Adapter$1
