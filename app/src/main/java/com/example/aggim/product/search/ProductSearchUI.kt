@@ -30,7 +30,7 @@ class ProductSearchUI(
                     viewModel.products
                 )
             }
-            textView("검색된 상품이 없습니다.") {
+            textView("No result") {
                 gravity = Gravity.CENTER
                 bindVisibility(ui.owner, viewModel.products) {
                     it.isEmpty()

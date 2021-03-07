@@ -51,7 +51,7 @@ class ProductListPagedAdapter(
         fun bind(item: ProductListItemResponse?) = item?.let {
             this.productId = item.id
             val soldOutString =
-                if(ProductStatus.SOLD_OUT == item.status) "(품절)" else ""
+                if(ProductStatus.SOLD_OUT == item.status) "(SOLDOUT)" else ""
             val commaSeparatedPrice =
                 NumberFormat.getNumberInstance().format(item.price)
 

@@ -33,7 +33,7 @@
             android:layout_weight="1"
             android:textColor="@color/colorButtonText"
             android:background="@color/colorButton"
-            android:text="리워드 받기"
+            android:text="GET REWARDS"
             />
     </LinearLayout>
 </LinearLayout>

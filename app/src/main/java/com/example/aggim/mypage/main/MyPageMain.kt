@@ -28,10 +28,10 @@ class MyPageMain : AppCompatActivity() {
 
         val pages = ArrayList<String>()
 
-        pages.add("회원 정보 수정")
-        pages.add("스탬프")
-        pages.add("장바구니")
-        pages.add("주문목록")
+        pages.add("Reset member info")
+        pages.add("Stamp")
+        pages.add("Cart")
+        pages.add("Orders")
 
         val pages_Adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, pages)
         listPages.adapter = pages_Adapter

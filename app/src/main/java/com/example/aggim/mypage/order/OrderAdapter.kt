@@ -29,7 +29,7 @@ class OrderAdapter(private val onClick: (OrderListItemResponse) -> Unit) :
 
         fun bind(order: OrderListItemResponse) {
             currentOrder = order
-            orderTextView.text = "주문번호 #"+ order.id
+            orderTextView.text = "Order #"+ order.id
         }
     }
 

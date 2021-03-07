@@ -1409,6 +1409,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_perm_contact_calendar_24px
 drawable ic_shopping_basket_24px
 drawable ic_volunteer_activism_24px
+drawable icon_cart_cutie
 drawable icon_image
 drawable icon_logo
 drawable icon_search

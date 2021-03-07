@@ -39,7 +39,7 @@ class CartItemsListActivity : AppCompatActivity() {
         setContentView(R.layout.cart_activity_main)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = "장바구니"
+        supportActionBar?.title = "Cart"
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
         supportActionBar?.setElevation(0f)
 

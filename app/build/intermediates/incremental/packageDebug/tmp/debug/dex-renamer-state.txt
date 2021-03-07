@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 #Mon Mar 08 03:28:00 KST 2021
 base.0=/Users/seohyunkim/aggim-market-front/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+=======
+#Mon Mar 08 02:49:26 KST 2021
+base.0=C\:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+>>>>>>> 9b1c112e1e3228446061f1ec3c00d46023d25b3b
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/seohyunkim/aggim-market-front/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+base.1=C\:\\Users\\JIN\\Desktop\\dsc sollution challenge\\aggim-market-front\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

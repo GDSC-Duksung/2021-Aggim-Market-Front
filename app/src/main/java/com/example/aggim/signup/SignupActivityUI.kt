@@ -28,7 +28,7 @@ private val viewModel: SignupViewModel
             backgroundColorResource=R.color.colorPrimary
 
 
-            textView("회원가입") {
+            textView("CREATE ACCOUNT") {
                 textAlignment = TextView.TEXT_ALIGNMENT_CENTER
                 textSize = 20f
                 typeface = Typeface.DEFAULT_BOLD
@@ -71,7 +71,7 @@ private val viewModel: SignupViewModel
             }
 
 
-            button("회원가입") {
+            button("SAVE") {
                 backgroundColorResource = R.color.colorButton
                 textColorResource = R.color.colorButtonText
                 onClick { viewModel.signup() }

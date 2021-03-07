@@ -20,9 +20,9 @@ class ProductListFragment : BaseFragment<ProductListViewModel>(){
     override val viewModelType = ProductListViewModel::class
 
     val categoryId get() = arguments?.getInt("categoryId")
-            ?: throw IllegalStateException("categoryId 없음")
+            ?: throw IllegalStateException("categoryId missing")
     val title get() = arguments?.getString("title")
-            ?: throw IllegalStateException("title 없음")
+            ?: throw IllegalStateException("title missing")
 
     override fun onCreateView(
             inflater: LayoutInflater,

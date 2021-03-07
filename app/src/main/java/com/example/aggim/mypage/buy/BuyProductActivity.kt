@@ -28,7 +28,7 @@ class BuyProductActivity : AppCompatActivity() {
         setContentView(R.layout.swipeview_activity_main)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title="장바구니"
+        supportActionBar?.title="Cart"
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
         supportActionBar?.setElevation(0f)
 
@@ -85,16 +85,16 @@ class BuyProductActivity : AppCompatActivity() {
             val i = it.next()
             spinner_data.add(i.name)
         }
-        Log.d("this is test", "리스트 내용"+spinner_data)
+        Log.d("this is test", "List info"+spinner_data)
         var spinner_adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, spinner_data)
         donation_spinner.adapter = spinner_adapter
 
-        textSum.text = "상품 금액: " + intent.getIntExtra("sum", 0).toString()+"₩"
-        textMinBuy.text = "무료 배송을 위한 최소 주문 금액: 20000₩"
+        textSum.text = "Sub-total: " + intent.getIntExtra("sum", 0).toString()+"₩"
+        textMinBuy.text = "FREE DELIVERY on orders over 20000₩"
         if (intent.getIntExtra("sum", 0) >= 20000) {
-            textRealBuy.text = "결제하실 금액: "+ realsum.toString() + "₩"
+            textRealBuy.text = "Total to pay: "+ realsum.toString() + "₩"
         } else if(intent.getIntExtra("sum", 0) < 20000) {
-            textRealBuy.text = "결제하실 금액: "+ (realsum + 3000).toString() + "₩"
+            textRealBuy.text = "Total to pay: "+ (realsum + 3000).toString() + "₩"
             realsum += 3000
         }
         donation_spinner.setVisibility(View.INVISIBLE)
@@ -132,7 +132,7 @@ class BuyProductActivity : AppCompatActivity() {
         }
 
         button_buy.setOnClickListener {
-            Toast.makeText(this, "구매가 완료되었습니다.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Your order has been placed.", Toast.LENGTH_SHORT).show()
             val nextIntent = Intent(this, ProductMainActivity::class.java)
             startActivity(nextIntent)
         }
