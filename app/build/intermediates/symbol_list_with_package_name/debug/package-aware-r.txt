@@ -1887,6 +1887,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout donate_item
 layout donate_list_activity_main
+layout donation_cardview
 layout donation_management_item
 layout fragment_product_list
 layout header_item

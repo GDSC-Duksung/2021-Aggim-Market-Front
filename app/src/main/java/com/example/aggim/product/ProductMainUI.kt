@@ -121,6 +121,9 @@ class ProductMainUI(
                             }
                         }
                         else {
+                            add(NONE, MENU_ADMIN, NONE, "상품등록").apply { // 추후 관리자 페이지로 연결 예
+                                setIcon(R.drawable.ic_shopping_basket_24px)
+                            }
                             add(NONE, MENU_MYPAGE, NONE, "마이페이지").apply {
                                 setIcon(R.drawable.ic_perm_contact_calendar_24px)
                             }
