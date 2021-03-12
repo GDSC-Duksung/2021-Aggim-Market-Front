@@ -11,7 +11,10 @@
 
 <img width="30%" src="./images/상품등록.gif"/>
 <img width="30%" src="./images/기부처목록.gif"/>
+<img width="30%" src="./images/스플래시.png"/>
+<img width="30%" src="./images/.png"/>
 <img width="30%" src="./images/결제.png"/>
+<img width="30%" src="./images/기부목록.png"/>
 
 
 
