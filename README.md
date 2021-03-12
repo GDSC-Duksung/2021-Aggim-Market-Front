@@ -9,13 +9,9 @@
   - 일상에서도 쉽게 기부할 수 있고, 기부하면 나도 혜택을 보는 1석 2조! 또한 스탬프와 '핵맨'컨셉의 재미요소(=기부 금액이 쌓일 수록 목표에 가까워지는 애니메이션)로 기부에 동기를 부여한다.
 
 
-<img width="30%" src="./images/상품등록.gif"/>
-<img width="30%" src="./images/기부처목록.gif"/>
-<img width="30%" src="./images/스플래시.png"/>
-<img width="30%" src="./images/.png"/>
-<img width="30%" src="./images/결제.png"/>
-<img width="30%" src="./images/기부목록.png"/>
-
+<img width="30%" src="./images/상품등록.gif"/> <img width="30%" src="./images/기부처목록.gif"/>
+<img width="30%" src="./images/스플래시.png"/> <img width="30%" src="./images/메인.png"/>
+<img width="30%" src="./images/결제.png"/> <img width="30%" src="./images/기부목록.png"/>
 
 
 ## 팀 소개
