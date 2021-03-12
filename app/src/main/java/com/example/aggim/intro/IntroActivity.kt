@@ -16,6 +16,8 @@ import com.example.aggim.product.ProductMainActivity
 import com.example.aggim.product.detail.ProductDetailActivity
 import com.example.aggim.product.registration.ProductRegistrationActivity
 import com.example.aggim.main.MainPageActivity
+import com.example.aggim.mypage.buy.BuyProductActivity
+import com.example.aggim.mypage.buy.MainActivity
 import com.example.aggim.mypage.order.OrderListActivity
 import com.example.aggim.signin.SigninActivity
 import com.example.aggim.signup.SignupActivity
@@ -34,7 +36,7 @@ class IntroActivity : AppCompatActivity() {
 
         GlobalScope.launch {
             delay(1500)
-            startActivity<OrderListActivity>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
+            startActivity<ProductMainActivity>() // 화면을 테스트 하려면 여기에 액티비티 이름 입력
             finish()
         }
     }

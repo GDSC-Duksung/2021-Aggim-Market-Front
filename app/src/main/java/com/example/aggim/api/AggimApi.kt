@@ -49,6 +49,9 @@ interface AggimApi {
     suspend fun getProduct(@Path("id") id: Long)
             : ApiResponse<ProductResponse>
 
+    @GET("/api/v1/donations")
+    suspend fun getDonations(): ApiResponse<List<DonateResponse>>
+
     // 기부 관련
     @POST("/api/v1/donates")
     suspend fun registerDonates(

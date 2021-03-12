@@ -9,6 +9,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/aggim_intro_image" />
 
@@ -16,10 +17,10 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="220dp"
         android:gravity="center_horizontal|center_vertical"
         android:singleLine="false"
-        android:text="원하는 만큼만 사고,\n 부족한 만큼 기부하고\n나는 무료로 배송받자"
+        android:text="Buy as much as you want,\n DONATE as much as you need\n And get free shipping"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF" />
 

@@ -8,6 +8,7 @@ package com.example.aggim.product.list
 import android.view.Gravity
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.aggim.R
 import net.codephobia.ankomvvm.databinding.bindPagedList
 import net.codephobia.ankomvvm.databinding.bindVisibility
 import net.codephobia.ankomvvm.databinding.bindVisibility
@@ -20,7 +21,6 @@ class ProductListUI (
 
     override fun createView(ui: AnkoContext<ProductListFragment>)=
         ui.verticalLayout{
-
             recyclerView{
                 layoutManager = LinearLayoutManager(ui.ctx)
                 adapter = ProductListPagedAdapter(viewModel)
@@ -35,7 +35,7 @@ class ProductListUI (
                 )
 
             }
-            textView("상품이 없습니다"){
+            textView("No product"){
                 gravity = Gravity.CENTER
                 bindVisibility(ui.owner, viewModel.products){
                     it.isEmpty()

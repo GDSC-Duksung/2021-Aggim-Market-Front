@@ -26,9 +26,9 @@ class ProductImageUploader : AnkoLogger {
             AggimApi.instance.uploadProductImage(part)
         }
     } catch (e: Exception) {
-        error("상품 이미지 등록 오류", e)
+        error("error: product image upload", e)
         ApiResponse.error<ProductImageUploadResponse>(
-            "알 수 없는 오류가 발생했습니다."
+            "An unknown error has occurred."
         )
     }
 

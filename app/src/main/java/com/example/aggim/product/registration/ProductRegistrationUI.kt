@@ -33,6 +33,7 @@ class ProductRegistrationUI(
         verticalLayout {
             padding = dip(20)
             clipToPadding = false
+            backgroundColorResource = R.color.colorPrimary
 
             linearLayout{
                 orientation = LinearLayout.HORIZONTAL
@@ -49,16 +50,16 @@ class ProductRegistrationUI(
                 pickImageView(ui,4)
             }
 
-            textView("상품명 및 설명"){
+            textView("Product Info"){
                 topPadding = dip(40)
                 textSize=16f
-                textColorResource=R.color.colorPrimary
+                textColor=Color.BLACK
             }
 
             textInputLayout {
                 topPadding = dip(20)
                 textInputEditText {
-                    hint = "상품명"
+                    hint = "Product Name"
                     setSingleLine()
                     bindString(ui.owner, viewModel.productName)
                     textChangedListener {
@@ -71,14 +72,14 @@ class ProductRegistrationUI(
                 textView("0/40") {
                     leftPadding = dip(4)
                     textSize = 12f
-                    textColorResource = R.color.colorPrimary
+                    textColor = Color.BLACK
                     bindString(ui.owner, viewModel.productNameLength)
                 }
             }
 
             textInputLayout {
                 textInputEditText {
-                    hint = "상품 설명"
+                    hint = "Product Description"
                     maxLines = 6
                     bindString(ui.owner, viewModel.description)
                     textChangedListener {
@@ -91,21 +92,21 @@ class ProductRegistrationUI(
                 textView("0/500") {
                     leftPadding = dip(4)
                     textSize = 12f
-                    textColorResource = R.color.colorPrimary
+                    textColor = Color.BLACK
                     bindString(ui.owner, viewModel.descriptionLength)
                 }
             }
 
-            textView("카테고리") {
+            textView("Category") {
                 topPadding = dip(40)
                 textSize = 16f
-                textColorResource = R.color.colorPrimary
+                textColor = Color.BLACK
             }
 
             verticalLayout {
                 topPadding = dip(12)
                 bottomPadding = dip(12)
-                backgroundColor = 0xEEEEEEEE.toInt()
+                backgroundColor = 0xFFF1F2F9.toInt()
                 spinner {
                     bindStringEntries(ui.owner, viewModel.categories)
 
@@ -119,10 +120,10 @@ class ProductRegistrationUI(
                 topMargin = dip(20)
             }
 
-            textView("판매 가격") {
+            textView("Price") {
                 topPadding = dip(40)
                 textSize = 16f
-                textColorResource = R.color.colorPrimary
+                textColor = Color.BLACK
             }
 
             textInputLayout {
@@ -135,8 +136,8 @@ class ProductRegistrationUI(
                 }
             }
 
-            button("상품 등록") {
-                backgroundColorResource = R.color.colorPrimary
+            button("SAVE") {
+                backgroundColorResource = R.color.colorButton
                 textColor = Color.WHITE
                 onClick { viewModel.register() }
             }.lparams(matchParent, wrapContent) {
@@ -150,7 +151,7 @@ class ProductRegistrationUI(
         imageNum: Int
     ) = imageView(R.drawable.icon_image){
         scaleType = ImageView.ScaleType.CENTER
-        backgroundColor = 0xFFEEEEEE.toInt()
+        backgroundColor =  0xFFBFBFBF.toInt()
 
         onClick { viewModel.pickImage(imageNum) }
         bindUrl(ui.owner, viewModel.imageUrls[imageNum]){

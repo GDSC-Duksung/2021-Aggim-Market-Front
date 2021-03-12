@@ -61,6 +61,7 @@ class SigninViewModel(app: Application) : BaseViewModel(app) {
             Prefs.refreshToken = response.data.refreshToken
             Prefs.userName = response.data.userName
             Prefs.userId = response.data.userId
+            Prefs.email = response.data.email
 
             toast("로그인되었습니다.")
             startActivityAndFinish<ProductMainActivity>()

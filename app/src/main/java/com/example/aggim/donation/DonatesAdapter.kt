@@ -20,6 +20,8 @@ class DonatesAdapter(private val onClick: (DonateListItemResponse) -> Unit) :
     class DonateViewHolder(itemView: View, val onClick: (DonateListItemResponse) -> Unit) :
     RecyclerView.ViewHolder(itemView) {
         private val donateTextView: TextView = itemView.findViewById(R.id.tv_donate)
+        private val donateItemTextView: TextView = itemView.findViewById(R.id.item_tv_donate)
+
         private var currentDonate: DonateListItemResponse?=null
         var donateId: Long? = null
 
@@ -33,7 +35,8 @@ class DonatesAdapter(private val onClick: (DonateListItemResponse) -> Unit) :
 
         fun bind(donate: DonateListItemResponse) {
             currentDonate = donate
-            donateTextView.text = donate.id.toString()+"번째 기부! "+donate.donation.name+"에 "+donate.donatedVal.toString()+"원을 기부해주셨어요!"
+            donateItemTextView.text = " "+donate.id.toString()+"번째 소중한 기부"
+            donateTextView.text = donate.donation.name+"에 "+donate.donatedVal.toString()+"원을 기부했어요"
         }
     }
 

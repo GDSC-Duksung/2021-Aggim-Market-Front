@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#FFFFFF"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +16,7 @@
         android:background="@color/colorPrimary"
         app:layout_scrollFlags="scroll|enterAlways"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:titleTextColor="#006400" />
+        app:titleTextColor="@color/colorPrimaryDark" />
 
     <LinearLayout
         android:gravity="center"
@@ -30,7 +30,7 @@
             android:id="@+id/mainText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="회원정보수정"
+            android:text="RESET MEMBER INFO"
             android:textAlignment="center"
             android:textSize="21dp"
             android:textColor="#000000"
@@ -46,7 +46,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="이메일"
+            android:text="email"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="80dp"
             android:textSize="20sp"
@@ -68,7 +68,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="이름"
+            android:text="name"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:textSize="20sp"
@@ -86,7 +86,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:text="수정"/>
+            android:text="RESET"
+            android:textColor="@color/colorButtonText"
+            android:backgroundTint="@color/colorButton" />
     </LinearLayout>
 
 
@@ -96,6 +98,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="완료"/>
+        android:text="완료"
+        android:textColor="@color/colorButtonText"
+        android:backgroundTint="@color/colorButton" />
 
 </LinearLayout>

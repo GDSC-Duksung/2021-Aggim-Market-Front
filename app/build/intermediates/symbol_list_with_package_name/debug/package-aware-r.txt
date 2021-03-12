@@ -86,6 +86,7 @@ attr actionOverflowMenuStyle
 attr actionProviderClass
 attr actionTextColorAlpha
 attr actionViewClass
+attr activeItem
 attr activityChooserViewStyle
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
@@ -294,6 +295,7 @@ attr drawerArrowStyle
 attr drawerLayoutStyle
 attr dropDownListViewStyle
 attr dropdownListPreferredItemHeight
+attr duration
 attr editTextBackground
 attr editTextColor
 attr editTextStyle
@@ -378,16 +380,20 @@ attr iconPadding
 attr iconSize
 attr iconStartPadding
 attr iconTint
+attr iconTintActive
 attr iconTintMode
 attr iconifiedByDefault
 attr imageButtonStyle
 attr indeterminateProgressStyle
+attr indicatorColor
+attr indicatorRadius
 attr initialActivityCount
 attr insetForeground
 attr isLightTheme
 attr isMaterialTheme
 attr itemBackground
 attr itemFillColor
+attr itemFontFamily
 attr itemHorizontalPadding
 attr itemHorizontalTranslationEnabled
 attr itemIconPadding
@@ -581,6 +587,7 @@ attr showMotionSpec
 attr showText
 attr showTitle
 attr shrinkMotionSpec
+attr sideMargins
 attr singleChoiceItemLayout
 attr singleLine
 attr singleSelection
@@ -669,11 +676,13 @@ attr textAppearanceSearchResultTitle
 attr textAppearanceSmallPopupMenu
 attr textAppearanceSubtitle1
 attr textAppearanceSubtitle2
+attr textColor
 attr textColorAlertDialogListItem
 attr textColorSearchUrl
 attr textEndPadding
 attr textInputStyle
 attr textLocale
+attr textSize
 attr textStartPadding
 attr theme
 attr themeLineHeight
@@ -728,6 +737,7 @@ bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color BLACK
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -774,7 +784,13 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
+color color1
+color color2
+color color3
+color color4
 color colorAccent
+color colorButton
+color colorButtonText
 color colorPrimary
 color colorPrimaryDark
 color design_bottom_navigation_shadow_color
@@ -902,6 +918,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color pressed
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1354,6 +1371,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable buttonstyle
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1361,15 +1379,16 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable donat1
-drawable donat10
 drawable donat2
 drawable donat3
 drawable donat4
 drawable donat5
 drawable donat6
 drawable donat7
-drawable donat8
-drawable donat9
+drawable donation1
+drawable donation2
+drawable donation3
+drawable drawable_dash_line
 drawable ic_approval_24px
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1390,6 +1409,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_perm_contact_calendar_24px
 drawable ic_shopping_basket_24px
 drawable ic_volunteer_activism_24px
+drawable icon_cart_cutie
 drawable icon_image
 drawable icon_logo
 drawable icon_search
@@ -1417,9 +1437,25 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable old_aggim_intro_image
+drawable puzzle0
+drawable puzzle1
+drawable puzzle2
+drawable puzzle3
+drawable puzzle4
+drawable puzzle5
+drawable puzzle6
+drawable puzzle7
+drawable puzzle8
+drawable puzzle9
+drawable round
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font custom
+font ubuntubold
+font ubuntulight
+font ubuntumedium
+font ubunturegular
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1500,7 +1536,6 @@ id btn_cancel
 id btn_real_buy
 id button
 id buttonPanel
-id buyItem
 id cancel_action
 id cancel_button
 id cb_will_donate
@@ -1529,6 +1564,7 @@ id cut
 id date_picker_actions
 id decor_content_parent
 id default_activity_button
+id desc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1538,7 +1574,13 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
-id divider
+id dmTitle
+id dmView
+id dm_percent
+id dm_place
+id donate_btn
+id donation_price
+id donation_spinner
 id dropdown_menu
 id edit
 id editButton
@@ -1574,30 +1616,21 @@ id icon_group
 id ifRoom
 id image
 id imageView
-id imageView1
-id imageView10
 id imageView12
-id imageView2
 id imageView3
-id imageView4
-id imageView5
-id imageView6
-id imageView7
-id imageView8
-id imageView9
 id img_donate
-id img_donate2
 id info
 id invisible
 id italic
+id item_cardview
 id item_mypage
 id item_touch_helper_previous_elevation
+id item_tv_donate
 id labeled
 id largeLabel
 id left
 id line1
 id line3
-id linear
 id listMode
 id listPages
 id list_item
@@ -1669,7 +1702,6 @@ id right
 id right_icon
 id right_side
 id rounded
-id rv_view
 id save_non_transition_alpha
 id save_overlay_view
 id scale
@@ -1717,7 +1749,6 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
-id sumMoney
 id tabLayout
 id tabMode
 id tag_accessibility_actions
@@ -1851,7 +1882,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_buy_product
-layout activity_cart
+layout activity_donation_management
 layout activity_main_page
 layout activity_my_page_main
 layout activity_order_list
@@ -1879,6 +1910,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout donate_item
 layout donate_list_activity_main
+layout donation_cardview
+layout donation_management_item
 layout fragment_product_list
 layout header_item
 layout intro_page
@@ -1935,6 +1968,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout swipeview_activity_detail
+layout swipeview_activity_main
+layout swipeview_item
 layout test_action_chip
 layout test_design_checkbox
 layout test_reflow_chipgroup
@@ -1991,6 +2027,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string close_drawer_description
+string ellipsis
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2322,6 +2359,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
 style ShapeAppearanceOverlay_TopLeftCut
 style ShapeAppearanceOverlay_TopRightDifferentCornerSize
+style Tabtheme
 style Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style Test_Theme_MaterialComponents_MaterialCalendar
 style Test_Widget_MaterialComponents_MaterialCalendar
@@ -2716,6 +2754,11 @@ style Widget_MaterialComponents_Toolbar_Primary
 style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_Support_CoordinatorLayout
+style customButtonFontStyle
+style customCheckboxFontStyle
+style customEditTextFontStyle
+style customRadioButtonFontStyle
+style customTextViewFontStyle
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -2791,6 +2834,7 @@ styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
+styleable SmoothBottomBar activeItem backgroundColor cornerRadius duration iconSize iconTint iconTintActive indicatorColor indicatorRadius itemFontFamily itemPadding menu sideMargins textColor textSize
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

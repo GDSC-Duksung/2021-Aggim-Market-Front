@@ -21,12 +21,18 @@ class ProductMainViewModel(app: Application) : BaseViewModel(app) {
         } ?: toast("검색 키워드를 입력해주세요.")
     }
 
-//테스트용
-   fun openRegistrationActivity() {
+    //테스트용
+    fun openRegistrationActivity() {
         startActivity<CartItemsListActivity> {
             //startActivity<CartItemsListActivity>{
-                flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
+            flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
             //}
+        }
+    }
+
+    fun openCartActivity() {
+        startActivity<ProductRegistrationActivity> {
+            flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
         }
     }
 }
