@@ -8,16 +8,16 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable-v24/icon_search.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_image.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_image.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_none.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/none.png"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_icon_image.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/icon_image.xml"
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_aggim_logo_foreground.png.flat",
@@ -36,12 +36,12 @@
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/ic_perm_contact_calendar_24px.xml"
     },
     {
-        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item_new.xml.flat",
-        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_item_new.xml"
-    },
-    {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/drawable_old_aggim_intro_image.png.flat",
         "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/drawable/old_aggim_intro_image.png"
+    },
+    {
+        "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_cart_item_new.xml.flat",
+        "source": "/Users/seohyunkim/aggim-market-front/app/src/main/res/layout/cart_item_new.xml"
     },
     {
         "merged": "/Users/seohyunkim/aggim-market-front/app/build/intermediates/res/merged/debug/layout_activity_stamp.xml.flat",
