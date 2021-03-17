@@ -105,7 +105,7 @@ class ProductRegistrationViewModel(app:Application):
             imageUrls[currentImageNum].value = response.data.filePath
             imageIds[currentImageNum] = response.data.productImageId
         }else{
-            toast(response.message?:"알 수 없는 오류가 발생했습니다.")
+            toast(response.message?:"An unknown error has occurred.")
         }
     }
 
@@ -128,11 +128,11 @@ class ProductRegistrationViewModel(app:Application):
         response: ApiResponse<Response<Void>>
     ){
         if(response.success){
-            confirm("상품이 등록되었습니다."){
+            confirm("Product has registered."){
                 finishActivity()
             }
         } else {
-            toast(response.message ?: "알 수 없는 오류가 발생했습니다.")
+            toast(response.message ?: "An unknown error has occurred.")
         }
     }
 

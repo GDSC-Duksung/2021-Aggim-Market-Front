@@ -26,16 +26,16 @@ class HeaderAdapter : RecyclerView.Adapter<HeaderAdapter.HeaderViewHolder>() {
             Log.i("warning_message", "amountDonated: "+amountDonated)
             when (amountDonated) {
                 in 0..1000-> {
-                    amountImageView.setImageResource(R.drawable.donat1)
-                }
-                in 1000..5000-> {
-                    amountImageView.setImageResource(R.drawable.donat2)
-                }
-                in 5000..10000 -> {
                     amountImageView.setImageResource(R.drawable.donat3)
                 }
+                in 1000..5000-> {
+                    amountImageView.setImageResource(R.drawable.donat7)
+                }
+                in 5000..10000 -> {
+                    amountImageView.setImageResource(R.drawable.donat7)
+                }
                 in 10000..15000 -> {
-                    amountImageView.setImageResource(R.drawable.donat4)
+                    amountImageView.setImageResource(R.drawable.donat7)
                 }
                 in 15000..30000 -> {
                     amountImageView.setImageResource(R.drawable.donat5)

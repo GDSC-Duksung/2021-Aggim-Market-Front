@@ -12,7 +12,7 @@ import org.jetbrains.anko.intentFor
 
 class TokenRefreshInterceptor : Interceptor, AnkoLogger {
     override fun intercept(chain: Interceptor.Chain): Response {
-        debug("토큰 갱신 요청")
+        debug("Request to renew the token")
         val original = chain.request()
         val request = original.newBuilder().apply {
             Prefs.refreshToken?.let { header("Authorization", it) }

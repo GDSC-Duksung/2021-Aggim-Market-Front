@@ -62,7 +62,7 @@ class SigninActivityUI(
                 }
 
 
-                button("로그인") {
+                button("LOG IN") {
                     backgroundColorResource = R.color.colorButton
                     textColorResource = R.color.colorButtonText
                     onClick { viewModel.signin() }
@@ -71,7 +71,7 @@ class SigninActivityUI(
                 }
 
 
-                button("회원가입") {
+                button("REGISTER") {
                     backgroundColorResource = R.color.colorButton
                     textColorResource = R.color.colorButtonText
                     onClick { ui.startActivity<SignupActivity>() }

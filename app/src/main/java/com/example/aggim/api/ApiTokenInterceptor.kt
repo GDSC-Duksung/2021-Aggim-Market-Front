@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit
 
 class ApiTokenInterceptor: Interceptor, AnkoLogger{
     override fun intercept(chain: Interceptor.Chain): Response {
-        debug("API 요청")
+        debug("API request")
         val original = chain.request()
         val request = original.newBuilder().apply {
             Prefs.token?.let{ header("Authorization", it) }

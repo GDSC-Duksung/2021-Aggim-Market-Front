@@ -71,7 +71,7 @@ class ProductDetailUI (
                         topMargin = dip(20)
                     }
 
-                    textView("상품설명") {
+                    textView("Product Description") {
                         textSize = 16f
                         typeface = Typeface.DEFAULT_BOLD
                     }.lparams(matchParent) {
@@ -88,12 +88,12 @@ class ProductDetailUI (
         backgroundColor = Color.DKGRAY
         lparams(matchParent, wrapContent)
 
-        button("장바구니") {
+        button("ADD TO CART") {
             onClick { viewModel.openInquiryActivity() }
             backgroundColorResource = R.color.colorButton
             textColorResource = R.color.colorButtonText
         }
-        button("바로 구매"){
+        button("CHECK OUT"){
             onClick { viewModel.openInquiryActivity() }
             backgroundColorResource = R.color.colorButton
             textColorResource = R.color.colorButtonText

@@ -16,6 +16,8 @@ import com.example.aggim.product.ProductMainActivity
 import com.example.aggim.product.detail.ProductDetailActivity
 import com.example.aggim.product.registration.ProductRegistrationActivity
 import com.example.aggim.main.MainPageActivity
+import com.example.aggim.mypage.buy.BuyProductActivity
+import com.example.aggim.mypage.buy.MainActivity
 import com.example.aggim.mypage.order.OrderListActivity
 import com.example.aggim.signin.SigninActivity
 import com.example.aggim.signup.SignupActivity

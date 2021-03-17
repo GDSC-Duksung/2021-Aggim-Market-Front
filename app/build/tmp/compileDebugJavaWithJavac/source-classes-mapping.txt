@@ -12,22 +12,45 @@ com/example/aggim/databinding/DonateListActivityMainBinding.java
  com.example.aggim.databinding.DonateListActivityMainBinding
 com/example/aggim/BuildConfig.java
  com.example.aggim.BuildConfig
+<<<<<<< HEAD
 com/example/aggim/databinding/CartHeaderItemBinding.java
  com.example.aggim.databinding.CartHeaderItemBinding
+=======
+com/example/aggim/databinding/SwipeviewItemBinding.java
+ com.example.aggim.databinding.SwipeviewItemBinding
+com/example/aggim/databinding/DonationManagementItemBinding.java
+ com.example.aggim.databinding.DonationManagementItemBinding
+>>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
 com/example/aggim/databinding/ActivityUpdateInfoBinding.java
  com.example.aggim.databinding.ActivityUpdateInfoBinding
+com/example/aggim/mypage/buy/Adapter.java
+ com.example.aggim.mypage.buy.Adapter
+ com.example.aggim.mypage.buy.Adapter$1
 com/example/aggim/databinding/IntroPageBinding.java
  com.example.aggim.databinding.IntroPageBinding
+com/example/aggim/mypage/buy/Model.java
+ com.example.aggim.mypage.buy.Model
 com/example/aggim/databinding/DonateItemBinding.java
  com.example.aggim.databinding.DonateItemBinding
 com/example/aggim/databinding/MainDrawerHeaderBinding.java
  com.example.aggim.databinding.MainDrawerHeaderBinding
+<<<<<<< HEAD
+=======
+com/example/aggim/databinding/SwipeviewActivityDetailBinding.java
+ com.example.aggim.databinding.SwipeviewActivityDetailBinding
+com/example/aggim/databinding/CartActivityMainBinding.java
+ com.example.aggim.databinding.CartActivityMainBinding
+>>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
 com/example/aggim/databinding/ActivityBuyProductBinding.java
  com.example.aggim.databinding.ActivityBuyProductBinding
 com/example/aggim/databinding/CartActivityMainBinding.java
  com.example.aggim.databinding.CartActivityMainBinding
 com/example/aggim/databinding/CartItemBinding.java
  com.example.aggim.databinding.CartItemBinding
+com/example/aggim/databinding/SwipeviewActivityMainBinding.java
+ com.example.aggim.databinding.SwipeviewActivityMainBinding
+com/example/aggim/mypage/buy/DetailActivity.java
+ com.example.aggim.mypage.buy.DetailActivity
 com/example/aggim/databinding/ActivityMainPageBinding.java
  com.example.aggim.databinding.ActivityMainPageBinding
 com/example/aggim/databinding/CustomDialogBinding.java

@@ -37,7 +37,7 @@ class DonateListItemDataSource(resources: Resources) {
             AggimApi.instance.getDonates()
         } catch (e: Exception) {
             ApiResponse.error<List<DonateListItemResponse>>(
-                    "알 수 없는 오류가 발생했습니다."
+                    "An unknown error has occurred."
             )
         }
     }
@@ -47,7 +47,7 @@ class DonateListItemDataSource(resources: Resources) {
             AggimApi.instance.getDonations()
         } catch(e: Exception) {
             ApiResponse.error<List<DonateResponse>>(
-                    "알 수 없는 오류가 발생했습니다."
+                    "An unknown error has occurred."
             )
         }
     }
@@ -56,7 +56,7 @@ class DonateListItemDataSource(resources: Resources) {
             response: ApiResponse<List<DonateListItemResponse>>
     ) {
         App.instance.toast(
-                response.message ?: "알 수 없는 오류가 발생했습니다."
+                response.message ?: "An unknown error has occurred."
         )
     }
 
