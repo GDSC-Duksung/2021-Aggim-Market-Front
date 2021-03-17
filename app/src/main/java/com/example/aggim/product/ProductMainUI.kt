@@ -91,7 +91,7 @@ class ProductMainUI(
                     // 상품 등록은 관리자로 로그인 되었을 시에만 보이게 할 예정
                     floatingActionButton {
                         backgroundColorResource = R.color.colorPrimaryDark
-                        //imageResource = R.drawable.icon_cart_cutie
+                        imageResource = R.drawable.ic_shopping_basket_24px
                         if(Prefs.userName == "admin") {
                             onClick { viewModel.openCartActivity()}
                         } else {
@@ -123,12 +123,9 @@ class ProductMainUI(
                             }
                         }
                         else {
-<<<<<<< HEAD
-=======
                             add(NONE, MENU_ADMIN, NONE, "REGISTER PRODUCT").apply { // 추후 관리자 페이지로 연결 예
                                 setIcon(R.drawable.ic_shopping_basket_24px)
                             }
->>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
                             add(NONE, MENU_MYPAGE, NONE, "MY PAGE").apply {
                                 setIcon(R.drawable.ic_perm_contact_calendar_24px)
                             }
@@ -139,11 +136,7 @@ class ProductMainUI(
                                 setIcon(R.drawable.ic_approval_24px)
                             }
                         }
-<<<<<<< HEAD
                         add(NONE, MENU_ID_LOGOUT, NONE, "LOGOUT").apply {
-=======
-                        add(NONE, MENU_ID_LOGOUT, NONE, "LOG OUT").apply {
->>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
                             setIcon(R.drawable.ic_face_24px)
 
                         }

@@ -2,6 +2,8 @@ package com.example.aggim.mypage.buy
 
 import android.animation.ArgbEvaluator
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -15,11 +17,8 @@ import com.example.aggim.donation.DonatesListViewModel
 import com.example.aggim.donation.DonatesListViewModelFactory
 import com.example.aggim.product.ProductMainActivity
 import kotlinx.android.synthetic.main.activity_buy_product.*
-<<<<<<< HEAD
 import kotlinx.coroutines.runBlocking
 import retrofit2.Response
-=======
->>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
 
 class BuyProductActivity : AppCompatActivity() {
     private val donatesListViewModel by viewModels<DonatesListViewModel> {
@@ -31,15 +30,11 @@ class BuyProductActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.swipeview_activity_main)
-
-<<<<<<< HEAD
-=======
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title="Cart"
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
         supportActionBar?.setElevation(0f)
 
->>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
         val pview : LinearLayout = findViewById(R.id.bpview)
         val intent: Intent = intent
         val textSum : TextView = findViewById(R.id.tv_will_buy)
@@ -57,9 +52,7 @@ class BuyProductActivity : AppCompatActivity() {
         var donateAmount: Int = 0
         var spinner_data = mutableListOf<String>()
         var result: String
-<<<<<<< HEAD
         var pos: Int = 0
-=======
         var viewPager: ViewPager = findViewById(R.id.viewPager)
         var colors: Array<Int> = arrayOf(
                 resources.getColor(R.color.colorPrimary),
@@ -88,9 +81,6 @@ class BuyProductActivity : AppCompatActivity() {
             override fun onPageSelected(position: Int) {}
             override fun onPageScrollStateChanged(state: Int) {}
         })
-
->>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
-
         var dl = donatesListViewModel.donationsLiveData.value
         val it = dl?.iterator()
         while(it!!.hasNext()) {
@@ -146,16 +136,12 @@ class BuyProductActivity : AppCompatActivity() {
         }
 
         button_buy.setOnClickListener {
-<<<<<<< HEAD
-            Toast.makeText(this, "구매가 완료되었습니다.", Toast.LENGTH_SHORT).show()
             runBlocking {
                 if(donateAmount > 0) {
                     buyProductViewModel.registerDonate(donateAmount, pos)
                 }
             }
-=======
             Toast.makeText(this, "Your order has been placed.", Toast.LENGTH_SHORT).show()
->>>>>>> 061a74c96dff583b9e057687c0c3745a065fb21b
             val nextIntent = Intent(this, ProductMainActivity::class.java)
             startActivity(nextIntent)
         }
