@@ -12,8 +12,8 @@ com/example/aggim/databinding/DonateListActivityMainBinding.java
  com.example.aggim.databinding.DonateListActivityMainBinding
 com/example/aggim/BuildConfig.java
  com.example.aggim.BuildConfig
-com/example/aggim/databinding/DonationManagementItemBinding.java
- com.example.aggim.databinding.DonationManagementItemBinding
+com/example/aggim/databinding/CartHeaderItemBinding.java
+ com.example.aggim.databinding.CartHeaderItemBinding
 com/example/aggim/databinding/ActivityUpdateInfoBinding.java
  com.example.aggim.databinding.ActivityUpdateInfoBinding
 com/example/aggim/databinding/IntroPageBinding.java
@@ -50,5 +50,5 @@ com/example/aggim/databinding/OrderItemHeaderBinding.java
  com.example.aggim.databinding.OrderItemHeaderBinding
 com/example/aggim/databinding/OrderItemBinding.java
  com.example.aggim.databinding.OrderItemBinding
-com/example/aggim/databinding/CartHeaderItemBinding.java
- com.example.aggim.databinding.CartHeaderItemBinding
+com/example/aggim/databinding/DonationManagementItemBinding.java
+ com.example.aggim.databinding.DonationManagementItemBinding

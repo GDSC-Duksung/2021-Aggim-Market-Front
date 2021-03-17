@@ -33,7 +33,7 @@ class ProductMainNavHeader : AnkoComponent<View> {
                 imageView(R.drawable.ic_face_24px)
                 //.lparams(dip(54), dip(54))
 
-                textView(Prefs.userName+"님 반가워요!") {
+                textView(Prefs.userName+" Welcome!") {
                     topPadding = dip(8)
                     textSize = 20f
                     typeface = Typeface.DEFAULT_BOLD

@@ -33,15 +33,15 @@ class DonationManagementActivity : AppCompatActivity() {
         })
     }
 
-    private fun adapterOnClick(donaition: DonateResponse) {
+    private fun adapterOnClick(donation: DonateResponse) {
         //cartItemsListViewModel.removeCartItem(product)/
 //        Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show()
         //donationManagementViewModel.donateTo(donation)
-        if(donaition.donatedVal >= donaition.goalVal) {
-            donaition.donatedVal = 0
-            Toast.makeText(this, "기부되었습니다", Toast.LENGTH_SHORT).show()
+        if(donation.donatedVal >= donation.goalVal) {
+            donation.donatedVal = 0
+            Toast.makeText(this, "Donation Completed!", Toast.LENGTH_SHORT).show()
         } else {
-            Toast.makeText(this,"모금액이 부족합니다", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Lack of Donation Amount", Toast.LENGTH_SHORT).show()
         }
     }
 

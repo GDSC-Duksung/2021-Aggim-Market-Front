@@ -113,28 +113,25 @@ class ProductMainUI(
 //                        setIcon(R.drawable.ic_)
 //                    }
                         if(Prefs.userName == "admin") {
-                            add(NONE, MENU_ADMIN, NONE, "상품등록").apply { // 추후 관리자 페이지로 연결 예
+                            add(NONE, MENU_ADMIN, NONE, "PRODUCT REGISTRATION").apply { // 추후 관리자 페이지로 연결 예
                                 setIcon(R.drawable.ic_shopping_basket_24px)
                             }
-                            add(NONE, MENU_DONATEMANAGEMENT, NONE, "기부금 관리").apply {
+                            add(NONE, MENU_DONATEMANAGEMENT, NONE, "DONATION MANAGEMENT").apply {
                                 setIcon(R.drawable.ic_volunteer_activism_24px)
                             }
                         }
                         else {
-                            add(NONE, MENU_ADMIN, NONE, "상품등록").apply { // 추후 관리자 페이지로 연결 예
-                                setIcon(R.drawable.ic_shopping_basket_24px)
-                            }
-                            add(NONE, MENU_MYPAGE, NONE, "마이페이지").apply {
+                            add(NONE, MENU_MYPAGE, NONE, "MY PAGE").apply {
                                 setIcon(R.drawable.ic_perm_contact_calendar_24px)
                             }
-                            add(NONE, MENU_DONATE, NONE, "기부현황").apply {
+                            add(NONE, MENU_DONATE, NONE, "DONATION INFO").apply {
                                 setIcon(R.drawable.ic_volunteer_activism_24px)
                             }
-                            add(NONE, MENU_STAMP, NONE, "스탬프").apply {
+                            add(NONE, MENU_STAMP, NONE, "STAMP").apply {
                                 setIcon(R.drawable.ic_approval_24px)
                             }
                         }
-                        add(NONE, MENU_ID_LOGOUT, NONE, "로그아웃").apply {
+                        add(NONE, MENU_ID_LOGOUT, NONE, "LOGOUT").apply {
                             setIcon(R.drawable.ic_face_24px)
 
                         }
