@@ -9,6 +9,7 @@ class DonatesListViewModel(
         val dataSource: DonateListItemDataSource
 ) : ViewModel() {
     val donatesLiveData = dataSource.getDonateList()
+    val donationsLiveData = dataSource.getDonationList()
 }
 
 class DonatesListViewModelFactory(private val context: Context) : ViewModelProvider.Factory {

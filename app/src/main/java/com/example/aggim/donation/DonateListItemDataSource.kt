@@ -1,3 +1,4 @@
+
 package com.example.aggim.donation
 
 import android.content.res.Resources
@@ -9,6 +10,7 @@ import com.example.aggim.App
 import com.example.aggim.api.AggimApi
 import com.example.aggim.api.response.ApiResponse
 import com.example.aggim.api.response.DonateListItemResponse
+import com.example.aggim.api.response.DonateResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -18,60 +20,34 @@ import org.jetbrains.anko.toast
 class DonateListItemDataSource(resources: Resources) {
     private val initialDonateList = getDonates().data
     private val donatesLiveData = MutableLiveData(initialDonateList)
+    private val initialDonationList = getDonations().data
+    private val donationsLiveData = MutableLiveData(initialDonationList)
 
     fun getDonateList() : MutableLiveData<List<DonateListItemResponse>?> {
         Log.i("warning message", donatesLiveData.value.toString())
         return donatesLiveData
     }
-
-//    override fun loadInitial(params: LoadInitialParams<Long>, callback: LoadInitialCallback<Long, DonateListItemResponse>) {
-//        val response = getDonates()
-//        if (response.success) {
-//            response.data?.let{
-//                if(it.isNotEmpty())
-//                    callback.onResult(it, it.first().id, it.last().id)
-//            }
-//        } else {
-//            GlobalScope.launch(Dispatchers.Main) {
-//                showErrorMessage(response)
-//            }
-//        }
-//    }
-//
-//    override fun loadAfter(params: LoadParams<Long>, callback: LoadCallback<Long, DonateListItemResponse>) {
-//        val response = getDonates()
-//        if (response.success) {
-//            response.data?.let{
-//                if(it.isNotEmpty())
-//                    callback.onResult(it, it.last().id)
-//            }
-//        } else {
-//            GlobalScope.launch(Dispatchers.Main) {
-//                showErrorMessage(response)
-//            }
-//        }
-//    }
-//
-//    override fun loadBefore(params: LoadParams<Long>, callback: LoadCallback<Long, DonateListItemResponse>) {
-//        val response = getDonates()
-//        if (response.success) {
-//            response.data?.let{
-//                if(it.isNotEmpty())
-//                    callback.onResult(it, it.first().id)
-//            }
-//        } else {
-//            GlobalScope.launch(Dispatchers.Main) {
-//                showErrorMessage(response)
-//            }
-//        }
-//    }
+    fun getDonationList() : MutableLiveData<List<DonateResponse>?> {
+        Log.i("warning message", donationsLiveData.value.toString())
+        return donationsLiveData
+    }
 
     private fun getDonates() = runBlocking {
         try {
             AggimApi.instance.getDonates()
         } catch (e: Exception) {
             ApiResponse.error<List<DonateListItemResponse>>(
-                    "알 수 없는 오류가 발생했습니다."
+                    "An unknown error has occurred."
+            )
+        }
+    }
+
+    private fun getDonations() = runBlocking {
+        try {
+            AggimApi.instance.getDonations()
+        } catch(e: Exception) {
+            ApiResponse.error<List<DonateResponse>>(
+                    "An unknown error has occurred."
             )
         }
     }
@@ -80,7 +56,7 @@ class DonateListItemDataSource(resources: Resources) {
             response: ApiResponse<List<DonateListItemResponse>>
     ) {
         App.instance.toast(
-                response.message ?: "알 수 없는 오류가 발생했습니다."
+                response.message ?: "An unknown error has occurred."
         )
     }
 

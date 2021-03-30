@@ -3,7 +3,6 @@ package com.example.aggim.common
 import android.preference.PreferenceManager
 import com.example.aggim.App
 import com.example.aggim.api.response.ProductResponse
-import com.example.aggim.data.CartItem
 
 /*
     Created by Seohyun Kim at 2021/01/22
@@ -15,8 +14,11 @@ object Prefs {
     private const val REFRESH_TOKEN = "refresh_token"
     private const val USER_NAME = "user_name"
     private const val USER_ID = "user_id"
+    private const val EMAIL = "email"
 
-    var cList: MutableList<ProductResponse> = arrayListOf()
+    //var cList: MutableList<Long> = mutableListOf()
+    var cList: MutableList<ProductResponse> = mutableListOf()
+
     //var cList: MutableList<ProductResponse> = mutableListOf(ProductResponse( 테스트
      //   11111111111,"strawberry","ss",1000,"saleable", 22222,listOf("a","b")
     //))
@@ -48,5 +50,11 @@ object Prefs {
         get() = prefs.getLong(USER_ID, 0)
         set(value) = prefs.edit()
                 .putLong(USER_ID, value)
+                .apply()
+
+    var email
+        get() = prefs.getString(EMAIL, null)
+        set(value) = prefs.edit()
+                .putString(EMAIL, value)
                 .apply()
 }

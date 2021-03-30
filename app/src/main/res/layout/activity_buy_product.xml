@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bpview"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".mypage.buy.BuyProduct">
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".mypage.buy.BuyProductActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_will_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Total Price"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_min_ship"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Minimun amount orders"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:src="@drawable/drawable_dash_line"
+        android:layerType="software"
+        android:layout_width="match_parent"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_height="1.5dp" />
+
+    <TextView
+        android:id="@+id/tv_real_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Total to pay"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_will_donate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="I will donate to get free shipping." />
+
+    <TextView
+        android:id="@+id/tv_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_real_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@color/colorButtonText"
+        android:text="PLACE ORDER" />
+
+    <Spinner
+        android:id="@+id/donation_spinner"
+        android:layout_width="255dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/donation_price"
+        android:layout_width="255dp"
+        android:layout_height="40dp"
+        android:hint="Enter the amount you want to contribute"
+        />
+
+</LinearLayout>

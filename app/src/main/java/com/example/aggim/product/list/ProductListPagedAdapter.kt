@@ -23,7 +23,6 @@ class ProductListPagedAdapter(
         ProductListPagedAdapter.ProductItemViewHolder>(
     DIFF_CALLBACK
 ) {
-
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
@@ -52,20 +51,20 @@ class ProductListPagedAdapter(
         fun bind(item: ProductListItemResponse?) = item?.let {
             this.productId = item.id
             val soldOutString =
-                if(ProductStatus.SOLD_OUT == item.status) "(품절)" else ""
+                if(ProductStatus.SOLD_OUT == item.status) "(SOLDOUT)" else ""
             val commaSeparatedPrice =
                 NumberFormat.getNumberInstance().format(item.price)
 
             ui.productName.text = item.name
             ui.price.text = "₩$commaSeparatedPrice $soldOutString"
 
+            print("wow image paths = ${ApiGenerator.HOST}${item.imagePaths}")
             Glide.with(ui.imageView)
-                .load("${ApiGenerator.HOST}/images/20210202/cakedd.jpg")
-                //.load("${ApiGenerator.HOST}${item.imagePaths.firstOrNull()}")
+                    .load("${ApiGenerator.HOST}${item.imagePaths.firstOrNull()}")
+                //.load("${ApiGenerator.HOST}/images/20210202/strawjam.jpg")
                 .centerCrop()
                 .into(ui.imageView)
         }
-
     }
 
     companion object {

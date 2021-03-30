@@ -1,9 +1,6 @@
 package com.example.aggim.api
 
-import com.example.aggim.api.request.DonateRegistrationRequest
-import com.example.aggim.api.request.ProductRegistrationRequest
-import com.example.aggim.api.request.SigninRequest
-import com.example.aggim.api.request.SignupRequest
+import com.example.aggim.api.request.*
 import com.example.aggim.api.response.*
 import okhttp3.MultipartBody
 //import okhttp3.Response
@@ -52,11 +49,18 @@ interface AggimApi {
     suspend fun getProduct(@Path("id") id: Long)
             : ApiResponse<ProductResponse>
 
+    @GET("/api/v1/donations")
+    suspend fun getDonations(): ApiResponse<List<DonateResponse>>
+
     // 기부 관련
     @POST("/api/v1/donates")
     suspend fun registerDonates(
             @Body request: DonateRegistrationRequest
     ): ApiResponse<Response<Void>>
+
+    @POST("/api/v1/donates/{id}")
+    suspend fun donateTo(@Path("id") id: Long)
+        : ApiResponse<DonateResponse>
 
     @GET("/api/v1/donates")
     suspend fun getDonates(): ApiResponse<List<DonateListItemResponse>>
@@ -64,6 +68,20 @@ interface AggimApi {
     @GET("/api/v1/donates/{id}")
     suspend fun getDonate(@Path("id") id: Long)
         : ApiResponse<DonateResponse>
+
+    //주문 관련
+    @POST("/api/v1/orders")
+    suspend fun registerOrders(
+        @Body request: OrderRegistrationRequest
+    ): ApiResponse<OrderResponse>
+
+    @GET("/api/v1/orders")
+    suspend fun getOrders(): ApiResponse<List<OrderListItemResponse>>
+
+//    @GET("/api/v1/orders/{id}")
+//    suspend fun getOrders(@Path("id") id: Long)
+//            : ApiResponse<OrderResponse>
+
 
     companion object {
         val instance = ApiGenerator()

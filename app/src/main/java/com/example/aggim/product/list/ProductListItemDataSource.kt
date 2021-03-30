@@ -76,7 +76,7 @@ class ProductListItemDataSource(
             AggimApi.instance.getProducts(id, categoryId, direction, keyword)
         } catch (e: Exception) {
             ApiResponse.error<List<ProductListItemResponse>>(
-                "알 수 없는 오류가 발생했습니다."
+                "Login is required."
             )
         }
     }
@@ -85,7 +85,7 @@ class ProductListItemDataSource(
         response: ApiResponse<List<ProductListItemResponse>>
     ) {
         App.instance.toast(
-            response.message ?: "알 수 없는 오류가 발생했습니다"
+            response.message ?: "Login is required."
         )
     }
 

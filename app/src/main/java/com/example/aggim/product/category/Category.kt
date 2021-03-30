@@ -9,9 +9,9 @@ data class Category(
 )
 
 val categoryList = listOf(
-    Category(0, "뇸뇸굳"),
-    Category(1, "과자"),
-    Category(2, "신선식품"),
-    Category(3, "생활용품"),
-    Category(4,"의류")
+    Category(0, "PANTRY"),
+    Category(1, "MEAT"),
+    Category(2, "FRUITS & VEGETABLES"),
+    Category(3, "FROZEN"),
+    Category(4,"BAKERY")
 )

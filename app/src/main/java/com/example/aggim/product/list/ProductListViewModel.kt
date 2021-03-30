@@ -24,7 +24,7 @@ class ProductListViewModel(
     override fun createDataSource(): DataSource<Long, ProductListItemResponse> {
         if (categoryId == -1)
             error(
-                "categoryId가 설정되지 않았습니다.",
+                "categoryId is not set.",
                 IllegalStateException("categoryId is -1")
             )
         return ProductListItemDataSource(categoryId)
@@ -36,5 +36,4 @@ class ProductListViewModel(
             putExtra(ProductDetailActivity.PRODUCT_ID, productId)
         }
     }
-
 }

@@ -23,17 +23,18 @@ class ProductMainNavHeader : AnkoComponent<View> {
             background = borderBottom(width = dip(1))
 
             if (Prefs.userId == null) {
-                button("로그인") {
+                button("LOG IN") {
                     textSize=20f
                 }.lparams(matchParent, wrapContent)
-                button("회원가") {
+                button("REGISTER") {
                     textSize=20f
                 }.lparams(matchParent, wrapContent)
             } else {
                 imageView(R.drawable.ic_face_24px)
                 //.lparams(dip(54), dip(54))
 
-                textView(Prefs.userName+"님 반가워요!") {
+
+                textView("Welcome\n" + Prefs.userName) {
                     topPadding = dip(8)
                     textSize = 20f
                     typeface = Typeface.DEFAULT_BOLD

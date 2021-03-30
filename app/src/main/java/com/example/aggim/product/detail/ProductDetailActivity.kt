@@ -3,6 +3,8 @@ package com.example.aggim.product.detail
     Created by Jin Lee on 2021/01/31
     Updated by Jin Lee on 2021/02/04
  */
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.MenuItem
 import net.codephobia.ankomvvm.components.BaseActivity
@@ -17,6 +19,8 @@ class ProductDetailActivity : BaseActivity<ProductDetailViewModel>(){
         super.onCreate(savedInstanceState)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = ""
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
+        supportActionBar?.setElevation(0f)
 
         val viewModel=getViewModel()
         val productId = intent.getLongExtra(PRODUCT_ID, -1)
