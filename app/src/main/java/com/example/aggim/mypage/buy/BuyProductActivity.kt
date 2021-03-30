@@ -7,7 +7,6 @@ import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.MenuItem
 import android.view.View
 import android.widget.*
 import androidx.activity.viewModels
@@ -18,15 +17,19 @@ import com.example.aggim.donation.DonatesListViewModel
 import com.example.aggim.donation.DonatesListViewModelFactory
 import com.example.aggim.product.ProductMainActivity
 import kotlinx.android.synthetic.main.activity_buy_product.*
+import kotlinx.coroutines.runBlocking
+import retrofit2.Response
 
 class BuyProductActivity : AppCompatActivity() {
     private val donatesListViewModel by viewModels<DonatesListViewModel> {
         DonatesListViewModelFactory(this)
     }
+    private val buyProductViewModel by viewModels<BuyProductViewModel> {
+        BuyProductViewModelFactory(this)
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.swipeview_activity_main)
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title="Cart"
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#F1F2F9")))
@@ -46,9 +49,10 @@ class BuyProductActivity : AppCompatActivity() {
         )
         var adapter: Adapter = Adapter(models, this)
         var realsum: Int = intent.getIntExtra("sum", 0)
-        var donateAmount: Int
+        var donateAmount: Int = 0
         var spinner_data = mutableListOf<String>()
         var result: String
+        var pos: Int = 0
         var viewPager: ViewPager = findViewById(R.id.viewPager)
         var colors: Array<Int> = arrayOf(
                 resources.getColor(R.color.colorPrimary),
@@ -77,8 +81,6 @@ class BuyProductActivity : AppCompatActivity() {
             override fun onPageSelected(position: Int) {}
             override fun onPageScrollStateChanged(state: Int) {}
         })
-
-
         var dl = donatesListViewModel.donationsLiveData.value
         val it = dl?.iterator()
         while(it!!.hasNext()) {
@@ -98,6 +100,17 @@ class BuyProductActivity : AppCompatActivity() {
             realsum += 3000
         }
         donation_spinner.setVisibility(View.INVISIBLE)
+        donation_spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+
+            }
+
+            override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+                result = spinner_data.get(p2)
+                pos = p2 + 1
+            }
+
+        }
         donation_price.setVisibility(View.INVISIBLE)
 
         cb_donate.setOnCheckedChangeListener{buttonView, isChecked ->
@@ -110,16 +123,7 @@ class BuyProductActivity : AppCompatActivity() {
                 //})
                 //pview.addView(d)
                 donation_spinner.setVisibility(View.VISIBLE)
-                donation_spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
-                    override fun onNothingSelected(p0: AdapterView<*>?) {
 
-                    }
-
-                    override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                        result = spinner_data.get(p2)
-                    }
-
-                }
                 donation_price.setVisibility(View.VISIBLE)
                 donation_price.addTextChangedListener(afterTextChanged = { it ->
                     donateAmount = it.toString().toInt()
@@ -132,18 +136,14 @@ class BuyProductActivity : AppCompatActivity() {
         }
 
         button_buy.setOnClickListener {
+            runBlocking {
+                if(donateAmount > 0) {
+                    buyProductViewModel.registerDonate(donateAmount, pos)
+                }
+            }
             Toast.makeText(this, "Your order has been placed.", Toast.LENGTH_SHORT).show()
             val nextIntent = Intent(this, ProductMainActivity::class.java)
             startActivity(nextIntent)
         }
-    }
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        item?.let {
-            when(item.itemId) {
-                android.R.id.home -> onBackPressed()
-                else -> {}
-            }
-        }
-        return true
     }
 }

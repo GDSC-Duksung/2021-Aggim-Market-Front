@@ -58,6 +58,10 @@ interface AggimApi {
             @Body request: DonateRegistrationRequest
     ): ApiResponse<Response<Void>>
 
+    @POST("/api/v1/donates/{id}")
+    suspend fun donateTo(@Path("id") id: Long)
+        : ApiResponse<DonateResponse>
+
     @GET("/api/v1/donates")
     suspend fun getDonates(): ApiResponse<List<DonateListItemResponse>>
 
