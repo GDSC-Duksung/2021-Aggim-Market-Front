@@ -118,11 +118,11 @@ class ProductMainUI(
                             add(NONE, MENU_ADMIN, NONE, "PRODUCT REGISTRATION").apply { // 추후 관리자 페이지로 연결 예
                                 setIcon(R.drawable.ic_shopping_basket_24px)
                             }
+                        }
+                        else {
                             add(NONE, MENU_DONATEMANAGEMENT, NONE, "DONATION MANAGEMENT").apply {
                                 setIcon(R.drawable.ic_volunteer_activism_24px)
                             }
-                        }
-                        else {
                             add(NONE, MENU_ADMIN, NONE, "REGISTER PRODUCT").apply { // 추후 관리자 페이지로 연결 예
                                 setIcon(R.drawable.ic_shopping_basket_24px)
                             }
